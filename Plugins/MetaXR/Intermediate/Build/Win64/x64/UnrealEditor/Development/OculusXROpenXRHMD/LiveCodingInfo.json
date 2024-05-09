@@ -1,0 +1,8 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OculusXROpenXRHMD.cpp.obj": [
+			"OculusXROpenXRHMD.cpp.obj"
+		]
+	}
+}
