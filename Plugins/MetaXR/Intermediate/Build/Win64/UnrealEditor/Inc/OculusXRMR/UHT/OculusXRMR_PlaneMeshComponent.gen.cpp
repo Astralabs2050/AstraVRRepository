@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "H:/AstraVR/Plugins/MetaXR/Source/OculusXRMR/Private/OculusXRMR_PlaneMeshComponent.h"
+#include "H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRMR/Private/OculusXRMR_PlaneMeshComponent.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeOculusXRMR_PlaneMeshComponent() {}
 // Cross Module References
@@ -387,19 +387,19 @@ template<> OCULUSXRMR_API UScriptStruct* StaticStruct<FOculusXRMR_PlaneMeshTrian
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOculusXRMR_PlaneMeshComponent);
 	UOculusXRMR_PlaneMeshComponent::~UOculusXRMR_PlaneMeshComponent() {}
-	struct Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_PlaneMeshComponent_h_Statics
+	struct Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_PlaneMeshComponent_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_PlaneMeshComponent_h_Statics::ScriptStructInfo[] = {
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_PlaneMeshComponent_h_Statics::ScriptStructInfo[] = {
 		{ FOculusXRMR_PlaneMeshTriangle::StaticStruct, Z_Construct_UScriptStruct_FOculusXRMR_PlaneMeshTriangle_Statics::NewStructOps, TEXT("OculusXRMR_PlaneMeshTriangle"), &Z_Registration_Info_UScriptStruct_OculusXRMR_PlaneMeshTriangle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRMR_PlaneMeshTriangle), 4181533220U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_PlaneMeshComponent_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_PlaneMeshComponent_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_UOculusXRMR_PlaneMeshComponent, UOculusXRMR_PlaneMeshComponent::StaticClass, TEXT("UOculusXRMR_PlaneMeshComponent"), &Z_Registration_Info_UClass_UOculusXRMR_PlaneMeshComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRMR_PlaneMeshComponent), 2611228128U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_PlaneMeshComponent_h_3188904113(TEXT("/Script/OculusXRMR"),
-		Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_PlaneMeshComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_PlaneMeshComponent_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_PlaneMeshComponent_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_PlaneMeshComponent_h_Statics::ScriptStructInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_PlaneMeshComponent_h_3188904113(TEXT("/Script/OculusXRMR"),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_PlaneMeshComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_PlaneMeshComponent_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_PlaneMeshComponent_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_PlaneMeshComponent_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

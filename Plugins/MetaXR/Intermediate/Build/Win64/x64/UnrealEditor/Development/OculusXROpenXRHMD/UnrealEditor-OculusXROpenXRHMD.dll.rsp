@@ -39,9 +39,9 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
 /NATVIS:"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\RenderCore\RenderCore.natvis"
-"H:\AstraVR\Intermediate\Build\Win64\x64\AstraVREditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h.obj"
-"H:\AstraVR\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXROpenXRHMD\Module.OculusXROpenXRHMD.cpp.obj"
-"H:\AstraVR\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXROpenXRHMD\Default.rc2.res"
+"H:\AstraVRRepository\Intermediate\Build\Win64\x64\AstraVREditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h.obj"
+"H:\AstraVRRepository\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXROpenXRHMD\Module.OculusXROpenXRHMD.cpp.obj"
+"H:\AstraVRRepository\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXROpenXRHMD\Default.rc2.res"
 "ThirdParty\Windows\DirectX\Lib\x64\dxgi.lib"
 "ThirdParty\Windows\DirectX\Lib\x64\d3d9.lib"
 "ThirdParty\Windows\DirectX\Lib\x64\d3d11.lib"
@@ -109,7 +109,7 @@
 "shlwapi.lib"
 "setupapi.lib"
 "cfgmgr32.lib"
-/OUT:"H:\AstraVR\Plugins\MetaXR\Binaries\Win64\UnrealEditor-OculusXROpenXRHMD.dll"
-/IMPLIB:"H:\AstraVR\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXROpenXRHMD\UnrealEditor-OculusXROpenXRHMD.sup.lib"
-/PDB:"H:\AstraVR\Plugins\MetaXR\Binaries\Win64\UnrealEditor-OculusXROpenXRHMD.pdb"
+/OUT:"H:\AstraVRRepository\Plugins\MetaXR\Binaries\Win64\UnrealEditor-OculusXROpenXRHMD.dll"
+/IMPLIB:"H:\AstraVRRepository\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXROpenXRHMD\UnrealEditor-OculusXROpenXRHMD.sup.lib"
+/PDB:"H:\AstraVRRepository\Plugins\MetaXR\Binaries\Win64\UnrealEditor-OculusXROpenXRHMD.pdb"
 /ignore:4078

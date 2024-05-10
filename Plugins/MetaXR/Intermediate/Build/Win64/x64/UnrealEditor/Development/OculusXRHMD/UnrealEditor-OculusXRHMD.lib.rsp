@@ -6,9 +6,9 @@
 /NAME:"UnrealEditor-OculusXRHMD.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"H:\AstraVR\Intermediate\Build\Win64\x64\AstraVREditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h.obj"
-"H:\AstraVR\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRHMD\Module.OculusXRHMD.1.cpp.obj"
-"H:\AstraVR\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRHMD\Module.OculusXRHMD.2.cpp.obj"
-"H:\AstraVR\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRHMD\Module.OculusXRHMD.3.cpp.obj"
-"H:\AstraVR\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRHMD\Default.rc2.res"
-/OUT:"H:\AstraVR\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRHMD\UnrealEditor-OculusXRHMD.lib"
+"H:\AstraVRRepository\Intermediate\Build\Win64\x64\AstraVREditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h.obj"
+"H:\AstraVRRepository\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRHMD\Module.OculusXRHMD.1.cpp.obj"
+"H:\AstraVRRepository\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRHMD\Module.OculusXRHMD.2.cpp.obj"
+"H:\AstraVRRepository\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRHMD\Module.OculusXRHMD.3.cpp.obj"
+"H:\AstraVRRepository\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRHMD\Default.rc2.res"
+/OUT:"H:\AstraVRRepository\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRHMD\UnrealEditor-OculusXRHMD.lib"

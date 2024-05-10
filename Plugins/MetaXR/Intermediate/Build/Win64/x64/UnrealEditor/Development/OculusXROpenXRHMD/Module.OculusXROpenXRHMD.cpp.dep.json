@@ -1,15 +1,15 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "h:\\astravr\\plugins\\metaxr\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\oculusxropenxrhmd\\module.oculusxropenxrhmd.cpp",
+        "Source": "h:\\astravrrepository\\plugins\\metaxr\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\oculusxropenxrhmd\\module.oculusxropenxrhmd.cpp",
         "ProvidedModule": "",
-        "PCH": "h:\\astravr\\intermediate\\build\\win64\\x64\\astravreditor\\development\\unrealed\\sharedpch.unrealed.cpp20.inclorderunreal5_0.h.pch",
+        "PCH": "h:\\astravrrepository\\intermediate\\build\\win64\\x64\\astravreditor\\development\\unrealed\\sharedpch.unrealed.cpp20.inclorderunreal5_0.h.pch",
         "Includes": [
-            "h:\\astravr\\plugins\\metaxr\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\oculusxropenxrhmd\\definitions.oculusxropenxrhmd.h",
-            "h:\\astravr\\plugins\\metaxr\\source\\oculusxropenxrhmd\\private\\oculusxropenxrhmd.cpp",
-            "h:\\astravr\\plugins\\metaxr\\source\\oculusxropenxrhmd\\private\\oculusxropenxrhmd.h",
+            "h:\\astravrrepository\\plugins\\metaxr\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\oculusxropenxrhmd\\definitions.oculusxropenxrhmd.h",
+            "h:\\astravrrepository\\plugins\\metaxr\\source\\oculusxropenxrhmd\\private\\oculusxropenxrhmd.cpp",
+            "h:\\astravrrepository\\plugins\\metaxr\\source\\oculusxropenxrhmd\\private\\oculusxropenxrhmd.h",
             "g:\\ue_5.3\\engine\\source\\runtime\\core\\public\\misc\\engineversioncomparison.h",
-            "h:\\astravr\\plugins\\metaxr\\source\\oculusxropenxrhmd\\public\\ioculusxropenxrhmdplugin.h",
+            "h:\\astravrrepository\\plugins\\metaxr\\source\\oculusxropenxrhmd\\public\\ioculusxropenxrhmdplugin.h",
             "g:\\ue_5.3\\engine\\plugins\\runtime\\openxr\\source\\openxrhmd\\public\\iopenxrextensionplugin.h",
             "g:\\ue_5.3\\engine\\source\\runtime\\augmentedreality\\public\\artypes.h",
             "g:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\augmentedreality\\uht\\artypes.generated.h",

@@ -14,28 +14,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define OCULUSXRHMD_OculusXRHMDTypes_generated_h
 
-#define FID_AstraVR_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h_30_GENERATED_BODY \
+#define FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h_30_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FOculusXRHmdUserProfileField_Statics; \
 	OCULUSXRHMD_API static class UScriptStruct* StaticStruct();
 
 
 template<> OCULUSXRHMD_API UScriptStruct* StaticStruct<struct FOculusXRHmdUserProfileField>();
 
-#define FID_AstraVR_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h_46_GENERATED_BODY \
+#define FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h_46_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FOculusXRHmdUserProfile_Statics; \
 	OCULUSXRHMD_API static class UScriptStruct* StaticStruct();
 
 
 template<> OCULUSXRHMD_API UScriptStruct* StaticStruct<struct FOculusXRHmdUserProfile>();
 
-#define FID_AstraVR_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h_213_GENERATED_BODY \
+#define FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h_213_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FOculusXRGuardianTestResult_Statics; \
 	OCULUSXRHMD_API static class UScriptStruct* StaticStruct();
 
 
 template<> OCULUSXRHMD_API UScriptStruct* StaticStruct<struct FOculusXRGuardianTestResult>();
 
-#define FID_AstraVR_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h_249_GENERATED_BODY \
+#define FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h_249_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FOculusXRSplashDesc_Statics; \
 	OCULUSXRHMD_API static class UScriptStruct* StaticStruct();
 
@@ -43,7 +43,7 @@ template<> OCULUSXRHMD_API UScriptStruct* StaticStruct<struct FOculusXRGuardianT
 template<> OCULUSXRHMD_API UScriptStruct* StaticStruct<struct FOculusXRSplashDesc>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_AstraVR_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h
+#define CURRENT_FILE_ID FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDTypes_h
 
 
 #define FOREACH_ENUM_EOCULUSXRTRACKEDDEVICETYPE(op) \

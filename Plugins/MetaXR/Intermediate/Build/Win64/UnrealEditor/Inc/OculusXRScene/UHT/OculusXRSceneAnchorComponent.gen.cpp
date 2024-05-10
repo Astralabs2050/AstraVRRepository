@@ -5,8 +5,8 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "H:/AstraVR/Plugins/MetaXR/Source/OculusXRScene/Public/OculusXRSceneAnchorComponent.h"
-#include "H:/AstraVR/Plugins/MetaXR/Source/OculusXRAnchors/Public/OculusXRAnchorTypes.h"
+#include "H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Public/OculusXRSceneAnchorComponent.h"
+#include "H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRAnchors/Public/OculusXRAnchorTypes.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeOculusXRSceneAnchorComponent() {}
 // Cross Module References
@@ -110,15 +110,15 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRSceneAnchorComponent() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOculusXRSceneAnchorComponent);
 	UOculusXRSceneAnchorComponent::~UOculusXRSceneAnchorComponent() {}
-	struct Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneAnchorComponent_h_Statics
+	struct Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneAnchorComponent_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneAnchorComponent_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneAnchorComponent_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_UOculusXRSceneAnchorComponent, UOculusXRSceneAnchorComponent::StaticClass, TEXT("UOculusXRSceneAnchorComponent"), &Z_Registration_Info_UClass_UOculusXRSceneAnchorComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRSceneAnchorComponent), 3638356256U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneAnchorComponent_h_1661417399(TEXT("/Script/OculusXRScene"),
-		Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneAnchorComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneAnchorComponent_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneAnchorComponent_h_1661417399(TEXT("/Script/OculusXRScene"),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneAnchorComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneAnchorComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

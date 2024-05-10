@@ -1,11 +1,11 @@
-"H:\AstraVR\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRInput\Module.OculusXRInput.cpp"
-/FI"H:\AstraVR\Intermediate\Build\Win64\x64\AstraVREditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h"
-/FI"H:\AstraVR\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRInput\Definitions.OculusXRInput.h"
-/Yu"H:\AstraVR\Intermediate\Build\Win64\x64\AstraVREditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h"
-/Fp"H:\AstraVR\Intermediate\Build\Win64\x64\AstraVREditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.pch"
-/Fo"H:\AstraVR\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRInput\Module.OculusXRInput.cpp.obj"
-/sourceDependencies "H:\AstraVR\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRInput\Module.OculusXRInput.cpp.dep.json"
-@"H:\AstraVR\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRInput\OculusXRInput.Shared.rsp"
+"H:\AstraVRRepository\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRInput\Module.OculusXRInput.cpp"
+/FI"H:\AstraVRRepository\Intermediate\Build\Win64\x64\AstraVREditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h"
+/FI"H:\AstraVRRepository\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRInput\Definitions.OculusXRInput.h"
+/Yu"H:\AstraVRRepository\Intermediate\Build\Win64\x64\AstraVREditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h"
+/Fp"H:\AstraVRRepository\Intermediate\Build\Win64\x64\AstraVREditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.pch"
+/Fo"H:\AstraVRRepository\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRInput\Module.OculusXRInput.cpp.obj"
+/sourceDependencies "H:\AstraVRRepository\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRInput\Module.OculusXRInput.cpp.dep.json"
+@"H:\AstraVRRepository\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRInput\OculusXRInput.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

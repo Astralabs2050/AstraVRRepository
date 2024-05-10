@@ -1,11 +1,11 @@
-"H:\AstraVR\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRHMD\Module.OculusXRHMD.3.cpp"
-/FI"H:\AstraVR\Intermediate\Build\Win64\x64\AstraVREditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h"
-/FI"H:\AstraVR\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRHMD\Definitions.OculusXRHMD.h"
-/Yu"H:\AstraVR\Intermediate\Build\Win64\x64\AstraVREditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h"
-/Fp"H:\AstraVR\Intermediate\Build\Win64\x64\AstraVREditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h.pch"
-/Fo"H:\AstraVR\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRHMD\Module.OculusXRHMD.3.cpp.obj"
-/sourceDependencies "H:\AstraVR\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRHMD\Module.OculusXRHMD.3.cpp.dep.json"
-@"H:\AstraVR\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRHMD\OculusXRHMD.Shared.rsp"
+"H:\AstraVRRepository\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRHMD\Module.OculusXRHMD.3.cpp"
+/FI"H:\AstraVRRepository\Intermediate\Build\Win64\x64\AstraVREditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h"
+/FI"H:\AstraVRRepository\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRHMD\Definitions.OculusXRHMD.h"
+/Yu"H:\AstraVRRepository\Intermediate\Build\Win64\x64\AstraVREditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h"
+/Fp"H:\AstraVRRepository\Intermediate\Build\Win64\x64\AstraVREditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h.pch"
+/Fo"H:\AstraVRRepository\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRHMD\Module.OculusXRHMD.3.cpp.obj"
+/sourceDependencies "H:\AstraVRRepository\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRHMD\Module.OculusXRHMD.3.cpp.dep.json"
+@"H:\AstraVRRepository\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRHMD\OculusXRHMD.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

@@ -6,7 +6,7 @@
 /NAME:"UnrealEditor-OculusXRAnchors.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"H:\AstraVR\Intermediate\Build\Win64\x64\AstraVREditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.obj"
-"H:\AstraVR\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRAnchors\Module.OculusXRAnchors.cpp.obj"
-"H:\AstraVR\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRAnchors\Default.rc2.res"
-/OUT:"H:\AstraVR\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRAnchors\UnrealEditor-OculusXRAnchors.lib"
+"H:\AstraVRRepository\Intermediate\Build\Win64\x64\AstraVREditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.obj"
+"H:\AstraVRRepository\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRAnchors\Module.OculusXRAnchors.cpp.obj"
+"H:\AstraVRRepository\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRAnchors\Default.rc2.res"
+/OUT:"H:\AstraVRRepository\Plugins\MetaXR\Intermediate\Build\Win64\x64\UnrealEditor\Development\OculusXRAnchors\UnrealEditor-OculusXRAnchors.lib"

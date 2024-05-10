@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define OCULUSXRSCENE_OculusXRSceneTypes_generated_h
 
-#define FID_AstraVR_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneTypes_h_10_GENERATED_BODY \
+#define FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneTypes_h_10_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSceneTypesPlaceholder_Statics; \
 	OCULUSXRSCENE_API static class UScriptStruct* StaticStruct();
 
@@ -22,7 +22,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> OCULUSXRSCENE_API UScriptStruct* StaticStruct<struct FSceneTypesPlaceholder>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_AstraVR_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneTypes_h
+#define CURRENT_FILE_ID FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneTypes_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
