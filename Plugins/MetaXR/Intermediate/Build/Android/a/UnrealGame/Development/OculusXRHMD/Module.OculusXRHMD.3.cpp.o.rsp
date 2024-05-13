@@ -5,8 +5,8 @@
 -I"Runtime/OpenGLDrv/Private"
 -I"Runtime/Engine/Classes/Components"
 -I"Runtime/Engine/Classes/Kismet"
--I"H:/AstraVR/Plugins/MetaXR/Source/OculusXRMR/Public"
--I"H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Private"
+-I"H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRMR/Public"
+-I"H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Private"
 -I"Runtime/Core/Public"
 -I"Runtime/Core/Internal"
 -I"Runtime/TraceLog/Public"
@@ -124,13 +124,13 @@
 -I"Runtime/MediaUtils/Public"
 -I"Runtime/OpenGLDrv/Public"
 -I"Runtime/VulkanRHI/Public"
--I"H:/AstraVR/Plugins/MetaXR/Source/ThirdParty/OVRPlugin/OVRPlugin/Include"
+-I"H:/AstraVRRepository/Plugins/MetaXR/Source/ThirdParty/OVRPlugin/OVRPlugin/Include"
 -I"../Plugins/Runtime/ProceduralMeshComponent/Intermediate/Build/Android/UnrealGame/Inc/ProceduralMeshComponent/UHT"
 -I"../Plugins/Runtime/ProceduralMeshComponent/Source/ProceduralMeshComponent/Public"
 -I"Runtime/Projects/Public"
--I"H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRHMD/UHT"
--I"H:/AstraVR/Plugins/MetaXR/Source"
--I"H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Public"
+-I"H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRHMD/UHT"
+-I"H:/AstraVRRepository/Plugins/MetaXR/Source"
+-I"H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Public"
 -I"../Intermediate/Build/Android/UnrealGame/Inc/HeadMountedDisplay/UHT"
 -I"Runtime/HeadMountedDisplay/Public"
 -I"../Plugins/Runtime/XRBase/Intermediate/Build/Android/UnrealGame/Inc/XRBase/UHT"
@@ -216,11 +216,11 @@
 -DPLATFORM_ANDROID_ARM64=1
 -march=armv8-a
 -fsigned-char
--include-pch "H:/AstraVR/Intermediate/Build/Android/a/AstraVR/Development/Engine/SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.gch"
--include "H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXRHMD/Definitions.OculusXRHMD.h"
+-include-pch "H:/AstraVRRepository/Intermediate/Build/Android/a/AstraVR/Development/Engine/SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.gch"
+-include "H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXRHMD/Definitions.OculusXRHMD.h"
 -x c++
 -std=c++20
 -fpch-validate-input-files-content
-"H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXRHMD/Module.OculusXRHMD.3.cpp"
--MD -MF"H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXRHMD/Module.OculusXRHMD.3.cpp.d"
--o "H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXRHMD/Module.OculusXRHMD.3.cpp.o"
+"H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXRHMD/Module.OculusXRHMD.3.cpp"
+-MD -MF"H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXRHMD/Module.OculusXRHMD.3.cpp.d"
+-o "H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXRHMD/Module.OculusXRHMD.3.cpp.o"

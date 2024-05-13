@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "H:/AstraVR/Plugins/MetaXR/Source/OculusXRMR/Private/OculusXRMR_State.h"
+#include "H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRMR/Private/OculusXRMR_State.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeOculusXRMR_State() {}
 // Cross Module References
@@ -470,19 +470,19 @@ template<> OCULUSXRMR_API UScriptStruct* StaticStruct<FOculusXRTrackedCamera>()
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOculusXRMR_State);
 	UOculusXRMR_State::~UOculusXRMR_State() {}
-	struct Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_State_h_Statics
+	struct Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_State_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_State_h_Statics::ScriptStructInfo[] = {
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_State_h_Statics::ScriptStructInfo[] = {
 		{ FOculusXRTrackedCamera::StaticStruct, Z_Construct_UScriptStruct_FOculusXRTrackedCamera_Statics::NewStructOps, TEXT("OculusXRTrackedCamera"), &Z_Registration_Info_UScriptStruct_OculusXRTrackedCamera, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRTrackedCamera), 3565556263U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_State_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_State_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_UOculusXRMR_State, UOculusXRMR_State::StaticClass, TEXT("UOculusXRMR_State"), &Z_Registration_Info_UClass_UOculusXRMR_State, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRMR_State), 3543133008U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_State_h_3515347358(TEXT("/Script/OculusXRMR"),
-		Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_State_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_State_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_State_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_State_h_Statics::ScriptStructInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_State_h_3515347358(TEXT("/Script/OculusXRMR"),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_State_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_State_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_State_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Private_OculusXRMR_State_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

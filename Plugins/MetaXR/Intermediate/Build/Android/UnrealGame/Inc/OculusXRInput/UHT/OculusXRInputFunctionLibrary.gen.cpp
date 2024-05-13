@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "H:/AstraVR/Plugins/MetaXR/Source/OculusXRInput/Public/OculusXRInputFunctionLibrary.h"
+#include "H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Public/OculusXRInputFunctionLibrary.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeOculusXRInputFunctionLibrary() {}
 // Cross Module References
@@ -2358,13 +2358,13 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOculusXRInputFunctionLibrary);
 	UOculusXRInputFunctionLibrary::~UOculusXRInputFunctionLibrary() {}
-	struct Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics
+	struct Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::EnumInfo[] = {
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::EnumInfo[] = {
 		{ EOculusXRHandType_StaticEnum, TEXT("EOculusXRHandType"), &Z_Registration_Info_UEnum_EOculusXRHandType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2291255107U) },
 		{ EOculusXRSide_StaticEnum, TEXT("EOculusXRSide"), &Z_Registration_Info_UEnum_EOculusXRSide, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 718879456U) },
 		{ EOculusXRTrackingConfidence_StaticEnum, TEXT("EOculusXRTrackingConfidence"), &Z_Registration_Info_UEnum_EOculusXRTrackingConfidence, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1007667471U) },
@@ -2373,14 +2373,14 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 		{ EOculusXRHandHapticsLocation_StaticEnum, TEXT("EOculusXRHandHapticsLocation"), &Z_Registration_Info_UEnum_EOculusXRHandHapticsLocation, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 553875947U) },
 		{ EOculusXRControllerDrivenHandPoseTypes_StaticEnum, TEXT("EOculusXRControllerDrivenHandPoseTypes"), &Z_Registration_Info_UEnum_EOculusXRControllerDrivenHandPoseTypes, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 621220819U) },
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::ScriptStructInfo[] = {
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::ScriptStructInfo[] = {
 		{ FOculusXRCapsuleCollider::StaticStruct, Z_Construct_UScriptStruct_FOculusXRCapsuleCollider_Statics::NewStructOps, TEXT("OculusXRCapsuleCollider"), &Z_Registration_Info_UScriptStruct_OculusXRCapsuleCollider, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRCapsuleCollider), 3947959947U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_UOculusXRInputFunctionLibrary, UOculusXRInputFunctionLibrary::StaticClass, TEXT("UOculusXRInputFunctionLibrary"), &Z_Registration_Info_UClass_UOculusXRInputFunctionLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRInputFunctionLibrary), 792943240U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_3995163218(TEXT("/Script/OculusXRInput"),
-		Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::ScriptStructInfo),
-		Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::EnumInfo));
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_3995163218(TEXT("/Script/OculusXRInput"),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

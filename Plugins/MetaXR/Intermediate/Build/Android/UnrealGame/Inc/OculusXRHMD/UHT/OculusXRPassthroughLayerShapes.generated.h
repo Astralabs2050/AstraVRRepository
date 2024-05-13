@@ -16,7 +16,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define OCULUSXRHMD_OculusXRPassthroughLayerShapes_generated_h
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_AstraVR_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRPassthroughLayerShapes_h
+#define CURRENT_FILE_ID FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRPassthroughLayerShapes_h
 
 
 #define FOREACH_ENUM_EOCULUSXRCOLORMAPTYPE(op) \

@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "H:/AstraVR/Plugins/MetaXR/Source/OculusXRPassthrough/Public/OculusXRPassthroughLayerComponent.h"
+#include "H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRPassthrough/Public/OculusXRPassthroughLayerComponent.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 // Cross Module References
@@ -2036,18 +2036,18 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOculusXRPassthroughLayerComponent);
 	UOculusXRPassthroughLayerComponent::~UOculusXRPassthroughLayerComponent() {}
-	struct Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_Statics
+	struct Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_UOculusXRPassthroughLayerBase, UOculusXRPassthroughLayerBase::StaticClass, TEXT("UOculusXRPassthroughLayerBase"), &Z_Registration_Info_UClass_UOculusXRPassthroughLayerBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRPassthroughLayerBase), 3774926603U) },
 		{ Z_Construct_UClass_UOculusXRStereoLayerShapeReconstructed, UOculusXRStereoLayerShapeReconstructed::StaticClass, TEXT("UOculusXRStereoLayerShapeReconstructed"), &Z_Registration_Info_UClass_UOculusXRStereoLayerShapeReconstructed, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRStereoLayerShapeReconstructed), 798906047U) },
 		{ Z_Construct_UClass_UOculusXRStereoLayerShapeUserDefined, UOculusXRStereoLayerShapeUserDefined::StaticClass, TEXT("UOculusXRStereoLayerShapeUserDefined"), &Z_Registration_Info_UClass_UOculusXRStereoLayerShapeUserDefined, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRStereoLayerShapeUserDefined), 2113197840U) },
 		{ Z_Construct_UClass_UOculusXRPassthroughLayerComponent, UOculusXRPassthroughLayerComponent::StaticClass, TEXT("UOculusXRPassthroughLayerComponent"), &Z_Registration_Info_UClass_UOculusXRPassthroughLayerComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRPassthroughLayerComponent), 2519142779U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_848460000(TEXT("/Script/OculusXRPassthrough"),
-		Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_848460000(TEXT("/Script/OculusXRPassthrough"),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,4 +1,4 @@
-H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXROpenXRHMD/Module.OculusXROpenXRHMD.cpp.o: \
+H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXROpenXRHMD/Module.OculusXROpenXRHMD.cpp.o: \
   G:/UE_5.3/Engine/Source/Runtime/Engine/Public/VisualLogger/VisualLoggerCustomVersion.h \
   G:/UE_5.3/Engine/Source/Runtime/Engine/Public/VisualLogger/VisualLoggerTypes.h \
   G:/UE_5.3/Engine/Source/Runtime/Engine/Public/VisualLogger/VisualLogger.h \
@@ -1889,8 +1889,8 @@ H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/Oc
   G:/UE_5.3/Engine/Source/Runtime/CoreUObject/Public/CoreUObjectSharedPCH.h \
   G:/UE_5.3/Engine/Source/Runtime/Slate/Public/SlateSharedPCH.h \
   G:/UE_5.3/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h \
-  H:/AstraVR/Intermediate/Build/Android/a/AstraVR/Development/Engine/SharedDefinitions.Engine.Cpp20.InclOrderUnreal5_0.h \
-  H:/AstraVR/Intermediate/Build/Android/a/AstraVR/Development/Engine/SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h \
+  H:/AstraVRRepository/Intermediate/Build/Android/a/AstraVR/Development/Engine/SharedDefinitions.Engine.Cpp20.InclOrderUnreal5_0.h \
+  H:/AstraVRRepository/Intermediate/Build/Android/a/AstraVR/Development/Engine/SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h \
   C:/NVPACK/android-ndk-r25/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/initializer_list \
   C:/NVPACK/android-ndk-r25/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__config \
   C:/NVPACK/android-ndk-r25/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/features.h \
@@ -2094,14 +2094,14 @@ H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/Oc
   C:/NVPACK/android-ndk-r25/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__bsd_locale_fallbacks.h \
   C:/NVPACK/android-ndk-r25/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/bitset \
   C:/NVPACK/android-ndk-r25/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/istream \
-  H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXROpenXRHMD/Module.OculusXROpenXRHMD.cpp \
-  H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXROpenXRHMD/Definitions.OculusXROpenXRHMD.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXROpenXRHMD/Private/OculusXROpenXRHMD.cpp \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXROpenXRHMD/Private/OculusXROpenXRHMD.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXROpenXRHMD/Module.OculusXROpenXRHMD.cpp \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXROpenXRHMD/Definitions.OculusXROpenXRHMD.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXROpenXRHMD/Private/OculusXROpenXRHMD.cpp \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXROpenXRHMD/Private/OculusXROpenXRHMD.h \
   Runtime/Core/Public/CoreMinimal.h \
   Runtime/Core/Public/Misc/EngineVersionComparison.h \
   Runtime/Launch/Resources/Version.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXROpenXRHMD/Public/IOculusXROpenXRHMDPlugin.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXROpenXRHMD/Public/IOculusXROpenXRHMDPlugin.h \
   ../Plugins/Runtime/OpenXR/Source/OpenXRHMD/Public/IOpenXRExtensionPlugin.h \
   Runtime/Core/Public/Features/IModularFeatures.h \
   Runtime/AugmentedReality/Public/ARTypes.h \

@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "H:/AstraVR/Plugins/MetaXR/Source/OculusXRMR/Public/OculusXRMR_Settings.h"
+#include "H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRMR/Public/OculusXRMR_Settings.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeOculusXRMR_Settings() {}
 // Cross Module References
@@ -1126,22 +1126,22 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMR_Settings() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOculusXRMR_Settings);
 	UOculusXRMR_Settings::~UOculusXRMR_Settings() {}
-	struct Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics
+	struct Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics::EnumInfo[] = {
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics::EnumInfo[] = {
 		{ EOculusXRMR_CameraDeviceEnum_StaticEnum, TEXT("EOculusXRMR_CameraDeviceEnum"), &Z_Registration_Info_UEnum_EOculusXRMR_CameraDeviceEnum, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2298276722U) },
 		{ EOculusXRMR_ClippingReference_StaticEnum, TEXT("EOculusXRMR_ClippingReference"), &Z_Registration_Info_UEnum_EOculusXRMR_ClippingReference, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1875156719U) },
 		{ EOculusXRMR_PostProcessEffects_StaticEnum, TEXT("EOculusXRMR_PostProcessEffects"), &Z_Registration_Info_UEnum_EOculusXRMR_PostProcessEffects, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3765435736U) },
 		{ EOculusXRMR_CompositionMethod_StaticEnum, TEXT("EOculusXRMR_CompositionMethod"), &Z_Registration_Info_UEnum_EOculusXRMR_CompositionMethod, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 177338256U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_UOculusXRMR_Settings, UOculusXRMR_Settings::StaticClass, TEXT("UOculusXRMR_Settings"), &Z_Registration_Info_UClass_UOculusXRMR_Settings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRMR_Settings), 2101707113U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_411399029(TEXT("/Script/OculusXRMR"),
-		Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_411399029(TEXT("/Script/OculusXRMR"),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics::ClassInfo),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

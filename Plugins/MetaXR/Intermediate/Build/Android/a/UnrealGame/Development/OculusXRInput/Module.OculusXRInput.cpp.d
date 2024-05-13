@@ -1,4 +1,4 @@
-H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXRInput/Module.OculusXRInput.cpp.o: \
+H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXRInput/Module.OculusXRInput.cpp.o: \
   G:/UE_5.3/Engine/Source/Runtime/Engine/Public/VisualLogger/VisualLoggerCustomVersion.h \
   G:/UE_5.3/Engine/Source/Runtime/Engine/Public/VisualLogger/VisualLoggerTypes.h \
   G:/UE_5.3/Engine/Source/Runtime/Engine/Public/VisualLogger/VisualLogger.h \
@@ -1889,8 +1889,8 @@ H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/Oc
   G:/UE_5.3/Engine/Source/Runtime/CoreUObject/Public/CoreUObjectSharedPCH.h \
   G:/UE_5.3/Engine/Source/Runtime/Slate/Public/SlateSharedPCH.h \
   G:/UE_5.3/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h \
-  H:/AstraVR/Intermediate/Build/Android/a/AstraVR/Development/Engine/SharedDefinitions.Engine.Cpp20.InclOrderUnreal5_0.h \
-  H:/AstraVR/Intermediate/Build/Android/a/AstraVR/Development/Engine/SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h \
+  H:/AstraVRRepository/Intermediate/Build/Android/a/AstraVR/Development/Engine/SharedDefinitions.Engine.Cpp20.InclOrderUnreal5_0.h \
+  H:/AstraVRRepository/Intermediate/Build/Android/a/AstraVR/Development/Engine/SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h \
   C:/NVPACK/android-ndk-r25/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/initializer_list \
   C:/NVPACK/android-ndk-r25/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__config \
   C:/NVPACK/android-ndk-r25/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/features.h \
@@ -2094,12 +2094,11 @@ H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/Oc
   C:/NVPACK/android-ndk-r25/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/__bsd_locale_fallbacks.h \
   C:/NVPACK/android-ndk-r25/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/bitset \
   C:/NVPACK/android-ndk-r25/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/istream \
-  H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXRInput/Module.OculusXRInput.cpp \
-  H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXRInput/Definitions.OculusXRInput.h \
-  H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRInput/UHT/OculusXRControllerComponent.gen.cpp \
-  Runtime/CoreUObject/Public/UObject/GeneratedCppIncludes.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRInput/Public/OculusXRControllerComponent.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRInput/Public/OculusXRInputFunctionLibrary.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXRInput/Module.OculusXRInput.cpp \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXRInput/Definitions.OculusXRInput.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRControllerComponent.cpp \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Public/OculusXRControllerComponent.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Public/OculusXRInputFunctionLibrary.h \
   Runtime/Core/Public/CoreMinimal.h \
   Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
   Runtime/Engine/Classes/Components/CapsuleComponent.h \
@@ -2110,14 +2109,14 @@ H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/Oc
   Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
   ../Intermediate/Build/Android/UnrealGame/Inc/Engine/UHT/CapsuleComponent.generated.h \
   Runtime/Engine/Classes/Kismet/BlueprintFunctionLibrary.h \
-  H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRInput/UHT/OculusXRInputFunctionLibrary.generated.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Public/OculusXRFunctionLibrary.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Public/OculusXRHMDTypes.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRInput/UHT/OculusXRInputFunctionLibrary.generated.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Public/OculusXRFunctionLibrary.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Public/OculusXRHMDTypes.h \
   Runtime/RHI/Public/RHI.h Runtime/RHI/Public/RHIResources.h \
   Runtime/Engine/Classes/Engine/Texture2D.h \
   Runtime/CoreUObject/Public/UObject/SoftObjectPath.h \
-  H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRHMD/UHT/OculusXRHMDTypes.generated.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Public/IOculusXRHMDModule.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRHMD/UHT/OculusXRHMDTypes.generated.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Public/IOculusXRHMDModule.h \
   Runtime/Core/Public/Modules/ModuleManager.h \
   Runtime/HeadMountedDisplay/Public/IHeadMountedDisplayModule.h \
   Runtime/Core/Public/Modules/ModuleInterface.h \
@@ -2143,7 +2142,7 @@ H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/Oc
   Runtime/Core/Public/UObject/NameTypes.h \
   Runtime/CoreUObject/Public/UObject/UObjectGlobals.h \
   ../Intermediate/Build/Android/UnrealGame/Inc/HeadMountedDisplay/UHT/HeadMountedDisplayTypes.generated.h \
-  H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRHMD/UHT/OculusXRFunctionLibrary.generated.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRHMD/UHT/OculusXRFunctionLibrary.generated.h \
   Runtime/Engine/Classes/Components/StaticMeshComponent.h \
   Runtime/Engine/Classes/Engine/StreamableManager.h \
   Runtime/Core/Public/Containers/ArrayView.h \
@@ -2154,61 +2153,51 @@ H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/Oc
   Runtime/CoreUObject/Public/UObject/Class.h \
   Runtime/CoreUObject/Public/UObject/GCObject.h \
   Runtime/CoreUObject/Public/UObject/SoftObjectPtr.h \
-  H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRInput/UHT/OculusXRControllerComponent.generated.h \
-  H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRInput/UHT/OculusXRHandComponent.gen.cpp \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRInput/Public/OculusXRHandComponent.h \
-  Runtime/Engine/Classes/Components/PoseableMeshComponent.h \
-  Runtime/Engine/Public/BoneContainer.h \
-  Runtime/Engine/Classes/Components/SkinnedMeshComponent.h \
-  ../Intermediate/Build/Android/UnrealGame/Inc/Engine/UHT/PoseableMeshComponent.generated.h \
-  H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRInput/UHT/OculusXRHandComponent.generated.h \
-  H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRInput/UHT/OculusXRInput.init.gen.cpp \
-  H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRInput/UHT/OculusXRInputFunctionLibrary.gen.cpp \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRControllerComponent.cpp \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRInput.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRInput/Public/IOculusXRInputModule.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRInput/UHT/OculusXRControllerComponent.generated.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRInput.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Public/IOculusXRInputModule.h \
   Runtime/InputDevice/Public/IInputDeviceModule.h \
   Runtime/ApplicationCore/Public/GenericPlatform/GenericApplicationMessageHandler.h \
   Runtime/InputDevice/Public/IInputDevice.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMDModule.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMDPrivate.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMDModule.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMDPrivate.h \
   Runtime/Engine/Classes/GameFramework/WorldSettings.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Public/OculusXRPassthroughLayerShapes.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Public/OculusXRPassthroughLayerShapes.h \
   Runtime/Engine/Public/StereoLayerShapes.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Public/OculusXRPassthroughMesh.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Public/OculusXRPassthroughMesh.h \
   Runtime/Core/Public/Templates/RefCounting.h \
   Runtime/Core/Public/Misc/EngineVersionComparison.h \
   Runtime/Launch/Resources/Version.h \
-  H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRHMD/UHT/OculusXRPassthroughLayerShapes.generated.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRHMD/UHT/OculusXRPassthroughLayerShapes.generated.h \
   Runtime/Engine/Public/StereoRendering.h \
   Runtime/Core/Public/HAL/RunnableThread.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRPluginWrapper.h \
-  H:/AstraVR/Plugins/MetaXR/Source/ThirdParty/OVRPlugin/OVRPlugin/Include/OVR_Plugin.h \
-  H:/AstraVR/Plugins/MetaXR/Source/ThirdParty/OVRPlugin/OVRPlugin/Include/OVR_Plugin_Types.h \
-  H:/AstraVR/Plugins/MetaXR/Source/ThirdParty/OVRPlugin/OVRPlugin/Include/OVR_Plugin_Insight.h \
-  H:/AstraVR/Plugins/MetaXR/Source/ThirdParty/OVRPlugin/OVRPlugin/Include/OVR_Plugin_MixedReality.h \
-  H:/AstraVR/Plugins/MetaXR/Source/ThirdParty/OVRPlugin/OVRPlugin/Include/OVR_Plugin_Media.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRPluginWrapper.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/ThirdParty/OVRPlugin/OVRPlugin/Include/OVR_Plugin.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/ThirdParty/OVRPlugin/OVRPlugin/Include/OVR_Plugin_Types.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/ThirdParty/OVRPlugin/OVRPlugin/Include/OVR_Plugin_Insight.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/ThirdParty/OVRPlugin/OVRPlugin/Include/OVR_Plugin_MixedReality.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/ThirdParty/OVRPlugin/OVRPlugin/Include/OVR_Plugin_Media.h \
   Runtime/HeadMountedDisplay/Public/IHeadMountedDisplay.h \
   Runtime/HeadMountedDisplay/Public/LateUpdateManager.h \
   Runtime/Engine/Public/SceneInterface.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_VulkanExtensions.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_VulkanExtensions.h \
   Runtime/HeadMountedDisplay/Public/IHeadMountedDisplayVulkanExtensions.h \
   Runtime/ApplicationCore/Public/GenericPlatform/IInputInterface.h \
   ../Plugins/Runtime/XRBase/Source/XRBase/Public/XRMotionControllerBase.h \
   Runtime/Core/Public/Math/Rotator.h Runtime/Core/Public/Misc/Timespan.h \
   Runtime/InputDevice/Public/IHapticDevice.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRInputState.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRHandTracking.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRInputState.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRHandTracking.h \
   Runtime/Engine/Classes/Engine/SkeletalMesh.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRInputModule.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRInputModule.h \
   Runtime/Core/Public/Templates/SharedPointer.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRControllerTracking.cpp \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRControllerTracking.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_Settings.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_GameFrame.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRControllerTracking.cpp \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRControllerTracking.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_Settings.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_GameFrame.h \
   Runtime/Engine/Public/ShowFlags.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_CustomPresent.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_CustomPresent.h \
   ../Plugins/Runtime/XRBase/Source/XRBase/Public/XRSwapChain.h \
   Runtime/Core/Public/HAL/Platform.h \
   Runtime/Core/Public/Misc/AssertionMacros.h \
@@ -2216,36 +2205,36 @@ H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/Oc
   Runtime/RenderCore/Public/RendererInterface.h \
   Runtime/Engine/Public/IStereoLayers.h \
   ../Plugins/Runtime/XRBase/Source/XRBase/Public/XRRenderBridge.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_Layer.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_Layer.h \
   ../Plugins/Runtime/ProceduralMeshComponent/Source/ProceduralMeshComponent/Public/ProceduralMeshComponent.h \
   Runtime/Engine/Classes/Interfaces/Interface_CollisionDataProvider.h \
   Runtime/Engine/Classes/Components/MeshComponent.h \
   ../Plugins/Runtime/ProceduralMeshComponent/Intermediate/Build/Android/UnrealGame/Inc/ProceduralMeshComponent/UHT/ProceduralMeshComponent.generated.h \
   Runtime/Engine/Classes/PhysicsEngine/ConvexElem.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_Splash.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_Splash.h \
   Runtime/HeadMountedDisplay/Public/IXRLoadingScreen.h \
   Runtime/RenderCore/Public/TickableObjectRenderThread.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_StressTester.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_ConsoleCommands.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_StressTester.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_ConsoleCommands.h \
   Runtime/Core/Public/HAL/IConsoleManager.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_SpectatorScreenController.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_SpectatorScreenController.h \
   ../Plugins/Runtime/XRBase/Source/XRBase/Public/DefaultSpectatorScreenController.h \
   Runtime/HeadMountedDisplay/Public/ISpectatorScreenController.h \
   Runtime/Core/Public/UObject/WeakObjectPtrTemplates.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_DynamicResolutionState.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_DynamicResolutionState.h \
   Runtime/Engine/Public/DynamicResolutionState.h \
   Runtime/Engine/Classes/Engine/EngineTypes.h \
   Runtime/RenderCore/Public/DynamicRenderScaling.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_DeferredDeletionQueue.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRAssetManager.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_DeferredDeletionQueue.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRAssetManager.h \
   Runtime/HeadMountedDisplay/Public/IXRSystemAssets.h \
   Runtime/HeadMountedDisplay/Public/IIdentifiableXRDevice.h \
   Runtime/Core/Public/Templates/TypeHash.h \
   ../Intermediate/Build/Android/UnrealGame/Inc/HeadMountedDisplay/UHT/IIdentifiableXRDevice.generated.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRResourceHolder.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRResourceHolder.h \
   Runtime/CoreUObject/Public/UObject/Object.h \
   Runtime/Engine/Classes/Materials/MaterialInterface.h \
-  H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRHMD/UHT/OculusXRResourceHolder.generated.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRHMD/UHT/OculusXRResourceHolder.generated.h \
   ../Plugins/Runtime/XRBase/Source/XRBase/Public/HeadMountedDisplayBase.h \
   ../Plugins/Runtime/XRBase/Source/XRBase/Public/XRTrackingSystemBase.h \
   Runtime/HeadMountedDisplay/Public/IXRTrackingSystem.h \
@@ -2298,16 +2287,22 @@ H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/Oc
   ../Intermediate/Build/Android/UnrealGame/Inc/Engine/UHT/StaticMeshActor.generated.h \
   ../Plugins/Runtime/XRBase/Source/XRBase/Public/XRThreadUtils.h \
   Runtime/RenderCore/Public/Shader.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_FoveatedRendering.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_FoveatedRendering.h \
   Runtime/Renderer/Public/VariableRateShadingImageManager.h \
   Runtime/Core/Public/Misc/CoreDelegates.h \
   Runtime/Engine/Classes/Haptics/HapticFeedbackEffect_Base.h \
   ../Intermediate/Build/Android/UnrealGame/Inc/Engine/UHT/HapticFeedbackEffect_Base.generated.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRHandComponent.cpp \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRHandComponent.cpp \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Public/OculusXRHandComponent.h \
+  Runtime/Engine/Classes/Components/PoseableMeshComponent.h \
+  Runtime/Engine/Public/BoneContainer.h \
+  Runtime/Engine/Classes/Components/SkinnedMeshComponent.h \
+  ../Intermediate/Build/Android/UnrealGame/Inc/Engine/UHT/PoseableMeshComponent.generated.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRInput/UHT/OculusXRHandComponent.generated.h \
   Runtime/Engine/Classes/Components/InputComponent.h \
   Runtime/Engine/Classes/GameFramework/Pawn.h \
   Runtime/Engine/Classes/GameFramework/PlayerController.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRHandTracking.cpp \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRHandTracking.cpp \
   Runtime/Engine/Classes/Animation/Skeleton.h \
   Runtime/AnimationCore/Public/BoneWeights.h \
   Runtime/Core/Public/Algo/IsSorted.h \
@@ -2328,11 +2323,11 @@ H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/Oc
   Runtime/Engine/Classes/Materials/MaterialInstanceDynamic.h \
   Runtime/Engine/Classes/Engine/SkinnedAssetCommon.h \
   Runtime/Engine/Public/Model.h Runtime/Engine/Public/MaterialDomain.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRInput.cpp \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRMR/Public/OculusXRMRFunctionLibrary.h \
-  H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRMR/UHT/OculusXRMRFunctionLibrary.generated.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRInput.cpp \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRMR/Public/OculusXRMRFunctionLibrary.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRMR/UHT/OculusXRMRFunctionLibrary.generated.h \
   Runtime/ApplicationCore/Public/GenericPlatform/GenericPlatformInputDeviceMapper.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRInputFunctionLibrary.cpp \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRInputFunctionLibrary.cpp \
   Runtime/Core/Public/Logging/MessageLog.h \
   Runtime/Engine/Classes/Haptics/HapticFeedbackEffect_Buffer.h \
   ../Intermediate/Build/Android/UnrealGame/Inc/Engine/UHT/HapticFeedbackEffect_Buffer.generated.h \
@@ -2341,4 +2336,4 @@ H:/AstraVR/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/Oc
   ../Intermediate/Build/Android/UnrealGame/Inc/Engine/UHT/HapticFeedbackEffect_Curve.generated.h \
   Runtime/Engine/Classes/Haptics/HapticFeedbackEffect_SoundWave.h \
   ../Intermediate/Build/Android/UnrealGame/Inc/Engine/UHT/HapticFeedbackEffect_SoundWave.generated.h \
-  H:/AstraVR/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRInputModule.cpp
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRInputModule.cpp

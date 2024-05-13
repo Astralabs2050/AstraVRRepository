@@ -5,8 +5,8 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "H:/AstraVR/Plugins/MetaXR/Source/OculusXRAnchors/Public/OculusXRAnchorComponent.h"
-#include "H:/AstraVR/Plugins/MetaXR/Source/OculusXRAnchors/Public/OculusXRAnchorTypes.h"
+#include "H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRAnchors/Public/OculusXRAnchorComponent.h"
+#include "H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRAnchors/Public/OculusXRAnchorTypes.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeOculusXRAnchorComponent() {}
 // Cross Module References
@@ -398,15 +398,15 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRAnchorComponent() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOculusXRAnchorComponent);
 	UOculusXRAnchorComponent::~UOculusXRAnchorComponent() {}
-	struct Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorComponent_h_Statics
+	struct Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorComponent_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorComponent_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorComponent_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_UOculusXRAnchorComponent, UOculusXRAnchorComponent::StaticClass, TEXT("UOculusXRAnchorComponent"), &Z_Registration_Info_UClass_UOculusXRAnchorComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRAnchorComponent), 2205480849U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorComponent_h_1839296506(TEXT("/Script/OculusXRAnchors"),
-		Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorComponent_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorComponent_h_1839296506(TEXT("/Script/OculusXRAnchors"),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "H:/AstraVR/Plugins/MetaXR/Source/OculusXRMR/Public/OculusXRMRFunctionLibrary.h"
+#include "H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRMR/Public/OculusXRMRFunctionLibrary.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeOculusXRMRFunctionLibrary() {}
 // Cross Module References
@@ -484,15 +484,15 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMRFunctionLibrary() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOculusXRMRFunctionLibrary);
 	UOculusXRMRFunctionLibrary::~UOculusXRMRFunctionLibrary() {}
-	struct Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMRFunctionLibrary_h_Statics
+	struct Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMRFunctionLibrary_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMRFunctionLibrary_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMRFunctionLibrary_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_UOculusXRMRFunctionLibrary, UOculusXRMRFunctionLibrary::StaticClass, TEXT("UOculusXRMRFunctionLibrary"), &Z_Registration_Info_UClass_UOculusXRMRFunctionLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRMRFunctionLibrary), 954378475U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMRFunctionLibrary_h_1676942204(TEXT("/Script/OculusXRMR"),
-		Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMRFunctionLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVR_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMRFunctionLibrary_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMRFunctionLibrary_h_1676942204(TEXT("/Script/OculusXRMR"),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMRFunctionLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMRFunctionLibrary_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
