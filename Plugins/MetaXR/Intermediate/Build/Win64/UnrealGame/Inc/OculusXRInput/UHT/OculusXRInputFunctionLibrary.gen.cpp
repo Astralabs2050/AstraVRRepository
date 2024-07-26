@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "D:/OculusXR-release/HostProject/Plugins/OculusXR/Source/OculusXRInput/Public/OculusXRInputFunctionLibrary.h"
+#include "H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Public/OculusXRInputFunctionLibrary.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeOculusXRInputFunctionLibrary() {}
 // Cross Module References
@@ -312,7 +312,9 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRInputFunctionLibrary() {}
 		{ "BlueprintType", "true" },
 		{ "Bone_Max.DisplayName", "Hand Max" },
 		{ "Bone_Max.Name", "EOculusXRBone::Bone_Max" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n* EOculusXRBone is enum representing the Bone Ids that come from the Oculus Runtime. \n*/" },
+#endif
 		{ "Forearm_Stub.DisplayName", "Forearm Stub" },
 		{ "Forearm_Stub.Name", "EOculusXRBone::Forearm_Stub" },
 		{ "Hand_End.DisplayName", "Hand End" },
@@ -368,7 +370,9 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRInputFunctionLibrary() {}
 		{ "Thumb_3.Name", "EOculusXRBone::Thumb_3" },
 		{ "Thumb_Tip.DisplayName", "Thumb Tip" },
 		{ "Thumb_Tip.Name", "EOculusXRBone::Thumb_Tip" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "EOculusXRBone is enum representing the Bone Ids that come from the Oculus Runtime." },
+#endif
 		{ "Wrist_Root.DisplayName", "Wrist Root" },
 		{ "Wrist_Root.Name", "EOculusXRBone::Wrist_Root" },
 	};
@@ -423,7 +427,9 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRInputFunctionLibrary() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OculusXRInput_EOculusXRHandHapticsLocation_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Defines the haptics location of controller hands for tracking. */" },
+#endif
 		{ "Hand.Name", "EOculusXRHandHapticsLocation::Hand" },
 		{ "HandHapticsLocation_Count.Comment", "// Haptics is applied to the index finger location\n" },
 		{ "HandHapticsLocation_Count.DisplayName", "<INVALID>" },
@@ -437,7 +443,9 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRInputFunctionLibrary() {}
 		{ "Thumb.Comment", "// Haptics is applied to the whole controller\n" },
 		{ "Thumb.Name", "EOculusXRHandHapticsLocation::Thumb" },
 		{ "Thumb.ToolTip", "Haptics is applied to the whole controller" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Defines the haptics location of controller hands for tracking." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_OculusXRInput_EOculusXRHandHapticsLocation_Statics::EnumParams = {
@@ -489,7 +497,9 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRInputFunctionLibrary() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OculusXRInput_EOculusXRControllerDrivenHandPoseTypes_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Define how a controllers button touches will be used to generate a hand pose. */" },
+#endif
 		{ "Controller.Comment", "// Controller button inputs will be used to generate a normal hand pose.\n" },
 		{ "Controller.Name", "EOculusXRControllerDrivenHandPoseTypes::Controller" },
 		{ "Controller.ToolTip", "Controller button inputs will be used to generate a normal hand pose." },
@@ -498,7 +508,9 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRInputFunctionLibrary() {}
 		{ "Natural.Name", "EOculusXRControllerDrivenHandPoseTypes::Natural" },
 		{ "Natural.ToolTip", "Controllers do not generate any hand poses." },
 		{ "None.Name", "EOculusXRControllerDrivenHandPoseTypes::None" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Define how a controllers button touches will be used to generate a hand pose." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_OculusXRInput_EOculusXRControllerDrivenHandPoseTypes_Statics::EnumParams = {
@@ -555,9 +567,13 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOculusXRCapsuleCollider_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n* FOculusXRCapsuleCollider is a struct that contains information on the physics/collider capsules created by the runtime for hands.\n*\n* @var Capsule\x09\x09The UCapsuleComponent that is the collision capsule on the bone. Use this to register for overlap/collision events\n* @var BoneIndex\x09The Bone that this collision capsule is parented to. Corresponds to the EOculusXRBone enum.\n*\n*/" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRInputFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "FOculusXRCapsuleCollider is a struct that contains information on the physics/collider capsules created by the runtime for hands.\n\n@var Capsule         The UCapsuleComponent that is the collision capsule on the bone. Use this to register for overlap/collision events\n@var BoneIndex       The Bone that this collision capsule is parented to. Corresponds to the EOculusXRBone enum." },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FOculusXRCapsuleCollider_Statics::NewStructOps()
@@ -579,7 +595,7 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 		{ "ModuleRelativePath", "Public/OculusXRInputFunctionLibrary.h" },
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOculusXRCapsuleCollider_Statics::NewProp_BoneId = { "BoneId", nullptr, (EPropertyFlags)0x0010000000000014, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOculusXRCapsuleCollider, BoneId), Z_Construct_UEnum_OculusXRInput_EOculusXRBone, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOculusXRCapsuleCollider_Statics::NewProp_BoneId_MetaData), Z_Construct_UScriptStruct_FOculusXRCapsuleCollider_Statics::NewProp_BoneId_MetaData) }; // 1438387645
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOculusXRCapsuleCollider_Statics::NewProp_BoneId = { "BoneId", nullptr, (EPropertyFlags)0x0010000000000014, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOculusXRCapsuleCollider, BoneId), Z_Construct_UEnum_OculusXRInput_EOculusXRBone, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOculusXRCapsuleCollider_Statics::NewProp_BoneId_MetaData), Z_Construct_UScriptStruct_FOculusXRCapsuleCollider_Statics::NewProp_BoneId_MetaData) }; // 3752745554
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FOculusXRCapsuleCollider_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOculusXRCapsuleCollider_Statics::NewProp_Capsule,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOculusXRCapsuleCollider_Statics::NewProp_BoneId_Underlying,
@@ -868,7 +884,7 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_ConvertBoneToFinger_Statics::NewProp_Bone = { "Bone", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventConvertBoneToFinger_Parms, Bone), Z_Construct_UEnum_OculusXRInput_EOculusXRBone, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_ConvertBoneToFinger_Statics::NewProp_Bone_MetaData), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_ConvertBoneToFinger_Statics::NewProp_Bone_MetaData) }; // 1438387645
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_ConvertBoneToFinger_Statics::NewProp_Bone = { "Bone", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventConvertBoneToFinger_Parms, Bone), Z_Construct_UEnum_OculusXRInput_EOculusXRBone, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_ConvertBoneToFinger_Statics::NewProp_Bone_MetaData), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_ConvertBoneToFinger_Statics::NewProp_Bone_MetaData) }; // 3752745554
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_ConvertBoneToFinger_Statics::NewProp_ReturnValue_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_ConvertBoneToFinger_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventConvertBoneToFinger_Parms, ReturnValue), Z_Construct_UEnum_OculusXRInput_EOculusXRFinger, METADATA_PARAMS(0, nullptr) }; // 1217896942
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOculusXRInputFunctionLibrary_ConvertBoneToFinger_Statics::PropPointers[] = {
@@ -912,7 +928,7 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneName_Statics::NewProp_BoneId_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneName_Statics::NewProp_BoneId = { "BoneId", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventGetBoneName_Parms, BoneId), Z_Construct_UEnum_OculusXRInput_EOculusXRBone, METADATA_PARAMS(0, nullptr) }; // 1438387645
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneName_Statics::NewProp_BoneId = { "BoneId", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventGetBoneName_Parms, BoneId), Z_Construct_UEnum_OculusXRInput_EOculusXRBone, METADATA_PARAMS(0, nullptr) }; // 3752745554
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneName_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventGetBoneName_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneName_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneName_Statics::NewProp_BoneId_Underlying,
@@ -922,9 +938,13 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneName_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|HandTracking" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Get the bone name from the bone index\n\x09 *\n\x09 * @param BoneIndex\x09\x09\x09\x09\x09(in) Bone index to get the name of\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRInputFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the bone name from the bone index\n\n@param BoneIndex                                     (in) Bone index to get the name of" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneName_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRInputFunctionLibrary, nullptr, "GetBoneName", nullptr, nullptr, Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneName_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneName_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneName_Statics::OculusXRInputFunctionLibrary_eventGetBoneName_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneName_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneName_Statics::Function_MetaDataParams) };
@@ -982,7 +1002,7 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneRotation_Statics::NewProp_BoneId = { "BoneId", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventGetBoneRotation_Parms, BoneId), Z_Construct_UEnum_OculusXRInput_EOculusXRBone, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneRotation_Statics::NewProp_BoneId_MetaData), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneRotation_Statics::NewProp_BoneId_MetaData) }; // 1438387645
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneRotation_Statics::NewProp_BoneId = { "BoneId", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventGetBoneRotation_Parms, BoneId), Z_Construct_UEnum_OculusXRInput_EOculusXRBone, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneRotation_Statics::NewProp_BoneId_MetaData), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneRotation_Statics::NewProp_BoneId_MetaData) }; // 3752745554
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneRotation_Statics::NewProp_ControllerIndex_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1001,10 +1021,14 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneRotation_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|HandTracking" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Get the rotation of a specific bone\n\x09 *\n\x09 * @param DeviceHand\x09\x09\x09\x09(in) The hand to get the rotations from\n\x09 * @param BoneId\x09\x09\x09\x09\x09(in) The specific bone to get the rotation from\n\x09 * @param ControllerIndex\x09\x09\x09(in) Optional different controller index\n\x09 */" },
+#endif
 		{ "CPP_Default_ControllerIndex", "0" },
 		{ "ModuleRelativePath", "Public/OculusXRInputFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the rotation of a specific bone\n\n@param DeviceHand                            (in) The hand to get the rotations from\n@param BoneId                                        (in) The specific bone to get the rotation from\n@param ControllerIndex                       (in) Optional different controller index" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneRotation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRInputFunctionLibrary, nullptr, "GetBoneRotation", nullptr, nullptr, Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneRotation_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneRotation_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneRotation_Statics::OculusXRInputFunctionLibrary_eventGetBoneRotation_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14822401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneRotation_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneRotation_Statics::Function_MetaDataParams) };
@@ -1046,9 +1070,13 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetControllerSampleRateHz_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|Controller" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Get the controller haptics sample rate.\n\x09 * @param\x09Hand\x09\x09\x09\x09\x09Which hand to play the effect on\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRInputFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the controller haptics sample rate.\n@param       Hand                                    Which hand to play the effect on" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetControllerSampleRateHz_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRInputFunctionLibrary, nullptr, "GetControllerSampleRateHz", nullptr, nullptr, Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetControllerSampleRateHz_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetControllerSampleRateHz_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetControllerSampleRateHz_Statics::OculusXRInputFunctionLibrary_eventGetControllerSampleRateHz_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetControllerSampleRateHz_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetControllerSampleRateHz_Statics::Function_MetaDataParams) };
@@ -1098,10 +1126,14 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetDominantHand_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|HandTracking" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Get the user's dominant hand\n\x09 *\n\x09 * @param ControllerIndex\x09\x09\x09(in) Optional different controller index\n\x09 */" },
+#endif
 		{ "CPP_Default_ControllerIndex", "0" },
 		{ "ModuleRelativePath", "Public/OculusXRInputFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the user's dominant hand\n\n@param ControllerIndex                       (in) Optional different controller index" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetDominantHand_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRInputFunctionLibrary, nullptr, "GetDominantHand", nullptr, nullptr, Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetDominantHand_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetDominantHand_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetDominantHand_Statics::OculusXRInputFunctionLibrary_eventGetDominantHand_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetDominantHand_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetDominantHand_Statics::Function_MetaDataParams) };
@@ -1181,10 +1213,14 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetFingerTrackingConfidence_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|HandTracking" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* Get the tracking confidence of a finger\n\x09*\n\x09* @param DeviceHand\x09\x09\x09\x09(in) The hand to get tracking confidence of\n\x09* @param ControllerIndex\x09\x09\x09(in) Optional different controller index\n\x09* @param Finger\x09\x09\x09(in) The finger to get tracking confidence of\n\x09*/" },
+#endif
 		{ "CPP_Default_ControllerIndex", "0" },
 		{ "ModuleRelativePath", "Public/OculusXRInputFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the tracking confidence of a finger\n\n@param DeviceHand                             (in) The hand to get tracking confidence of\n@param ControllerIndex                        (in) Optional different controller index\n@param Finger                 (in) The finger to get tracking confidence of" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetFingerTrackingConfidence_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRInputFunctionLibrary, nullptr, "GetFingerTrackingConfidence", nullptr, nullptr, Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetFingerTrackingConfidence_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetFingerTrackingConfidence_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetFingerTrackingConfidence_Statics::OculusXRInputFunctionLibrary_eventGetFingerTrackingConfidence_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetFingerTrackingConfidence_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetFingerTrackingConfidence_Statics::Function_MetaDataParams) };
@@ -1246,10 +1282,14 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetHandScale_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|HandTracking" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Get the scale of the hand\n\x09 *\n\x09 * @param DeviceHand\x09\x09\x09\x09(in) The hand to get scale of\n\x09 * @param ControllerIndex\x09\x09\x09(in) Optional different controller index\n\x09 */" },
+#endif
 		{ "CPP_Default_ControllerIndex", "0" },
 		{ "ModuleRelativePath", "Public/OculusXRInputFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the scale of the hand\n\n@param DeviceHand                            (in) The hand to get scale of\n@param ControllerIndex                       (in) Optional different controller index" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetHandScale_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRInputFunctionLibrary, nullptr, "GetHandScale", nullptr, nullptr, Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetHandScale_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetHandScale_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetHandScale_Statics::OculusXRInputFunctionLibrary_eventGetHandScale_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetHandScale_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetHandScale_Statics::Function_MetaDataParams) };
@@ -1319,10 +1359,14 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetHandSkeletalMesh_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|HandTracking" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Creates a new runtime hand skeletal mesh.\n\x09 *\n\x09 * @param HandSkeletalMesh\x09\x09\x09(out) Skeletal Mesh object that will be used for the runtime hand mesh\n\x09 * @param SkeletonType\x09\x09\x09\x09(in) The skeleton type that will be used for generating the hand bones\n\x09 * @param MeshType\x09\x09\x09\x09\x09(in) The mesh type that will be used for generating the hand mesh\n\x09 * @param WorldTometers\x09\x09\x09\x09(in) Optional change to the world to meters conversion value\n\x09 */" },
+#endif
 		{ "CPP_Default_WorldToMeters", "100.000000" },
 		{ "ModuleRelativePath", "Public/OculusXRInputFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Creates a new runtime hand skeletal mesh.\n\n@param HandSkeletalMesh                      (out) Skeletal Mesh object that will be used for the runtime hand mesh\n@param SkeletonType                          (in) The skeleton type that will be used for generating the hand bones\n@param MeshType                                      (in) The mesh type that will be used for generating the hand mesh\n@param WorldTometers                         (in) Optional change to the world to meters conversion value" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetHandSkeletalMesh_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRInputFunctionLibrary, nullptr, "GetHandSkeletalMesh", nullptr, nullptr, Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetHandSkeletalMesh_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetHandSkeletalMesh_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetHandSkeletalMesh_Statics::OculusXRInputFunctionLibrary_eventGetHandSkeletalMesh_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetHandSkeletalMesh_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetHandSkeletalMesh_Statics::Function_MetaDataParams) };
@@ -1364,9 +1408,13 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetMaxHapticDuration_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|Controller" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Get the maximum duration (in seconds) that the controller haptics can handle each time.\n\x09 * @param\x09Hand\x09\x09\x09\x09\x09Which hand to play the effect on\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRInputFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the maximum duration (in seconds) that the controller haptics can handle each time.\n@param       Hand                                    Which hand to play the effect on" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetMaxHapticDuration_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRInputFunctionLibrary, nullptr, "GetMaxHapticDuration", nullptr, nullptr, Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetMaxHapticDuration_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetMaxHapticDuration_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetMaxHapticDuration_Statics::OculusXRInputFunctionLibrary_eventGetMaxHapticDuration_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetMaxHapticDuration_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetMaxHapticDuration_Statics::Function_MetaDataParams) };
@@ -1428,10 +1476,14 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetPointerPose_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|HandTracking" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Get the pointer pose\n\x09 *\n\x09 * @param DeviceHand\x09\x09\x09\x09(in) The hand to get the pointer pose from\n\x09 * @param ControllerIndex\x09\x09\x09(in) Optional different controller index\n\x09 */" },
+#endif
 		{ "CPP_Default_ControllerIndex", "0" },
 		{ "ModuleRelativePath", "Public/OculusXRInputFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the pointer pose\n\n@param DeviceHand                            (in) The hand to get the pointer pose from\n@param ControllerIndex                       (in) Optional different controller index" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetPointerPose_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRInputFunctionLibrary, nullptr, "GetPointerPose", nullptr, nullptr, Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetPointerPose_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetPointerPose_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetPointerPose_Statics::OculusXRInputFunctionLibrary_eventGetPointerPose_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14822401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetPointerPose_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetPointerPose_Statics::Function_MetaDataParams) };
@@ -1496,10 +1548,14 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetTrackingConfidence_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|HandTracking" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Get the tracking confidence of the hand\n\x09 *\n\x09 * @param DeviceHand\x09\x09\x09\x09(in) The hand to get tracking confidence of\n\x09 * @param ControllerIndex\x09\x09\x09(in) Optional different controller index\n\x09 */" },
+#endif
 		{ "CPP_Default_ControllerIndex", "0" },
 		{ "ModuleRelativePath", "Public/OculusXRInputFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the tracking confidence of the hand\n\n@param DeviceHand                            (in) The hand to get tracking confidence of\n@param ControllerIndex                       (in) Optional different controller index" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetTrackingConfidence_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRInputFunctionLibrary, nullptr, "GetTrackingConfidence", nullptr, nullptr, Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetTrackingConfidence_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetTrackingConfidence_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetTrackingConfidence_Statics::OculusXRInputFunctionLibrary_eventGetTrackingConfidence_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetTrackingConfidence_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetTrackingConfidence_Statics::Function_MetaDataParams) };
@@ -1555,8 +1611,8 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_InitializeHandPhysics_Statics::NewProp_WorldToMeters = { "WorldToMeters", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventInitializeHandPhysics_Parms, WorldToMeters), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_InitializeHandPhysics_Statics::NewProp_WorldToMeters_MetaData), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_InitializeHandPhysics_Statics::NewProp_WorldToMeters_MetaData) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_InitializeHandPhysics_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000008000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOculusXRCapsuleCollider, METADATA_PARAMS(0, nullptr) }; // 973988965
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_InitializeHandPhysics_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010008000000580, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventInitializeHandPhysics_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 973988965
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_InitializeHandPhysics_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000008000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOculusXRCapsuleCollider, METADATA_PARAMS(0, nullptr) }; // 3947959947
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_InitializeHandPhysics_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010008000000580, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventInitializeHandPhysics_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 3947959947
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOculusXRInputFunctionLibrary_InitializeHandPhysics_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOculusXRInputFunctionLibrary_InitializeHandPhysics_Statics::NewProp_SkeletonType_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOculusXRInputFunctionLibrary_InitializeHandPhysics_Statics::NewProp_SkeletonType,
@@ -1568,10 +1624,14 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRInputFunctionLibrary_InitializeHandPhysics_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|HandTracking" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Initializes physics capsules for collision and physics on the runtime mesh\n\x09 *\n\x09 * @param SkeletonType\x09\x09\x09\x09(in) The skeleton type that will be used to generated the capsules\n\x09 * @param HandComponent\x09\x09\x09\x09(in) The skinned mesh component that the capsules will be attached to\n\x09 * @param WorldTometers\x09\x09\x09\x09(in) Optional change to the world to meters conversion value\n\x09 */" },
+#endif
 		{ "CPP_Default_WorldToMeters", "100.000000" },
 		{ "ModuleRelativePath", "Public/OculusXRInputFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Initializes physics capsules for collision and physics on the runtime mesh\n\n@param SkeletonType                          (in) The skeleton type that will be used to generated the capsules\n@param HandComponent                         (in) The skinned mesh component that the capsules will be attached to\n@param WorldTometers                         (in) Optional change to the world to meters conversion value" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_InitializeHandPhysics_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRInputFunctionLibrary, nullptr, "InitializeHandPhysics", nullptr, nullptr, Z_Construct_UFunction_UOculusXRInputFunctionLibrary_InitializeHandPhysics_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_InitializeHandPhysics_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_InitializeHandPhysics_Statics::OculusXRInputFunctionLibrary_eventInitializeHandPhysics_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_InitializeHandPhysics_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_InitializeHandPhysics_Statics::Function_MetaDataParams) };
@@ -1638,10 +1698,14 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsHandPositionValid_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|HandTracking" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* Check if the hand position is valid\n\x09*\n\x09* @param DeviceHand\x09\x09\x09\x09(in) The hand to get the position from\n\x09* @param ControllerIndex\x09\x09\x09(in) Optional different controller index\n\x09*/" },
+#endif
 		{ "CPP_Default_ControllerIndex", "0" },
 		{ "ModuleRelativePath", "Public/OculusXRInputFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Check if the hand position is valid\n\n@param DeviceHand                             (in) The hand to get the position from\n@param ControllerIndex                        (in) Optional different controller index" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsHandPositionValid_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRInputFunctionLibrary, nullptr, "IsHandPositionValid", nullptr, nullptr, Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsHandPositionValid_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsHandPositionValid_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsHandPositionValid_Statics::OculusXRInputFunctionLibrary_eventIsHandPositionValid_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsHandPositionValid_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsHandPositionValid_Statics::Function_MetaDataParams) };
@@ -1681,9 +1745,13 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsHandTrackingEnabled_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|HandTracking" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Check if hand tracking is enabled currently\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRInputFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Check if hand tracking is enabled currently" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsHandTrackingEnabled_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRInputFunctionLibrary, nullptr, "IsHandTrackingEnabled", nullptr, nullptr, Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsHandTrackingEnabled_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsHandTrackingEnabled_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsHandTrackingEnabled_Statics::OculusXRInputFunctionLibrary_eventIsHandTrackingEnabled_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsHandTrackingEnabled_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsHandTrackingEnabled_Statics::Function_MetaDataParams) };
@@ -1750,10 +1818,14 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsPointerPoseValid_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|HandTracking" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Check if the pointer pose is a valid pose\n\x09 *\n\x09 * @param DeviceHand\x09\x09\x09\x09(in) The hand to get the pointer status from\n\x09 * @param ControllerIndex\x09\x09\x09(in) Optional different controller index\n\x09 */" },
+#endif
 		{ "CPP_Default_ControllerIndex", "0" },
 		{ "ModuleRelativePath", "Public/OculusXRInputFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Check if the pointer pose is a valid pose\n\n@param DeviceHand                            (in) The hand to get the pointer status from\n@param ControllerIndex                       (in) Optional different controller index" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsPointerPoseValid_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRInputFunctionLibrary, nullptr, "IsPointerPoseValid", nullptr, nullptr, Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsPointerPoseValid_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsPointerPoseValid_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsPointerPoseValid_Statics::OculusXRInputFunctionLibrary_eventIsPointerPoseValid_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsPointerPoseValid_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsPointerPoseValid_Statics::Function_MetaDataParams) };
@@ -1795,9 +1867,13 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayAmplitudeEnvelopeHapticEffect_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|Controller" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Play a haptic feedback buffer on the player's controller.\n\x09 * All buffer data will be sent to controller together in one frame.\n\x09 * Data duration should be no greater than controller's maximum haptics duration which can be queried with GetMaxHapticDuration.\n\x09 * @param\x09HapticEffect\x09\x09\x09The haptic effect to play\n\x09 * @param\x09Hand\x09\x09\x09\x09\x09Which hand to play the effect on\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRInputFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Play a haptic feedback buffer on the player's controller.\nAll buffer data will be sent to controller together in one frame.\nData duration should be no greater than controller's maximum haptics duration which can be queried with GetMaxHapticDuration.\n@param       HapticEffect                    The haptic effect to play\n@param       Hand                                    Which hand to play the effect on" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayAmplitudeEnvelopeHapticEffect_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRInputFunctionLibrary, nullptr, "PlayAmplitudeEnvelopeHapticEffect", nullptr, nullptr, Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayAmplitudeEnvelopeHapticEffect_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayAmplitudeEnvelopeHapticEffect_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayAmplitudeEnvelopeHapticEffect_Statics::OculusXRInputFunctionLibrary_eventPlayAmplitudeEnvelopeHapticEffect_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayAmplitudeEnvelopeHapticEffect_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayAmplitudeEnvelopeHapticEffect_Statics::Function_MetaDataParams) };
@@ -1840,7 +1916,7 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayBufferHapticEffect_Statics::NewProp_Hand_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayBufferHapticEffect_Statics::NewProp_Hand = { "Hand", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventPlayBufferHapticEffect_Parms, Hand), Z_Construct_UEnum_InputCore_EControllerHand, METADATA_PARAMS(0, nullptr) }; // 2510333578
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayBufferHapticEffect_Statics::NewProp_Location_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayBufferHapticEffect_Statics::NewProp_Location = { "Location", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventPlayBufferHapticEffect_Parms, Location), Z_Construct_UEnum_OculusXRInput_EOculusXRHandHapticsLocation, METADATA_PARAMS(0, nullptr) }; // 1207056661
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayBufferHapticEffect_Statics::NewProp_Location = { "Location", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventPlayBufferHapticEffect_Parms, Location), Z_Construct_UEnum_OculusXRInput_EOculusXRHandHapticsLocation, METADATA_PARAMS(0, nullptr) }; // 553875947
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayBufferHapticEffect_Statics::NewProp_Scale = { "Scale", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventPlayBufferHapticEffect_Parms, Scale), METADATA_PARAMS(0, nullptr) };
 	void Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayBufferHapticEffect_Statics::NewProp_bLoop_SetBit(void* Obj)
 	{
@@ -1859,12 +1935,16 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayBufferHapticEffect_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|Controller" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Play a haptic feedback buffer on the player's controller with location support.\n\x09 * In each frame, the buffer data will be sampled and the individual sampled data will be sent to controller to vibrate a specific location.\n\x09 * @param\x09HapticEffect\x09\x09\x09The haptic effect to play\n\x09 * @param\x09Hand\x09\x09\x09\x09\x09Which hand to play the effect on\n\x09 * @param\x09Location\x09\x09\x09\x09Which hand location to play the effect on\n\x09 * @param\x09Scale\x09\x09\x09\x09\x09Scale between 0.0 and 1.0 on the intensity of playback\n\x09 */" },
+#endif
 		{ "CPP_Default_bLoop", "false" },
 		{ "CPP_Default_Location", "Hand" },
 		{ "CPP_Default_Scale", "1.000000" },
 		{ "ModuleRelativePath", "Public/OculusXRInputFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Play a haptic feedback buffer on the player's controller with location support.\nIn each frame, the buffer data will be sampled and the individual sampled data will be sent to controller to vibrate a specific location.\n@param       HapticEffect                    The haptic effect to play\n@param       Hand                                    Which hand to play the effect on\n@param       Location                                Which hand location to play the effect on\n@param       Scale                                   Scale between 0.0 and 1.0 on the intensity of playback" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayBufferHapticEffect_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRInputFunctionLibrary, nullptr, "PlayBufferHapticEffect", nullptr, nullptr, Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayBufferHapticEffect_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayBufferHapticEffect_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayBufferHapticEffect_Statics::OculusXRInputFunctionLibrary_eventPlayBufferHapticEffect_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayBufferHapticEffect_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayBufferHapticEffect_Statics::Function_MetaDataParams) };
@@ -1907,7 +1987,7 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayCurveHapticEffect_Statics::NewProp_Hand_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayCurveHapticEffect_Statics::NewProp_Hand = { "Hand", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventPlayCurveHapticEffect_Parms, Hand), Z_Construct_UEnum_InputCore_EControllerHand, METADATA_PARAMS(0, nullptr) }; // 2510333578
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayCurveHapticEffect_Statics::NewProp_Location_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayCurveHapticEffect_Statics::NewProp_Location = { "Location", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventPlayCurveHapticEffect_Parms, Location), Z_Construct_UEnum_OculusXRInput_EOculusXRHandHapticsLocation, METADATA_PARAMS(0, nullptr) }; // 1207056661
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayCurveHapticEffect_Statics::NewProp_Location = { "Location", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventPlayCurveHapticEffect_Parms, Location), Z_Construct_UEnum_OculusXRInput_EOculusXRHandHapticsLocation, METADATA_PARAMS(0, nullptr) }; // 553875947
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayCurveHapticEffect_Statics::NewProp_Scale = { "Scale", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventPlayCurveHapticEffect_Parms, Scale), METADATA_PARAMS(0, nullptr) };
 	void Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayCurveHapticEffect_Statics::NewProp_bLoop_SetBit(void* Obj)
 	{
@@ -1926,12 +2006,16 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayCurveHapticEffect_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|Controller" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Play a haptic feedback curve on the player's controller with location support.\n\x09 * The curve data will be sampled and sent to controller to vibrate a specific location at each frame.\n\x09 * @param\x09HapticEffect\x09\x09\x09The haptic effect to play\n\x09 * @param\x09Hand\x09\x09\x09\x09\x09Which hand to play the effect on\n\x09 * @param\x09Location\x09\x09\x09\x09Which hand location to play the effect on\n\x09 * @param\x09Scale\x09\x09\x09\x09\x09Scale between 0.0 and 1.0 on the intensity of playback\n\x09 */" },
+#endif
 		{ "CPP_Default_bLoop", "false" },
 		{ "CPP_Default_Location", "Hand" },
 		{ "CPP_Default_Scale", "1.000000" },
 		{ "ModuleRelativePath", "Public/OculusXRInputFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Play a haptic feedback curve on the player's controller with location support.\nThe curve data will be sampled and sent to controller to vibrate a specific location at each frame.\n@param       HapticEffect                    The haptic effect to play\n@param       Hand                                    Which hand to play the effect on\n@param       Location                                Which hand location to play the effect on\n@param       Scale                                   Scale between 0.0 and 1.0 on the intensity of playback" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayCurveHapticEffect_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRInputFunctionLibrary, nullptr, "PlayCurveHapticEffect", nullptr, nullptr, Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayCurveHapticEffect_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayCurveHapticEffect_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayCurveHapticEffect_Statics::OculusXRInputFunctionLibrary_eventPlayCurveHapticEffect_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayCurveHapticEffect_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayCurveHapticEffect_Statics::Function_MetaDataParams) };
@@ -1995,12 +2079,16 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlaySoundWaveHapticEffect_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|Controller" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Play a haptic feedback soundwave on the player's controller.\n\x09 * In each frame, the soundwave data will be split into a batch of data and sent to controller.\n\x09 * The data duration of each frame is equal to controller's maximum haptics duration which can be queried with GetMaxHapticDuration.\n\x09 * @param\x09HapticEffect\x09\x09\x09The haptic effect to play\n\x09 * @param\x09Hand\x09\x09\x09\x09\x09Which hand to play the effect on\n\x09 * @param\x09""bAppend\x09\x09\x09\x09\x09""False: any existing samples will be cleared and a new haptic effect will begin; True: samples will be appended to the currently playing effect\n\x09 * @param\x09Scale\x09\x09\x09\x09\x09Scale between 0.0 and 1.0 on the intensity of playback\n\x09 */" },
+#endif
 		{ "CPP_Default_bAppend", "false" },
 		{ "CPP_Default_bLoop", "false" },
 		{ "CPP_Default_Scale", "1.000000" },
 		{ "ModuleRelativePath", "Public/OculusXRInputFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Play a haptic feedback soundwave on the player's controller.\nIn each frame, the soundwave data will be split into a batch of data and sent to controller.\nThe data duration of each frame is equal to controller's maximum haptics duration which can be queried with GetMaxHapticDuration.\n@param       HapticEffect                    The haptic effect to play\n@param       Hand                                    Which hand to play the effect on\n@param       bAppend                                 False: any existing samples will be cleared and a new haptic effect will begin; True: samples will be appended to the currently playing effect\n@param       Scale                                   Scale between 0.0 and 1.0 on the intensity of playback" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlaySoundWaveHapticEffect_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRInputFunctionLibrary, nullptr, "PlaySoundWaveHapticEffect", nullptr, nullptr, Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlaySoundWaveHapticEffect_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlaySoundWaveHapticEffect_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlaySoundWaveHapticEffect_Statics::OculusXRInputFunctionLibrary_eventPlaySoundWaveHapticEffect_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlaySoundWaveHapticEffect_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlaySoundWaveHapticEffect_Statics::Function_MetaDataParams) };
@@ -2030,7 +2118,7 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetControllerDrivenHandPoses_Statics::NewProp_Type_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetControllerDrivenHandPoses_Statics::NewProp_Type = { "Type", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventSetControllerDrivenHandPoses_Parms, Type), Z_Construct_UEnum_OculusXRInput_EOculusXRControllerDrivenHandPoseTypes, METADATA_PARAMS(0, nullptr) }; // 2333730877
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetControllerDrivenHandPoses_Statics::NewProp_Type = { "Type", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventSetControllerDrivenHandPoses_Parms, Type), Z_Construct_UEnum_OculusXRInput_EOculusXRControllerDrivenHandPoseTypes, METADATA_PARAMS(0, nullptr) }; // 621220819
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetControllerDrivenHandPoses_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetControllerDrivenHandPoses_Statics::NewProp_Type_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetControllerDrivenHandPoses_Statics::NewProp_Type,
@@ -2038,9 +2126,13 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetControllerDrivenHandPoses_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|Controller" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Set if / how controller inputs are used to build a syntheic hand pose.\n\x09 * @param\x09Type\x09\x09\x09\x09\x09How the hand should be posed.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRInputFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set if / how controller inputs are used to build a syntheic hand pose.\n@param       Type                                    How the hand should be posed." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetControllerDrivenHandPoses_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRInputFunctionLibrary, nullptr, "SetControllerDrivenHandPoses", nullptr, nullptr, Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetControllerDrivenHandPoses_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetControllerDrivenHandPoses_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetControllerDrivenHandPoses_Statics::OculusXRInputFunctionLibrary_eventSetControllerDrivenHandPoses_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetControllerDrivenHandPoses_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetControllerDrivenHandPoses_Statics::Function_MetaDataParams) };
@@ -2097,7 +2189,7 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetHapticsByValue_Statics::NewProp_Hand_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetHapticsByValue_Statics::NewProp_Hand = { "Hand", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventSetHapticsByValue_Parms, Hand), Z_Construct_UEnum_InputCore_EControllerHand, METADATA_PARAMS(0, nullptr) }; // 2510333578
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetHapticsByValue_Statics::NewProp_Location_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetHapticsByValue_Statics::NewProp_Location = { "Location", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventSetHapticsByValue_Parms, Location), Z_Construct_UEnum_OculusXRInput_EOculusXRHandHapticsLocation, METADATA_PARAMS(0, nullptr) }; // 1207056661
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetHapticsByValue_Statics::NewProp_Location = { "Location", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventSetHapticsByValue_Parms, Location), Z_Construct_UEnum_OculusXRInput_EOculusXRHandHapticsLocation, METADATA_PARAMS(0, nullptr) }; // 553875947
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetHapticsByValue_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetHapticsByValue_Statics::NewProp_Frequency,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetHapticsByValue_Statics::NewProp_Amplitude,
@@ -2109,10 +2201,14 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetHapticsByValue_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|Controller" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Set the value of the haptics for the specified hand and location directly, using frequency and amplitude.  NOTE:  If a curve is already\n\x09 * playing for this hand, it will be cancelled in favour of the specified values.\n\x09 *\n\x09 * @param\x09""Frequency\x09\x09\x09\x09The normalized frequency [0.0, 1.0] to play through the haptics system\n\x09 * @param\x09""Amplitude\x09\x09\x09\x09The normalized amplitude [0.0, 1.0] to set the haptic feedback to\n\x09 * @param\x09Hand\x09\x09\x09\x09\x09Which hand to play the effect on\n\x09 * @param\x09Location\x09\x09\x09\x09Which hand location to play the effect on\n\x09 */" },
+#endif
 		{ "CPP_Default_Location", "Hand" },
 		{ "ModuleRelativePath", "Public/OculusXRInputFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set the value of the haptics for the specified hand and location directly, using frequency and amplitude.  NOTE:  If a curve is already\nplaying for this hand, it will be cancelled in favour of the specified values.\n\n@param       Frequency                               The normalized frequency [0.0, 1.0] to play through the haptics system\n@param       Amplitude                               The normalized amplitude [0.0, 1.0] to set the haptic feedback to\n@param       Hand                                    Which hand to play the effect on\n@param       Location                                Which hand location to play the effect on" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetHapticsByValue_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRInputFunctionLibrary, nullptr, "SetHapticsByValue", nullptr, nullptr, Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetHapticsByValue_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetHapticsByValue_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetHapticsByValue_Statics::OculusXRInputFunctionLibrary_eventSetHapticsByValue_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetHapticsByValue_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetHapticsByValue_Statics::Function_MetaDataParams) };
@@ -2147,7 +2243,7 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_StopHapticEffect_Statics::NewProp_Hand_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_StopHapticEffect_Statics::NewProp_Hand = { "Hand", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventStopHapticEffect_Parms, Hand), Z_Construct_UEnum_InputCore_EControllerHand, METADATA_PARAMS(0, nullptr) }; // 2510333578
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_StopHapticEffect_Statics::NewProp_Location_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_StopHapticEffect_Statics::NewProp_Location = { "Location", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventStopHapticEffect_Parms, Location), Z_Construct_UEnum_OculusXRInput_EOculusXRHandHapticsLocation, METADATA_PARAMS(0, nullptr) }; // 1207056661
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_StopHapticEffect_Statics::NewProp_Location = { "Location", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRInputFunctionLibrary_eventStopHapticEffect_Parms, Location), Z_Construct_UEnum_OculusXRInput_EOculusXRHandHapticsLocation, METADATA_PARAMS(0, nullptr) }; // 553875947
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOculusXRInputFunctionLibrary_StopHapticEffect_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOculusXRInputFunctionLibrary_StopHapticEffect_Statics::NewProp_Hand_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOculusXRInputFunctionLibrary_StopHapticEffect_Statics::NewProp_Hand,
@@ -2157,10 +2253,14 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRInputFunctionLibrary_StopHapticEffect_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|Controller" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Stops a playing haptic feedback curve at a specific location.\n\x09 * @param\x09HapticEffect\x09\x09\x09The haptic effect to stop\n\x09 * @param\x09Hand\x09\x09\x09\x09\x09Which hand to stop the effect for\n\x09 * @param\x09Location\x09\x09\x09\x09Which hand location to play the effect on\n\x09 */" },
+#endif
 		{ "CPP_Default_Location", "Hand" },
 		{ "ModuleRelativePath", "Public/OculusXRInputFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Stops a playing haptic feedback curve at a specific location.\n@param       HapticEffect                    The haptic effect to stop\n@param       Hand                                    Which hand to stop the effect for\n@param       Location                                Which hand location to play the effect on" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRInputFunctionLibrary_StopHapticEffect_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRInputFunctionLibrary, nullptr, "StopHapticEffect", nullptr, nullptr, Z_Construct_UFunction_UOculusXRInputFunctionLibrary_StopHapticEffect_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_StopHapticEffect_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_StopHapticEffect_Statics::OculusXRInputFunctionLibrary_eventStopHapticEffect_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRInputFunctionLibrary_StopHapticEffect_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRInputFunctionLibrary_StopHapticEffect_Statics::Function_MetaDataParams) };
@@ -2196,28 +2296,28 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRInputFunctionLibrary_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UOculusXRInputFunctionLibrary_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_ConvertBoneToFinger, "ConvertBoneToFinger" }, // 3381374718
-		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneName, "GetBoneName" }, // 2758746481
-		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneRotation, "GetBoneRotation" }, // 1195372865
-		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetControllerSampleRateHz, "GetControllerSampleRateHz" }, // 125552668
-		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetDominantHand, "GetDominantHand" }, // 517965334
-		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetFingerTrackingConfidence, "GetFingerTrackingConfidence" }, // 1208412178
-		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetHandScale, "GetHandScale" }, // 220940137
-		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetHandSkeletalMesh, "GetHandSkeletalMesh" }, // 2978519843
-		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetMaxHapticDuration, "GetMaxHapticDuration" }, // 58080368
-		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetPointerPose, "GetPointerPose" }, // 1188423089
-		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetTrackingConfidence, "GetTrackingConfidence" }, // 2408234431
-		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_InitializeHandPhysics, "InitializeHandPhysics" }, // 3595275568
-		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsHandPositionValid, "IsHandPositionValid" }, // 2780549685
-		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsHandTrackingEnabled, "IsHandTrackingEnabled" }, // 1553683826
-		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsPointerPoseValid, "IsPointerPoseValid" }, // 1975172577
-		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayAmplitudeEnvelopeHapticEffect, "PlayAmplitudeEnvelopeHapticEffect" }, // 3224477551
-		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayBufferHapticEffect, "PlayBufferHapticEffect" }, // 1945857458
-		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayCurveHapticEffect, "PlayCurveHapticEffect" }, // 2896454854
-		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlaySoundWaveHapticEffect, "PlaySoundWaveHapticEffect" }, // 97652533
-		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetControllerDrivenHandPoses, "SetControllerDrivenHandPoses" }, // 1015560572
-		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetHapticsByValue, "SetHapticsByValue" }, // 2856853113
-		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_StopHapticEffect, "StopHapticEffect" }, // 855062830
+		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_ConvertBoneToFinger, "ConvertBoneToFinger" }, // 2013479749
+		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneName, "GetBoneName" }, // 1879662885
+		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetBoneRotation, "GetBoneRotation" }, // 2795944047
+		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetControllerSampleRateHz, "GetControllerSampleRateHz" }, // 309025528
+		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetDominantHand, "GetDominantHand" }, // 1957739153
+		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetFingerTrackingConfidence, "GetFingerTrackingConfidence" }, // 2527222829
+		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetHandScale, "GetHandScale" }, // 42516643
+		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetHandSkeletalMesh, "GetHandSkeletalMesh" }, // 1040596709
+		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetMaxHapticDuration, "GetMaxHapticDuration" }, // 3848096364
+		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetPointerPose, "GetPointerPose" }, // 766005221
+		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_GetTrackingConfidence, "GetTrackingConfidence" }, // 1497008901
+		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_InitializeHandPhysics, "InitializeHandPhysics" }, // 450865332
+		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsHandPositionValid, "IsHandPositionValid" }, // 2097014315
+		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsHandTrackingEnabled, "IsHandTrackingEnabled" }, // 3783850
+		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_IsPointerPoseValid, "IsPointerPoseValid" }, // 2904307004
+		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayAmplitudeEnvelopeHapticEffect, "PlayAmplitudeEnvelopeHapticEffect" }, // 1556899460
+		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayBufferHapticEffect, "PlayBufferHapticEffect" }, // 2767176410
+		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlayCurveHapticEffect, "PlayCurveHapticEffect" }, // 3366568868
+		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_PlaySoundWaveHapticEffect, "PlaySoundWaveHapticEffect" }, // 3283329621
+		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetControllerDrivenHandPoses, "SetControllerDrivenHandPoses" }, // 2844936697
+		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_SetHapticsByValue, "SetHapticsByValue" }, // 2331373382
+		{ &Z_Construct_UFunction_UOculusXRInputFunctionLibrary_StopHapticEffect, "StopHapticEffect" }, // 4067625226
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRInputFunctionLibrary_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -2258,29 +2358,29 @@ template<> OCULUSXRINPUT_API UScriptStruct* StaticStruct<FOculusXRCapsuleCollide
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOculusXRInputFunctionLibrary);
 	UOculusXRInputFunctionLibrary::~UOculusXRInputFunctionLibrary() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics
+	struct Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::EnumInfo[] = {
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::EnumInfo[] = {
 		{ EOculusXRHandType_StaticEnum, TEXT("EOculusXRHandType"), &Z_Registration_Info_UEnum_EOculusXRHandType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2291255107U) },
 		{ EOculusXRSide_StaticEnum, TEXT("EOculusXRSide"), &Z_Registration_Info_UEnum_EOculusXRSide, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 718879456U) },
 		{ EOculusXRTrackingConfidence_StaticEnum, TEXT("EOculusXRTrackingConfidence"), &Z_Registration_Info_UEnum_EOculusXRTrackingConfidence, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1007667471U) },
 		{ EOculusXRFinger_StaticEnum, TEXT("EOculusXRFinger"), &Z_Registration_Info_UEnum_EOculusXRFinger, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1217896942U) },
-		{ EOculusXRBone_StaticEnum, TEXT("EOculusXRBone"), &Z_Registration_Info_UEnum_EOculusXRBone, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1438387645U) },
-		{ EOculusXRHandHapticsLocation_StaticEnum, TEXT("EOculusXRHandHapticsLocation"), &Z_Registration_Info_UEnum_EOculusXRHandHapticsLocation, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1207056661U) },
-		{ EOculusXRControllerDrivenHandPoseTypes_StaticEnum, TEXT("EOculusXRControllerDrivenHandPoseTypes"), &Z_Registration_Info_UEnum_EOculusXRControllerDrivenHandPoseTypes, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2333730877U) },
+		{ EOculusXRBone_StaticEnum, TEXT("EOculusXRBone"), &Z_Registration_Info_UEnum_EOculusXRBone, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3752745554U) },
+		{ EOculusXRHandHapticsLocation_StaticEnum, TEXT("EOculusXRHandHapticsLocation"), &Z_Registration_Info_UEnum_EOculusXRHandHapticsLocation, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 553875947U) },
+		{ EOculusXRControllerDrivenHandPoseTypes_StaticEnum, TEXT("EOculusXRControllerDrivenHandPoseTypes"), &Z_Registration_Info_UEnum_EOculusXRControllerDrivenHandPoseTypes, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 621220819U) },
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::ScriptStructInfo[] = {
-		{ FOculusXRCapsuleCollider::StaticStruct, Z_Construct_UScriptStruct_FOculusXRCapsuleCollider_Statics::NewStructOps, TEXT("OculusXRCapsuleCollider"), &Z_Registration_Info_UScriptStruct_OculusXRCapsuleCollider, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRCapsuleCollider), 973988965U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::ScriptStructInfo[] = {
+		{ FOculusXRCapsuleCollider::StaticStruct, Z_Construct_UScriptStruct_FOculusXRCapsuleCollider_Statics::NewStructOps, TEXT("OculusXRCapsuleCollider"), &Z_Registration_Info_UScriptStruct_OculusXRCapsuleCollider, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRCapsuleCollider), 3947959947U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRInputFunctionLibrary, UOculusXRInputFunctionLibrary::StaticClass, TEXT("UOculusXRInputFunctionLibrary"), &Z_Registration_Info_UClass_UOculusXRInputFunctionLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRInputFunctionLibrary), 2994025789U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UOculusXRInputFunctionLibrary, UOculusXRInputFunctionLibrary::StaticClass, TEXT("UOculusXRInputFunctionLibrary"), &Z_Registration_Info_UClass_UOculusXRInputFunctionLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRInputFunctionLibrary), 792943240U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_1154785072(TEXT("/Script/OculusXRInput"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::ScriptStructInfo),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::EnumInfo));
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_3995163218(TEXT("/Script/OculusXRInput"),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRInput_Public_OculusXRInputFunctionLibrary_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

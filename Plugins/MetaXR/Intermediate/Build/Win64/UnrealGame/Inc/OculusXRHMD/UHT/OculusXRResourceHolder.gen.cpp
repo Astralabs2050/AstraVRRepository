@@ -44,7 +44,9 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRResourceHolder() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRResourceHolder_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRResourceHolder_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n *\n */" },
+#endif
 		{ "IncludePath", "OculusXRResourceHolder.h" },
 		{ "ModuleRelativePath", "Private/OculusXRResourceHolder.h" },
 	};
@@ -91,15 +93,15 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRResourceHolder() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOculusXRResourceHolder);
 	UOculusXRResourceHolder::~UOculusXRResourceHolder() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h_Statics
+	struct Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRResourceHolder, UOculusXRResourceHolder::StaticClass, TEXT("UOculusXRResourceHolder"), &Z_Registration_Info_UClass_UOculusXRResourceHolder, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRResourceHolder), 799146303U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UOculusXRResourceHolder, UOculusXRResourceHolder::StaticClass, TEXT("UOculusXRResourceHolder"), &Z_Registration_Info_UClass_UOculusXRResourceHolder, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRResourceHolder), 3132591973U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h_1468629045(TEXT("/Script/OculusXRHMD"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h_710662883(TEXT("/Script/OculusXRHMD"),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRHMD_Private_OculusXRResourceHolder_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

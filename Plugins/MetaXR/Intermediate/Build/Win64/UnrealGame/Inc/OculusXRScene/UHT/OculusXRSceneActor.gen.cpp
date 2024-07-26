@@ -5,8 +5,8 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "D:/OculusXR-release/HostProject/Plugins/OculusXR/Source/OculusXRScene/Public/OculusXRSceneActor.h"
-#include "D:/OculusXR-release/HostProject/Plugins/OculusXR/Source/OculusXRAnchors/Public/OculusXRAnchorTypes.h"
+#include "H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Public/OculusXRSceneActor.h"
+#include "H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRAnchors/Public/OculusXRAnchorTypes.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeOculusXRSceneActor() {}
 // Cross Module References
@@ -54,13 +54,17 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRSceneActor() {}
 		{ "ALWAYS.DisplayName", "Always" },
 		{ "ALWAYS.Name", "ALWAYS" },
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** EOculusXRLaunchCaptureFlowWhenMissingScene\n* Used to dictate whether the actor should launch the Capture Flow application when a scene is not detected on the device.\n* The Actor will check if a scene capture is either non-existent or invalid (ie. missing walls/ceiling/floor) before checking if Capture Flow\n* should be launched.\n*\n* NEVER:\x09will never launch Flow Capture.\n* ONCE:\x09\x09will only launch it once.  If the actor still doesn't detect that a scene was captured, it will not launch Capture Flow again.\n* ALWAYS:\x09will always re-launch Flow Capture if a scene was not detected on the device.\n*/" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRSceneActor.h" },
 		{ "NEVER.DisplayName", "Never" },
 		{ "NEVER.Name", "NEVER" },
 		{ "ONCE.DisplayName", "Once" },
 		{ "ONCE.Name", "ONCE" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "EOculusXRLaunchCaptureFlowWhenMissingScene\nUsed to dictate whether the actor should launch the Capture Flow application when a scene is not detected on the device.\nThe Actor will check if a scene capture is either non-existent or invalid (ie. missing walls/ceiling/floor) before checking if Capture Flow\nshould be launched.\n\nNEVER:       will never launch Flow Capture.\nONCE:                will only launch it once.  If the actor still doesn't detect that a scene was captured, it will not launch Capture Flow again.\nALWAYS:      will always re-launch Flow Capture if a scene was not detected on the device." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_OculusXRScene_EOculusXRLaunchCaptureFlowWhenMissingScene_Statics::EnumParams = {
@@ -125,9 +129,13 @@ template<> OCULUSXRSCENE_API UScriptStruct* StaticStruct<FOculusXRSpawnedSceneAn
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOculusXRSpawnedSceneAnchorProperties_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** FOculusXRSpawnedSceneAnchorProperties\n* Properties/Components that a spawned scene anchor will use.\n*/" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRSceneActor.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "FOculusXRSpawnedSceneAnchorProperties\nProperties/Components that a spawned scene anchor will use." },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FOculusXRSpawnedSceneAnchorProperties_Statics::NewStructOps()
@@ -366,8 +374,8 @@ template<> OCULUSXRSCENE_API UScriptStruct* StaticStruct<FOculusXRSpawnedSceneAn
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AOculusXRSceneActor_GetRoomLayouts_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOculusXRRoomLayout, METADATA_PARAMS(0, nullptr) }; // 3858275171
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_AOculusXRSceneActor_GetRoomLayouts_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRSceneActor_eventGetRoomLayouts_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 3858275171
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AOculusXRSceneActor_GetRoomLayouts_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOculusXRRoomLayout, METADATA_PARAMS(0, nullptr) }; // 1295255245
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_AOculusXRSceneActor_GetRoomLayouts_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRSceneActor_eventGetRoomLayouts_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 1295255245
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AOculusXRSceneActor_GetRoomLayouts_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AOculusXRSceneActor_GetRoomLayouts_Statics::NewProp_ReturnValue_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AOculusXRSceneActor_GetRoomLayouts_Statics::NewProp_ReturnValue,
@@ -686,7 +694,7 @@ template<> OCULUSXRSCENE_API UScriptStruct* StaticStruct<FOculusXRSpawnedSceneAn
 	const FClassFunctionLinkInfo Z_Construct_UClass_AOculusXRSceneActor_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AOculusXRSceneActor_ClearScene, "ClearScene" }, // 2684596482
 		{ &Z_Construct_UFunction_AOculusXRSceneActor_GetActorsBySemanticLabel, "GetActorsBySemanticLabel" }, // 2218403958
-		{ &Z_Construct_UFunction_AOculusXRSceneActor_GetRoomLayouts, "GetRoomLayouts" }, // 437096516
+		{ &Z_Construct_UFunction_AOculusXRSceneActor_GetRoomLayouts, "GetRoomLayouts" }, // 4253364466
 		{ &Z_Construct_UFunction_AOculusXRSceneActor_IsRoomLayoutValid, "IsRoomLayoutValid" }, // 1879376091
 		{ &Z_Construct_UFunction_AOculusXRSceneActor_IsScenePopulated, "IsScenePopulated" }, // 1490242306
 		{ &Z_Construct_UFunction_AOculusXRSceneActor_LaunchCaptureFlow, "LaunchCaptureFlow" }, // 3145726315
@@ -698,11 +706,15 @@ template<> OCULUSXRSCENE_API UScriptStruct* StaticStruct<FOculusXRSpawnedSceneAn
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AOculusXRSceneActor_Statics::Class_MetaDataParams[] = {
 		{ "ClassGroupNames", "OculusXRScene" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n* AOculusXRSceneActor\n* The purpose of this actor is to be able to spawn \"scene anchor\" actors.\n*\n* Each actor type (based on their semantic label) can be configured to be spawned with a specific mesh and actor component.\n*\n* Overall, it provides a simple interface to be able to quickly get a captured scene from Capture Flow populated at runtime.\n* It also provides a basic and flexible template to making use of the OculusAnchorSDK and UOculusXRRoomLayoutManagerComponent\n* to drive the actor's logic.  This removes the need for the developer to implement a system from scratch that makes use of\n* the native methods and components.\n*\n* TLDR:\n* - This actor populates a captured scene (created in Capture Flow) by spawning child actors with predefined actor and mesh components.\n* - Can be used as is, or can be derived or modified as needed depending on the application's needs.\n*/" },
+#endif
 		{ "IncludePath", "OculusXRSceneActor.h" },
 		{ "ModuleRelativePath", "Public/OculusXRSceneActor.h" },
 		{ "ObjectInitializerConstructorDeclared", "" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "AOculusXRSceneActor\nThe purpose of this actor is to be able to spawn \"scene anchor\" actors.\n\nEach actor type (based on their semantic label) can be configured to be spawned with a specific mesh and actor component.\n\nOverall, it provides a simple interface to be able to quickly get a captured scene from Capture Flow populated at runtime.\nIt also provides a basic and flexible template to making use of the OculusAnchorSDK and UOculusXRRoomLayoutManagerComponent\nto drive the actor's logic.  This removes the need for the developer to implement a system from scratch that makes use of\nthe native methods and components.\n\nTLDR:\n- This actor populates a captured scene (created in Capture Flow) by spawning child actors with predefined actor and mesh components.\n- Can be used as is, or can be derived or modified as needed depending on the application's needs." },
+#endif
 	};
 #endif
 #if WITH_METADATA
@@ -711,7 +723,7 @@ template<> OCULUSXRSCENE_API UScriptStruct* StaticStruct<FOculusXRSpawnedSceneAn
 		{ "ModuleRelativePath", "Public/OculusXRSceneActor.h" },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_LauchCaptureFlowWhenMissingScene = { "LauchCaptureFlowWhenMissingScene", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AOculusXRSceneActor, LauchCaptureFlowWhenMissingScene), Z_Construct_UEnum_OculusXRScene_EOculusXRLaunchCaptureFlowWhenMissingScene, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_LauchCaptureFlowWhenMissingScene_MetaData), Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_LauchCaptureFlowWhenMissingScene_MetaData) }; // 4267762725
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_LauchCaptureFlowWhenMissingScene = { "LauchCaptureFlowWhenMissingScene", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AOculusXRSceneActor, LauchCaptureFlowWhenMissingScene), Z_Construct_UEnum_OculusXRScene_EOculusXRLaunchCaptureFlowWhenMissingScene, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_LauchCaptureFlowWhenMissingScene_MetaData), Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_LauchCaptureFlowWhenMissingScene_MetaData) }; // 1640170918
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_MaxQueries_MetaData[] = {
 		{ "Category", "OculusXR|Scene Actor" },
@@ -737,9 +749,13 @@ template<> OCULUSXRSCENE_API UScriptStruct* StaticStruct<FOculusXRSpawnedSceneAn
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_bActiveRoomOnly_MetaData[] = {
 		{ "Category", "OculusXR|Scene Actor" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// If true then when the scene model is loaded we will only attempt to populate the room the user is standing in.\n// Otherwise all rooms and all scene anchors will be loaded.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRSceneActor.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If true then when the scene model is loaded we will only attempt to populate the room the user is standing in.\nOtherwise all rooms and all scene anchors will be loaded." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_bActiveRoomOnly_SetBit(void* Obj)
@@ -747,7 +763,7 @@ template<> OCULUSXRSCENE_API UScriptStruct* StaticStruct<FOculusXRSpawnedSceneAn
 		((AOculusXRSceneActor*)Obj)->bActiveRoomOnly = 1;
 	}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_bActiveRoomOnly = { "bActiveRoomOnly", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(AOculusXRSceneActor), &Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_bActiveRoomOnly_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_bActiveRoomOnly_MetaData), Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_bActiveRoomOnly_MetaData) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_ScenePlaneSpawnedSceneAnchorProperties_ValueProp = { "ScenePlaneSpawnedSceneAnchorProperties", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FOculusXRSpawnedSceneAnchorProperties, METADATA_PARAMS(0, nullptr) }; // 93667347
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_ScenePlaneSpawnedSceneAnchorProperties_ValueProp = { "ScenePlaneSpawnedSceneAnchorProperties", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FOculusXRSpawnedSceneAnchorProperties, METADATA_PARAMS(0, nullptr) }; // 649928574
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_ScenePlaneSpawnedSceneAnchorProperties_Key_KeyProp = { "ScenePlaneSpawnedSceneAnchorProperties_Key", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_ScenePlaneSpawnedSceneAnchorProperties_MetaData[] = {
@@ -755,8 +771,8 @@ template<> OCULUSXRSCENE_API UScriptStruct* StaticStruct<FOculusXRSpawnedSceneAn
 		{ "ModuleRelativePath", "Public/OculusXRSceneActor.h" },
 	};
 #endif
-	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_ScenePlaneSpawnedSceneAnchorProperties = { "ScenePlaneSpawnedSceneAnchorProperties", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AOculusXRSceneActor, ScenePlaneSpawnedSceneAnchorProperties), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_ScenePlaneSpawnedSceneAnchorProperties_MetaData), Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_ScenePlaneSpawnedSceneAnchorProperties_MetaData) }; // 93667347
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_SceneVolumeSpawnedSceneAnchorProperties_ValueProp = { "SceneVolumeSpawnedSceneAnchorProperties", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FOculusXRSpawnedSceneAnchorProperties, METADATA_PARAMS(0, nullptr) }; // 93667347
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_ScenePlaneSpawnedSceneAnchorProperties = { "ScenePlaneSpawnedSceneAnchorProperties", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AOculusXRSceneActor, ScenePlaneSpawnedSceneAnchorProperties), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_ScenePlaneSpawnedSceneAnchorProperties_MetaData), Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_ScenePlaneSpawnedSceneAnchorProperties_MetaData) }; // 649928574
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_SceneVolumeSpawnedSceneAnchorProperties_ValueProp = { "SceneVolumeSpawnedSceneAnchorProperties", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FOculusXRSpawnedSceneAnchorProperties, METADATA_PARAMS(0, nullptr) }; // 649928574
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_SceneVolumeSpawnedSceneAnchorProperties_Key_KeyProp = { "SceneVolumeSpawnedSceneAnchorProperties_Key", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_SceneVolumeSpawnedSceneAnchorProperties_MetaData[] = {
@@ -764,15 +780,15 @@ template<> OCULUSXRSCENE_API UScriptStruct* StaticStruct<FOculusXRSpawnedSceneAn
 		{ "ModuleRelativePath", "Public/OculusXRSceneActor.h" },
 	};
 #endif
-	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_SceneVolumeSpawnedSceneAnchorProperties = { "SceneVolumeSpawnedSceneAnchorProperties", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AOculusXRSceneActor, SceneVolumeSpawnedSceneAnchorProperties), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_SceneVolumeSpawnedSceneAnchorProperties_MetaData), Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_SceneVolumeSpawnedSceneAnchorProperties_MetaData) }; // 93667347
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_RoomLayouts_ValueProp = { "RoomLayouts", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FOculusXRRoomLayout, METADATA_PARAMS(0, nullptr) }; // 3858275171
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_SceneVolumeSpawnedSceneAnchorProperties = { "SceneVolumeSpawnedSceneAnchorProperties", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AOculusXRSceneActor, SceneVolumeSpawnedSceneAnchorProperties), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_SceneVolumeSpawnedSceneAnchorProperties_MetaData), Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_SceneVolumeSpawnedSceneAnchorProperties_MetaData) }; // 649928574
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_RoomLayouts_ValueProp = { "RoomLayouts", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FOculusXRRoomLayout, METADATA_PARAMS(0, nullptr) }; // 1295255245
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_RoomLayouts_Key_KeyProp = { "RoomLayouts_Key", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOculusXRUInt64, METADATA_PARAMS(0, nullptr) }; // 2105598926
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_RoomLayouts_MetaData[] = {
 		{ "ModuleRelativePath", "Public/OculusXRSceneActor.h" },
 	};
 #endif
-	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_RoomLayouts = { "RoomLayouts", nullptr, (EPropertyFlags)0x0040000000002000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AOculusXRSceneActor, RoomLayouts), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_RoomLayouts_MetaData), Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_RoomLayouts_MetaData) }; // 2105598926 3858275171
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_RoomLayouts = { "RoomLayouts", nullptr, (EPropertyFlags)0x0040000000002000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AOculusXRSceneActor, RoomLayouts), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_RoomLayouts_MetaData), Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_RoomLayouts_MetaData) }; // 2105598926 1295255245
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AOculusXRSceneActor_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_LauchCaptureFlowWhenMissingScene,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOculusXRSceneActor_Statics::NewProp_MaxQueries,
@@ -821,23 +837,23 @@ template<> OCULUSXRSCENE_API UScriptStruct* StaticStruct<FOculusXRSpawnedSceneAn
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AOculusXRSceneActor);
 	AOculusXRSceneActor::~AOculusXRSceneActor() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_Statics
+	struct Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_Statics::EnumInfo[] = {
-		{ EOculusXRLaunchCaptureFlowWhenMissingScene_StaticEnum, TEXT("EOculusXRLaunchCaptureFlowWhenMissingScene"), &Z_Registration_Info_UEnum_EOculusXRLaunchCaptureFlowWhenMissingScene, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4267762725U) },
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_Statics::EnumInfo[] = {
+		{ EOculusXRLaunchCaptureFlowWhenMissingScene_StaticEnum, TEXT("EOculusXRLaunchCaptureFlowWhenMissingScene"), &Z_Registration_Info_UEnum_EOculusXRLaunchCaptureFlowWhenMissingScene, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1640170918U) },
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_Statics::ScriptStructInfo[] = {
-		{ FOculusXRSpawnedSceneAnchorProperties::StaticStruct, Z_Construct_UScriptStruct_FOculusXRSpawnedSceneAnchorProperties_Statics::NewStructOps, TEXT("OculusXRSpawnedSceneAnchorProperties"), &Z_Registration_Info_UScriptStruct_OculusXRSpawnedSceneAnchorProperties, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRSpawnedSceneAnchorProperties), 93667347U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_Statics::ScriptStructInfo[] = {
+		{ FOculusXRSpawnedSceneAnchorProperties::StaticStruct, Z_Construct_UScriptStruct_FOculusXRSpawnedSceneAnchorProperties_Statics::NewStructOps, TEXT("OculusXRSpawnedSceneAnchorProperties"), &Z_Registration_Info_UScriptStruct_OculusXRSpawnedSceneAnchorProperties, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOculusXRSpawnedSceneAnchorProperties), 649928574U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AOculusXRSceneActor, AOculusXRSceneActor::StaticClass, TEXT("AOculusXRSceneActor"), &Z_Registration_Info_UClass_AOculusXRSceneActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AOculusXRSceneActor), 355339950U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_AOculusXRSceneActor, AOculusXRSceneActor::StaticClass, TEXT("AOculusXRSceneActor"), &Z_Registration_Info_UClass_AOculusXRSceneActor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AOculusXRSceneActor), 3142343851U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_543920679(TEXT("/Script/OculusXRScene"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_Statics::ScriptStructInfo),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_Statics::EnumInfo));
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_4074790302(TEXT("/Script/OculusXRScene"),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRScene_Public_OculusXRSceneActor_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

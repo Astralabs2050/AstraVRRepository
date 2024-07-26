@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "D:/OculusXR-release/HostProject/Plugins/OculusXR/Source/OculusXRMR/Public/OculusXRMR_Settings.h"
+#include "H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRMR/Public/OculusXRMR_Settings.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeOculusXRMR_Settings() {}
 // Cross Module References
@@ -54,9 +54,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMR_Settings() {}
 		{ "CD_WebCamera0_DEPRECATED.Name", "EOculusXRMR_CameraDeviceEnum::CD_WebCamera0_DEPRECATED" },
 		{ "CD_WebCamera1_DEPRECATED.DisplayName", "Web Camera 1" },
 		{ "CD_WebCamera1_DEPRECATED.Name", "EOculusXRMR_CameraDeviceEnum::CD_WebCamera1_DEPRECATED" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Deprecated\n" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Deprecated" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_OculusXRMR_EOculusXRMR_CameraDeviceEnum_Statics::EnumParams = {
@@ -359,9 +363,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMR_Settings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRMR_Settings_BindToTrackedCameraIndexIfAvailable_Statics::Function_MetaDataParams[] = {
 		{ "Category", "MetaXR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Bind the casting camera to the calibrated external camera.\n\x09  * (Requires a calibrated external camera)\n\x09  */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Bind the casting camera to the calibrated external camera.\n(Requires a calibrated external camera)" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRMR_Settings_BindToTrackedCameraIndexIfAvailable_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRMR_Settings, nullptr, "BindToTrackedCameraIndexIfAvailable", nullptr, nullptr, Z_Construct_UFunction_UOculusXRMR_Settings_BindToTrackedCameraIndexIfAvailable_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMR_Settings_BindToTrackedCameraIndexIfAvailable_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRMR_Settings_BindToTrackedCameraIndexIfAvailable_Statics::OculusXRMR_Settings_eventBindToTrackedCameraIndexIfAvailable_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMR_Settings_BindToTrackedCameraIndexIfAvailable_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRMR_Settings_BindToTrackedCameraIndexIfAvailable_Statics::Function_MetaDataParams) };
@@ -426,7 +434,7 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMR_Settings() {}
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOculusXRMR_Settings_GetCapturingCamera_Statics::NewProp_ReturnValue_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRMR_Settings_GetCapturingCamera_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRMR_Settings_eventGetCapturingCamera_Parms, ReturnValue), Z_Construct_UEnum_OculusXRMR_EOculusXRMR_CameraDeviceEnum, METADATA_PARAMS(0, nullptr) }; // 522625868
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRMR_Settings_GetCapturingCamera_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRMR_Settings_eventGetCapturingCamera_Parms, ReturnValue), Z_Construct_UEnum_OculusXRMR_EOculusXRMR_CameraDeviceEnum, METADATA_PARAMS(0, nullptr) }; // 2298276722
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOculusXRMR_Settings_GetCapturingCamera_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOculusXRMR_Settings_GetCapturingCamera_Statics::NewProp_ReturnValue_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOculusXRMR_Settings_GetCapturingCamera_Statics::NewProp_ReturnValue,
@@ -434,11 +442,15 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMR_Settings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRMR_Settings_GetCapturingCamera_Statics::Function_MetaDataParams[] = {
 		{ "Category", "MetaXR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** When CompositionMethod is DirectComposition, the physical camera device which provide the frame */" },
+#endif
 		{ "DeprecatedFunction", "" },
 		{ "DeprecationMessage", "Direct Composition deprecated." },
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "When CompositionMethod is DirectComposition, the physical camera device which provide the frame" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRMR_Settings_GetCapturingCamera_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRMR_Settings, nullptr, "GetCapturingCamera", nullptr, nullptr, Z_Construct_UFunction_UOculusXRMR_Settings_GetCapturingCamera_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMR_Settings_GetCapturingCamera_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRMR_Settings_GetCapturingCamera_Statics::OculusXRMR_Settings_eventGetCapturingCamera_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMR_Settings_GetCapturingCamera_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRMR_Settings_GetCapturingCamera_Statics::Function_MetaDataParams) };
@@ -476,9 +488,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMR_Settings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRMR_Settings_GetCompositionMethod_Statics::Function_MetaDataParams[] = {
 		{ "Category", "MetaXR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** ExternalComposition: The casting window includes the background and foreground view\n\x09  * DirectComposition: The game scene would be composited with the camera frame directly\n\x09  */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "ExternalComposition: The casting window includes the background and foreground view\nDirectComposition: The game scene would be composited with the camera frame directly" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRMR_Settings_GetCompositionMethod_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRMR_Settings, nullptr, "GetCompositionMethod", nullptr, nullptr, Z_Construct_UFunction_UOculusXRMR_Settings_GetCompositionMethod_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMR_Settings_GetCompositionMethod_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRMR_Settings_GetCompositionMethod_Statics::OculusXRMR_Settings_eventGetCompositionMethod_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMR_Settings_GetCompositionMethod_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRMR_Settings_GetCompositionMethod_Statics::Function_MetaDataParams) };
@@ -518,9 +534,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMR_Settings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRMR_Settings_GetIsCasting_Statics::Function_MetaDataParams[] = {
 		{ "Category", "MetaXR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Is MRC on and off */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Is MRC on and off" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRMR_Settings_GetIsCasting_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRMR_Settings, nullptr, "GetIsCasting", nullptr, nullptr, Z_Construct_UFunction_UOculusXRMR_Settings_GetIsCasting_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMR_Settings_GetIsCasting_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRMR_Settings_GetIsCasting_Statics::OculusXRMR_Settings_eventGetIsCasting_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMR_Settings_GetIsCasting_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRMR_Settings_GetIsCasting_Statics::Function_MetaDataParams) };
@@ -545,9 +565,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMR_Settings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRMR_Settings_LoadFromIni_Statics::Function_MetaDataParams[] = {
 		{ "Category", "MetaXR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Load settings from the config file */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Load settings from the config file" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRMR_Settings_LoadFromIni_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRMR_Settings, nullptr, "LoadFromIni", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMR_Settings_LoadFromIni_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRMR_Settings_LoadFromIni_Statics::Function_MetaDataParams) };
@@ -570,9 +594,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMR_Settings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRMR_Settings_SaveToIni_Statics::Function_MetaDataParams[] = {
 		{ "Category", "MetaXR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Save settings to the config file */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Save settings to the config file" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRMR_Settings_SaveToIni_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRMR_Settings, nullptr, "SaveToIni", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x44020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMR_Settings_SaveToIni_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRMR_Settings_SaveToIni_Statics::Function_MetaDataParams) };
@@ -600,7 +628,7 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMR_Settings() {}
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOculusXRMR_Settings_SetCapturingCamera_Statics::NewProp_val_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRMR_Settings_SetCapturingCamera_Statics::NewProp_val = { "val", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRMR_Settings_eventSetCapturingCamera_Parms, val), Z_Construct_UEnum_OculusXRMR_EOculusXRMR_CameraDeviceEnum, METADATA_PARAMS(0, nullptr) }; // 522625868
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOculusXRMR_Settings_SetCapturingCamera_Statics::NewProp_val = { "val", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OculusXRMR_Settings_eventSetCapturingCamera_Parms, val), Z_Construct_UEnum_OculusXRMR_EOculusXRMR_CameraDeviceEnum, METADATA_PARAMS(0, nullptr) }; // 2298276722
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOculusXRMR_Settings_SetCapturingCamera_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOculusXRMR_Settings_SetCapturingCamera_Statics::NewProp_val_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOculusXRMR_Settings_SetCapturingCamera_Statics::NewProp_val,
@@ -608,11 +636,15 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMR_Settings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRMR_Settings_SetCapturingCamera_Statics::Function_MetaDataParams[] = {
 		{ "Category", "MetaXR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** When CompositionMethod is DirectComposition, the physical camera device which provide the frame */" },
+#endif
 		{ "DeprecatedFunction", "" },
 		{ "DeprecationMessage", "Direct Composition deprecated." },
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "When CompositionMethod is DirectComposition, the physical camera device which provide the frame" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRMR_Settings_SetCapturingCamera_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRMR_Settings, nullptr, "SetCapturingCamera", nullptr, nullptr, Z_Construct_UFunction_UOculusXRMR_Settings_SetCapturingCamera_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMR_Settings_SetCapturingCamera_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRMR_Settings_SetCapturingCamera_Statics::OculusXRMR_Settings_eventSetCapturingCamera_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMR_Settings_SetCapturingCamera_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRMR_Settings_SetCapturingCamera_Statics::Function_MetaDataParams) };
@@ -650,9 +682,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMR_Settings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRMR_Settings_SetCompositionMethod_Statics::Function_MetaDataParams[] = {
 		{ "Category", "MetaXR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** ExternalComposition: The casting window includes the background and foreground view\n\x09  * DirectComposition: The game scene would be composited with the camera frame directly\n\x09  */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "ExternalComposition: The casting window includes the background and foreground view\nDirectComposition: The game scene would be composited with the camera frame directly" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRMR_Settings_SetCompositionMethod_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRMR_Settings, nullptr, "SetCompositionMethod", nullptr, nullptr, Z_Construct_UFunction_UOculusXRMR_Settings_SetCompositionMethod_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMR_Settings_SetCompositionMethod_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRMR_Settings_SetCompositionMethod_Statics::OculusXRMR_Settings_eventSetCompositionMethod_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMR_Settings_SetCompositionMethod_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRMR_Settings_SetCompositionMethod_Statics::Function_MetaDataParams) };
@@ -692,9 +728,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMR_Settings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRMR_Settings_SetIsCasting_Statics::Function_MetaDataParams[] = {
 		{ "Category", "MetaXR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Turns MRC on and off */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Turns MRC on and off" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRMR_Settings_SetIsCasting_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRMR_Settings, nullptr, "SetIsCasting", nullptr, nullptr, Z_Construct_UFunction_UOculusXRMR_Settings_SetIsCasting_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMR_Settings_SetIsCasting_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRMR_Settings_SetIsCasting_Statics::OculusXRMR_Settings_eventSetIsCasting_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMR_Settings_SetIsCasting_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRMR_Settings_SetIsCasting_Statics::Function_MetaDataParams) };
@@ -797,16 +837,16 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMR_Settings() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRMR_Settings_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UOculusXRMR_Settings_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UOculusXRMR_Settings_BindToTrackedCameraIndexIfAvailable, "BindToTrackedCameraIndexIfAvailable" }, // 4103095648
+		{ &Z_Construct_UFunction_UOculusXRMR_Settings_BindToTrackedCameraIndexIfAvailable, "BindToTrackedCameraIndexIfAvailable" }, // 2359459421
 		{ &Z_Construct_UFunction_UOculusXRMR_Settings_GetBindToTrackedCameraIndex, "GetBindToTrackedCameraIndex" }, // 761490865
-		{ &Z_Construct_UFunction_UOculusXRMR_Settings_GetCapturingCamera, "GetCapturingCamera" }, // 2976970014
-		{ &Z_Construct_UFunction_UOculusXRMR_Settings_GetCompositionMethod, "GetCompositionMethod" }, // 1845412224
-		{ &Z_Construct_UFunction_UOculusXRMR_Settings_GetIsCasting, "GetIsCasting" }, // 1591641083
-		{ &Z_Construct_UFunction_UOculusXRMR_Settings_LoadFromIni, "LoadFromIni" }, // 916200524
-		{ &Z_Construct_UFunction_UOculusXRMR_Settings_SaveToIni, "SaveToIni" }, // 443481255
-		{ &Z_Construct_UFunction_UOculusXRMR_Settings_SetCapturingCamera, "SetCapturingCamera" }, // 3142258328
-		{ &Z_Construct_UFunction_UOculusXRMR_Settings_SetCompositionMethod, "SetCompositionMethod" }, // 3011387425
-		{ &Z_Construct_UFunction_UOculusXRMR_Settings_SetIsCasting, "SetIsCasting" }, // 817034260
+		{ &Z_Construct_UFunction_UOculusXRMR_Settings_GetCapturingCamera, "GetCapturingCamera" }, // 2283427753
+		{ &Z_Construct_UFunction_UOculusXRMR_Settings_GetCompositionMethod, "GetCompositionMethod" }, // 941389046
+		{ &Z_Construct_UFunction_UOculusXRMR_Settings_GetIsCasting, "GetIsCasting" }, // 764548369
+		{ &Z_Construct_UFunction_UOculusXRMR_Settings_LoadFromIni, "LoadFromIni" }, // 4162750864
+		{ &Z_Construct_UFunction_UOculusXRMR_Settings_SaveToIni, "SaveToIni" }, // 3927984276
+		{ &Z_Construct_UFunction_UOculusXRMR_Settings_SetCapturingCamera, "SetCapturingCamera" }, // 365907548
+		{ &Z_Construct_UFunction_UOculusXRMR_Settings_SetCompositionMethod, "SetCompositionMethod" }, // 3156722309
+		{ &Z_Construct_UFunction_UOculusXRMR_Settings_SetIsCasting, "SetIsCasting" }, // 755379870
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRMR_Settings_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -823,18 +863,26 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMR_Settings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ClippingReference_MetaData[] = {
 		{ "Category", "MetaXR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Specify the distance to the camera which divide the background and foreground in MxR casting.\n\x09  * Set it to CR_TrackingReference to use the distance to the Tracking Reference, which works better\n\x09  * in the stationary experience. Set it to CR_Head would use the distance to the HMD, which works better\n\x09  * in the room scale experience.\n\x09  */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Specify the distance to the camera which divide the background and foreground in MxR casting.\nSet it to CR_TrackingReference to use the distance to the Tracking Reference, which works better\nin the stationary experience. Set it to CR_Head would use the distance to the HMD, which works better\nin the room scale experience." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ClippingReference = { "ClippingReference", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRMR_Settings, ClippingReference), Z_Construct_UEnum_OculusXRMR_EOculusXRMR_ClippingReference, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ClippingReference_MetaData), Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ClippingReference_MetaData) }; // 1875156719
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_bUseTrackedCameraResolution_MetaData[] = {
 		{ "Category", "MetaXR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The casting viewports would use the same resolution of the camera which used in the calibration process. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The casting viewports would use the same resolution of the camera which used in the calibration process." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_bUseTrackedCameraResolution_SetBit(void* Obj)
@@ -845,27 +893,39 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMR_Settings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_WidthPerView_MetaData[] = {
 		{ "Category", "MetaXR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** When bUseTrackedCameraResolution is false, the width of each casting viewport */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "When bUseTrackedCameraResolution is false, the width of each casting viewport" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_WidthPerView = { "WidthPerView", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRMR_Settings, WidthPerView), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_WidthPerView_MetaData), Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_WidthPerView_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_HeightPerView_MetaData[] = {
 		{ "Category", "MetaXR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** When bUseTrackedCameraResolution is false, the height of each casting viewport */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "When bUseTrackedCameraResolution is false, the height of each casting viewport" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_HeightPerView = { "HeightPerView", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRMR_Settings, HeightPerView), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_HeightPerView_MetaData), Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_HeightPerView_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_CastingLatency_MetaData[] = {
 		{ "Category", "MetaXR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** When CompositionMethod is External Composition, the latency of the casting output which could be adjusted to\n\x09  * match the camera latency in the external composition application */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "When CompositionMethod is External Composition, the latency of the casting output which could be adjusted to\nmatch the camera latency in the external composition application" },
+#endif
 		{ "UIMax", "0.1" },
 		{ "UIMin", "0.0" },
 	};
@@ -874,59 +934,83 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMR_Settings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_BackdropColor_MetaData[] = {
 		{ "Category", "MetaXR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** When CompositionMethod is External Composition, the color of the backdrop in the foreground view */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "When CompositionMethod is External Composition, the color of the backdrop in the foreground view" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_BackdropColor = { "BackdropColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRMR_Settings, BackdropColor), Z_Construct_UScriptStruct_FColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_BackdropColor_MetaData), Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_BackdropColor_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_HandPoseStateLatency_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** When CompositionMethod is Direct Composition, you could adjust this latency to delay the virtual\n\x09* hand movement by a small amount of time to match the camera latency */" },
+#endif
 		{ "DeprecatedProperty", "" },
 		{ "DeprecationMessage", "Direct Composition deprecated." },
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "When CompositionMethod is Direct Composition, you could adjust this latency to delay the virtual\nhand movement by a small amount of time to match the camera latency" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_HandPoseStateLatency = { "HandPoseStateLatency", nullptr, (EPropertyFlags)0x0010000020000000, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRMR_Settings, HandPoseStateLatency_DEPRECATED), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_HandPoseStateLatency_MetaData), Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_HandPoseStateLatency_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ChromaKeyColor_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** [Green-screen removal] Chroma Key Color. Apply when CompositionMethod is DirectComposition */" },
+#endif
 		{ "DeprecatedProperty", "" },
 		{ "DeprecationMessage", "Direct Composition deprecated." },
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "[Green-screen removal] Chroma Key Color. Apply when CompositionMethod is DirectComposition" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ChromaKeyColor = { "ChromaKeyColor", nullptr, (EPropertyFlags)0x0010000020000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRMR_Settings, ChromaKeyColor_DEPRECATED), Z_Construct_UScriptStruct_FColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ChromaKeyColor_MetaData), Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ChromaKeyColor_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ChromaKeySimilarity_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** [Green-screen removal] Chroma Key Similarity. Apply when CompositionMethod is DirectComposition */" },
+#endif
 		{ "DeprecatedProperty", "" },
 		{ "DeprecationMessage", "Direct Composition deprecated." },
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "[Green-screen removal] Chroma Key Similarity. Apply when CompositionMethod is DirectComposition" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ChromaKeySimilarity = { "ChromaKeySimilarity", nullptr, (EPropertyFlags)0x0010000020000000, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRMR_Settings, ChromaKeySimilarity_DEPRECATED), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ChromaKeySimilarity_MetaData), Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ChromaKeySimilarity_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ChromaKeySmoothRange_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** [Green-screen removal] Chroma Key Smooth Range. Apply when CompositionMethod is DirectComposition */" },
+#endif
 		{ "DeprecatedProperty", "" },
 		{ "DeprecationMessage", "Direct Composition deprecated." },
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "[Green-screen removal] Chroma Key Smooth Range. Apply when CompositionMethod is DirectComposition" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ChromaKeySmoothRange = { "ChromaKeySmoothRange", nullptr, (EPropertyFlags)0x0010000020000000, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRMR_Settings, ChromaKeySmoothRange_DEPRECATED), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ChromaKeySmoothRange_MetaData), Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ChromaKeySmoothRange_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ChromaKeySpillRange_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** [Green-screen removal] Chroma Key Spill Range. Apply when CompositionMethod is DirectComposition */" },
+#endif
 		{ "DeprecatedProperty", "" },
 		{ "DeprecationMessage", "Direct Composition deprecated." },
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "[Green-screen removal] Chroma Key Spill Range. Apply when CompositionMethod is DirectComposition" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ChromaKeySpillRange = { "ChromaKeySpillRange", nullptr, (EPropertyFlags)0x0010000020000000, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRMR_Settings, ChromaKeySpillRange_DEPRECATED), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ChromaKeySpillRange_MetaData), Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ChromaKeySpillRange_MetaData) };
@@ -934,17 +1018,25 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMR_Settings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ExternalCompositionPostProcessEffects_MetaData[] = {
 		{ "Category", "MetaXR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set the amount of post process effects in the MR view for external composition */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set the amount of post process effects in the MR view for external composition" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ExternalCompositionPostProcessEffects = { "ExternalCompositionPostProcessEffects", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRMR_Settings, ExternalCompositionPostProcessEffects), Z_Construct_UEnum_OculusXRMR_EOculusXRMR_PostProcessEffects, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ExternalCompositionPostProcessEffects_MetaData), Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ExternalCompositionPostProcessEffects_MetaData) }; // 3765435736
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_bIsCasting_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Turns MRC on and off (does not get saved to or loaded from ini) */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Turns MRC on and off (does not get saved to or loaded from ini)" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_bIsCasting_SetBit(void* Obj)
@@ -955,23 +1047,31 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMR_Settings() {}
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_CompositionMethod_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_CompositionMethod_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** ExternalComposition: The casting window includes the background and foreground view\n\x09  * DirectComposition: The game scene would be composited with the camera frame directly\n\x09  */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "ExternalComposition: The casting window includes the background and foreground view\nDirectComposition: The game scene would be composited with the camera frame directly" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_CompositionMethod = { "CompositionMethod", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRMR_Settings, CompositionMethod), Z_Construct_UEnum_OculusXRMR_EOculusXRMR_CompositionMethod, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_CompositionMethod_MetaData), Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_CompositionMethod_MetaData) }; // 177338256
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_CapturingCamera_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_CapturingCamera_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** When CompositionMethod is DirectComposition, the physical camera device which provide the frame */" },
+#endif
 		{ "DeprecatedProperty", "" },
 		{ "DeprecationMessage", "Direct Composition deprecated." },
 		{ "ModuleRelativePath", "Public/OculusXRMR_Settings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "When CompositionMethod is DirectComposition, the physical camera device which provide the frame" },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_CapturingCamera = { "CapturingCamera", nullptr, (EPropertyFlags)0x0040000020000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRMR_Settings, CapturingCamera_DEPRECATED), Z_Construct_UEnum_OculusXRMR_EOculusXRMR_CameraDeviceEnum, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_CapturingCamera_MetaData), Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_CapturingCamera_MetaData) }; // 522625868
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_CapturingCamera = { "CapturingCamera", nullptr, (EPropertyFlags)0x0040000020000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRMR_Settings, CapturingCamera_DEPRECATED), Z_Construct_UEnum_OculusXRMR_EOculusXRMR_CameraDeviceEnum, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_CapturingCamera_MetaData), Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_CapturingCamera_MetaData) }; // 2298276722
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UOculusXRMR_Settings_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ClippingReference_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UOculusXRMR_Settings_Statics::NewProp_ClippingReference,
@@ -1026,22 +1126,22 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMR_Settings() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOculusXRMR_Settings);
 	UOculusXRMR_Settings::~UOculusXRMR_Settings() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics
+	struct Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics::EnumInfo[] = {
-		{ EOculusXRMR_CameraDeviceEnum_StaticEnum, TEXT("EOculusXRMR_CameraDeviceEnum"), &Z_Registration_Info_UEnum_EOculusXRMR_CameraDeviceEnum, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 522625868U) },
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics::EnumInfo[] = {
+		{ EOculusXRMR_CameraDeviceEnum_StaticEnum, TEXT("EOculusXRMR_CameraDeviceEnum"), &Z_Registration_Info_UEnum_EOculusXRMR_CameraDeviceEnum, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2298276722U) },
 		{ EOculusXRMR_ClippingReference_StaticEnum, TEXT("EOculusXRMR_ClippingReference"), &Z_Registration_Info_UEnum_EOculusXRMR_ClippingReference, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1875156719U) },
 		{ EOculusXRMR_PostProcessEffects_StaticEnum, TEXT("EOculusXRMR_PostProcessEffects"), &Z_Registration_Info_UEnum_EOculusXRMR_PostProcessEffects, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3765435736U) },
 		{ EOculusXRMR_CompositionMethod_StaticEnum, TEXT("EOculusXRMR_CompositionMethod"), &Z_Registration_Info_UEnum_EOculusXRMR_CompositionMethod, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 177338256U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRMR_Settings, UOculusXRMR_Settings::StaticClass, TEXT("UOculusXRMR_Settings"), &Z_Registration_Info_UClass_UOculusXRMR_Settings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRMR_Settings), 3788851112U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UOculusXRMR_Settings, UOculusXRMR_Settings::StaticClass, TEXT("UOculusXRMR_Settings"), &Z_Registration_Info_UClass_UOculusXRMR_Settings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRMR_Settings), 2101707113U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_2944251980(TEXT("/Script/OculusXRMR"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_411399029(TEXT("/Script/OculusXRMR"),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics::ClassInfo),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMR_Settings_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

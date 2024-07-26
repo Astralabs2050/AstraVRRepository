@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "D:/OculusXR-release/HostProject/Plugins/OculusXR/Source/OculusXRMR/Public/OculusXRMRFunctionLibrary.h"
+#include "H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRMR/Public/OculusXRMRFunctionLibrary.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeOculusXRMRFunctionLibrary() {}
 // Cross Module References
@@ -101,10 +101,14 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMRFunctionLibrary() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetMrcScalingFactor_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|MR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Get the scaling factor for the MRC configuration. Returns 0 if not available.\n" },
+#endif
 		{ "DisplayName", "Get MRC Scaling Factor" },
 		{ "ModuleRelativePath", "Public/OculusXRMRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the scaling factor for the MRC configuration. Returns 0 if not available." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetMrcScalingFactor_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRMRFunctionLibrary, nullptr, "GetMrcScalingFactor", nullptr, nullptr, Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetMrcScalingFactor_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetMrcScalingFactor_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetMrcScalingFactor_Statics::OculusXRMRFunctionLibrary_eventGetMrcScalingFactor_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetMrcScalingFactor_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetMrcScalingFactor_Statics::Function_MetaDataParams) };
@@ -139,10 +143,14 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMRFunctionLibrary() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetOculusXRMRSettings_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|MR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Get the OculusXRMR settings object\n" },
+#endif
 		{ "DisplayName", "Get Oculus MR Settings" },
 		{ "ModuleRelativePath", "Public/OculusXRMRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the OculusXRMR settings object" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetOculusXRMRSettings_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRMRFunctionLibrary, nullptr, "GetOculusXRMRSettings", nullptr, nullptr, Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetOculusXRMRSettings_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetOculusXRMRSettings_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetOculusXRMRSettings_Statics::OculusXRMRFunctionLibrary_eventGetOculusXRMRSettings_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetOculusXRMRSettings_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetOculusXRMRSettings_Statics::Function_MetaDataParams) };
@@ -185,9 +193,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMRFunctionLibrary() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetTrackingReferenceComponent_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|MR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Get the component that the OculusXRMR camera is tracking. When this is null, the camera will track the player pawn.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRMRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the component that the OculusXRMR camera is tracking. When this is null, the camera will track the player pawn." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetTrackingReferenceComponent_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRMRFunctionLibrary, nullptr, "GetTrackingReferenceComponent", nullptr, nullptr, Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetTrackingReferenceComponent_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetTrackingReferenceComponent_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetTrackingReferenceComponent_Statics::OculusXRMRFunctionLibrary_eventGetTrackingReferenceComponent_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetTrackingReferenceComponent_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetTrackingReferenceComponent_Statics::Function_MetaDataParams) };
@@ -227,9 +239,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMRFunctionLibrary() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRMRFunctionLibrary_IsMrcActive_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|MR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Check if MRC is enabled and actively capturing\n" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRMRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Check if MRC is enabled and actively capturing" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRMRFunctionLibrary_IsMrcActive_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRMRFunctionLibrary, nullptr, "IsMrcActive", nullptr, nullptr, Z_Construct_UFunction_UOculusXRMRFunctionLibrary_IsMrcActive_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMRFunctionLibrary_IsMrcActive_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRMRFunctionLibrary_IsMrcActive_Statics::OculusXRMRFunctionLibrary_eventIsMrcActive_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMRFunctionLibrary_IsMrcActive_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRMRFunctionLibrary_IsMrcActive_Statics::Function_MetaDataParams) };
@@ -269,9 +285,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMRFunctionLibrary() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRMRFunctionLibrary_IsMrcEnabled_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|MR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Check if MRC is enabled\n" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRMRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Check if MRC is enabled" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRMRFunctionLibrary_IsMrcEnabled_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRMRFunctionLibrary, nullptr, "IsMrcEnabled", nullptr, nullptr, Z_Construct_UFunction_UOculusXRMRFunctionLibrary_IsMrcEnabled_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMRFunctionLibrary_IsMrcEnabled_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRMRFunctionLibrary_IsMrcEnabled_Statics::OculusXRMRFunctionLibrary_eventIsMrcEnabled_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMRFunctionLibrary_IsMrcEnabled_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRMRFunctionLibrary_IsMrcEnabled_Statics::Function_MetaDataParams) };
@@ -315,11 +335,15 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMRFunctionLibrary() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRMRFunctionLibrary_SetMrcScalingFactor_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|MR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Set the scaling factor for the MRC configuration. This should be a positive value set to the same scaling as the VR player pawn so that the game capture and camera video are aligned.\n" },
+#endif
 		{ "CPP_Default_ScalingFactor", "1.000000" },
 		{ "DisplayName", "Set MRC Scaling Factor" },
 		{ "ModuleRelativePath", "Public/OculusXRMRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set the scaling factor for the MRC configuration. This should be a positive value set to the same scaling as the VR player pawn so that the game capture and camera video are aligned." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRMRFunctionLibrary_SetMrcScalingFactor_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRMRFunctionLibrary, nullptr, "SetMrcScalingFactor", nullptr, nullptr, Z_Construct_UFunction_UOculusXRMRFunctionLibrary_SetMrcScalingFactor_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMRFunctionLibrary_SetMrcScalingFactor_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRMRFunctionLibrary_SetMrcScalingFactor_Statics::OculusXRMRFunctionLibrary_eventSetMrcScalingFactor_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMRFunctionLibrary_SetMrcScalingFactor_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRMRFunctionLibrary_SetMrcScalingFactor_Statics::Function_MetaDataParams) };
@@ -371,9 +395,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMRFunctionLibrary() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRMRFunctionLibrary_SetTrackingReferenceComponent_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusLibrary|MR" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Set the component for the OculusXRMR camera to track. If this is set to null, the camera will track the player pawn.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRMRFunctionLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set the component for the OculusXRMR camera to track. If this is set to null, the camera will track the player pawn." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRMRFunctionLibrary_SetTrackingReferenceComponent_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRMRFunctionLibrary, nullptr, "SetTrackingReferenceComponent", nullptr, nullptr, Z_Construct_UFunction_UOculusXRMRFunctionLibrary_SetTrackingReferenceComponent_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMRFunctionLibrary_SetTrackingReferenceComponent_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRMRFunctionLibrary_SetTrackingReferenceComponent_Statics::OculusXRMRFunctionLibrary_eventSetTrackingReferenceComponent_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRMRFunctionLibrary_SetTrackingReferenceComponent_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRMRFunctionLibrary_SetTrackingReferenceComponent_Statics::Function_MetaDataParams) };
@@ -409,13 +437,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMRFunctionLibrary() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRMRFunctionLibrary_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UOculusXRMRFunctionLibrary_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetMrcScalingFactor, "GetMrcScalingFactor" }, // 1720030720
-		{ &Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetOculusXRMRSettings, "GetOculusXRMRSettings" }, // 464557061
-		{ &Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetTrackingReferenceComponent, "GetTrackingReferenceComponent" }, // 517881744
-		{ &Z_Construct_UFunction_UOculusXRMRFunctionLibrary_IsMrcActive, "IsMrcActive" }, // 3621677578
-		{ &Z_Construct_UFunction_UOculusXRMRFunctionLibrary_IsMrcEnabled, "IsMrcEnabled" }, // 3170588520
-		{ &Z_Construct_UFunction_UOculusXRMRFunctionLibrary_SetMrcScalingFactor, "SetMrcScalingFactor" }, // 3413988489
-		{ &Z_Construct_UFunction_UOculusXRMRFunctionLibrary_SetTrackingReferenceComponent, "SetTrackingReferenceComponent" }, // 985852357
+		{ &Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetMrcScalingFactor, "GetMrcScalingFactor" }, // 1729551511
+		{ &Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetOculusXRMRSettings, "GetOculusXRMRSettings" }, // 2456275105
+		{ &Z_Construct_UFunction_UOculusXRMRFunctionLibrary_GetTrackingReferenceComponent, "GetTrackingReferenceComponent" }, // 511561
+		{ &Z_Construct_UFunction_UOculusXRMRFunctionLibrary_IsMrcActive, "IsMrcActive" }, // 71960942
+		{ &Z_Construct_UFunction_UOculusXRMRFunctionLibrary_IsMrcEnabled, "IsMrcEnabled" }, // 2974760118
+		{ &Z_Construct_UFunction_UOculusXRMRFunctionLibrary_SetMrcScalingFactor, "SetMrcScalingFactor" }, // 2640905466
+		{ &Z_Construct_UFunction_UOculusXRMRFunctionLibrary_SetTrackingReferenceComponent, "SetTrackingReferenceComponent" }, // 1867663755
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRMRFunctionLibrary_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -456,15 +484,15 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRMRFunctionLibrary() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOculusXRMRFunctionLibrary);
 	UOculusXRMRFunctionLibrary::~UOculusXRMRFunctionLibrary() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRMR_Public_OculusXRMRFunctionLibrary_h_Statics
+	struct Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMRFunctionLibrary_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRMR_Public_OculusXRMRFunctionLibrary_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRMRFunctionLibrary, UOculusXRMRFunctionLibrary::StaticClass, TEXT("UOculusXRMRFunctionLibrary"), &Z_Registration_Info_UClass_UOculusXRMRFunctionLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRMRFunctionLibrary), 2111057058U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMRFunctionLibrary_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UOculusXRMRFunctionLibrary, UOculusXRMRFunctionLibrary::StaticClass, TEXT("UOculusXRMRFunctionLibrary"), &Z_Registration_Info_UClass_UOculusXRMRFunctionLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRMRFunctionLibrary), 954378475U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRMR_Public_OculusXRMRFunctionLibrary_h_3575843162(TEXT("/Script/OculusXRMR"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRMR_Public_OculusXRMRFunctionLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRMR_Public_OculusXRMRFunctionLibrary_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMRFunctionLibrary_h_1676942204(TEXT("/Script/OculusXRMR"),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMRFunctionLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMR_Public_OculusXRMRFunctionLibrary_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

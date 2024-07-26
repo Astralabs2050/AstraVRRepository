@@ -96,9 +96,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRBodyTrackingComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRBodyTrackingComponent_ResetAllBoneTransforms_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* Restore all bones to their initial transforms\n\x09*/" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRBodyTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Restore all bones to their initial transforms" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRBodyTrackingComponent_ResetAllBoneTransforms_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRBodyTrackingComponent, nullptr, "ResetAllBoneTransforms", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRBodyTrackingComponent_ResetAllBoneTransforms_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRBodyTrackingComponent_ResetAllBoneTransforms_Statics::Function_MetaDataParams) };
@@ -149,7 +153,7 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRBodyTrackingComponent() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRBodyTrackingComponent_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UOculusXRBodyTrackingComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UOculusXRBodyTrackingComponent_ResetAllBoneTransforms, "ResetAllBoneTransforms" }, // 3362922770
+		{ &Z_Construct_UFunction_UOculusXRBodyTrackingComponent_ResetAllBoneTransforms, "ResetAllBoneTransforms" }, // 3392944475
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRBodyTrackingComponent_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -168,9 +172,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRBodyTrackingComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRBodyTrackingComponent_Statics::NewProp_BodyTrackingMode_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* How are the results of body tracking applied to the mesh.\n\x09*/" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRBodyTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How are the results of body tracking applied to the mesh." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UOculusXRBodyTrackingComponent_Statics::NewProp_BodyTrackingMode = { "BodyTrackingMode", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRBodyTrackingComponent, BodyTrackingMode), Z_Construct_UEnum_OculusXRMovement_EOculusXRBodyTrackingMode, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRBodyTrackingComponent_Statics::NewProp_BodyTrackingMode_MetaData), Z_Construct_UClass_UOculusXRBodyTrackingComponent_Statics::NewProp_BodyTrackingMode_MetaData) }; // 2291860495
@@ -180,9 +188,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRBodyTrackingComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRBodyTrackingComponent_Statics::NewProp_BoneNames_MetaData[] = {
 		{ "Category", "OculusXR|Movement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * The bone name associated with each bone ID.\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRBodyTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The bone name associated with each bone ID." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UOculusXRBodyTrackingComponent_Statics::NewProp_BoneNames = { "BoneNames", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRBodyTrackingComponent, BoneNames), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRBodyTrackingComponent_Statics::NewProp_BoneNames_MetaData), Z_Construct_UClass_UOculusXRBodyTrackingComponent_Statics::NewProp_BoneNames_MetaData) }; // 2550275467
@@ -191,9 +203,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRBodyTrackingComponent() {}
 		{ "Category", "OculusXR|Movement" },
 		{ "ClampMax", "1" },
 		{ "ClampMin", "0" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Do not apply body state to bones if confidence is lower than this value. Confidence is in range [0,1].\n\x09 */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRBodyTrackingComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Do not apply body state to bones if confidence is lower than this value. Confidence is in range [0,1]." },
+#endif
 		{ "UIMax", "1" },
 		{ "UIMin", "0" },
 	};
@@ -241,19 +257,19 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRBodyTrackingComponent() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOculusXRBodyTrackingComponent);
 	UOculusXRBodyTrackingComponent::~UOculusXRBodyTrackingComponent() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRBodyTrackingComponent_h_Statics
+	struct Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRBodyTrackingComponent_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRBodyTrackingComponent_h_Statics::EnumInfo[] = {
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRBodyTrackingComponent_h_Statics::EnumInfo[] = {
 		{ EOculusXRBodyTrackingMode_StaticEnum, TEXT("EOculusXRBodyTrackingMode"), &Z_Registration_Info_UEnum_EOculusXRBodyTrackingMode, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2291860495U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRBodyTrackingComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRBodyTrackingComponent, UOculusXRBodyTrackingComponent::StaticClass, TEXT("UOculusXRBodyTrackingComponent"), &Z_Registration_Info_UClass_UOculusXRBodyTrackingComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRBodyTrackingComponent), 3522115730U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRBodyTrackingComponent_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UOculusXRBodyTrackingComponent, UOculusXRBodyTrackingComponent::StaticClass, TEXT("UOculusXRBodyTrackingComponent"), &Z_Registration_Info_UClass_UOculusXRBodyTrackingComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRBodyTrackingComponent), 196463895U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRBodyTrackingComponent_h_3375548373(TEXT("/Script/OculusXRMovement"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRBodyTrackingComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRBodyTrackingComponent_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRBodyTrackingComponent_h_3646449166(TEXT("/Script/OculusXRMovement"),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRBodyTrackingComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRBodyTrackingComponent_h_Statics::ClassInfo),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRBodyTrackingComponent_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRMovement_Public_OculusXRBodyTrackingComponent_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRBodyTrackingComponent_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRMovement_Public_OculusXRBodyTrackingComponent_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

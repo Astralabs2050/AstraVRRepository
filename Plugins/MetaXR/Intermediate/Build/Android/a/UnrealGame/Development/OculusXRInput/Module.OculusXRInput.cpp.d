@@ -2096,7 +2096,8 @@ H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Deve
   C:/NVPACK/android-ndk-r25/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/istream \
   H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXRInput/Module.OculusXRInput.cpp \
   H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXRInput/Definitions.OculusXRInput.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRControllerComponent.cpp \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRInput/UHT/OculusXRControllerComponent.gen.cpp \
+  Runtime/CoreUObject/Public/UObject/GeneratedCppIncludes.h \
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Public/OculusXRControllerComponent.h \
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Public/OculusXRInputFunctionLibrary.h \
   Runtime/Core/Public/CoreMinimal.h \
@@ -2154,6 +2155,16 @@ H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Deve
   Runtime/CoreUObject/Public/UObject/GCObject.h \
   Runtime/CoreUObject/Public/UObject/SoftObjectPtr.h \
   H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRInput/UHT/OculusXRControllerComponent.generated.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRInput/UHT/OculusXRHandComponent.gen.cpp \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Public/OculusXRHandComponent.h \
+  Runtime/Engine/Classes/Components/PoseableMeshComponent.h \
+  Runtime/Engine/Public/BoneContainer.h \
+  Runtime/Engine/Classes/Components/SkinnedMeshComponent.h \
+  ../Intermediate/Build/Android/UnrealGame/Inc/Engine/UHT/PoseableMeshComponent.generated.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRInput/UHT/OculusXRHandComponent.generated.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRInput/UHT/OculusXRInput.init.gen.cpp \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRInput/UHT/OculusXRInputFunctionLibrary.gen.cpp \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRControllerComponent.cpp \
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRInput.h \
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Public/IOculusXRInputModule.h \
   Runtime/InputDevice/Public/IInputDeviceModule.h \
@@ -2293,12 +2304,6 @@ H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Deve
   Runtime/Engine/Classes/Haptics/HapticFeedbackEffect_Base.h \
   ../Intermediate/Build/Android/UnrealGame/Inc/Engine/UHT/HapticFeedbackEffect_Base.generated.h \
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Private/OculusXRHandComponent.cpp \
-  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRInput/Public/OculusXRHandComponent.h \
-  Runtime/Engine/Classes/Components/PoseableMeshComponent.h \
-  Runtime/Engine/Public/BoneContainer.h \
-  Runtime/Engine/Classes/Components/SkinnedMeshComponent.h \
-  ../Intermediate/Build/Android/UnrealGame/Inc/Engine/UHT/PoseableMeshComponent.generated.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRInput/UHT/OculusXRHandComponent.generated.h \
   Runtime/Engine/Classes/Components/InputComponent.h \
   Runtime/Engine/Classes/GameFramework/Pawn.h \
   Runtime/Engine/Classes/GameFramework/PlayerController.h \

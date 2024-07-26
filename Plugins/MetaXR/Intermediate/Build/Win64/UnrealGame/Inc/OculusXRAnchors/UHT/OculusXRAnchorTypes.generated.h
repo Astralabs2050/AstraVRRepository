@@ -14,42 +14,42 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define OCULUSXRANCHORS_OculusXRAnchorTypes_generated_h
 
-#define FID_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_49_GENERATED_BODY \
+#define FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_49_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FOculusXRUUID_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> OCULUSXRANCHORS_API UScriptStruct* StaticStruct<struct FOculusXRUUID>();
 
-#define FID_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_85_GENERATED_BODY \
+#define FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_85_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FOculusXRUInt64_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> OCULUSXRANCHORS_API UScriptStruct* StaticStruct<struct FOculusXRUInt64>();
 
-#define FID_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_165_GENERATED_BODY \
+#define FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_165_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FOculusXRSpaceQueryInfo_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> OCULUSXRANCHORS_API UScriptStruct* StaticStruct<struct FOculusXRSpaceQueryInfo>();
 
-#define FID_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_194_GENERATED_BODY \
+#define FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_194_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FOculusXRSpaceQueryResult_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> OCULUSXRANCHORS_API UScriptStruct* StaticStruct<struct FOculusXRSpaceQueryResult>();
 
-#define FID_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_214_GENERATED_BODY \
+#define FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_214_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FOculusXRSpaceQueryFilterValues_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> OCULUSXRANCHORS_API UScriptStruct* StaticStruct<struct FOculusXRSpaceQueryFilterValues>();
 
-#define FID_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_225_GENERATED_BODY \
+#define FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h_225_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FOculusXRRoomLayout_Statics; \
 	static class UScriptStruct* StaticStruct();
 
@@ -57,7 +57,7 @@ template<> OCULUSXRANCHORS_API UScriptStruct* StaticStruct<struct FOculusXRSpace
 template<> OCULUSXRANCHORS_API UScriptStruct* StaticStruct<struct FOculusXRRoomLayout>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_HostProject_Plugins_OculusXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h
+#define CURRENT_FILE_ID FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRAnchors_Public_OculusXRAnchorTypes_h
 
 
 #define FOREACH_ENUM_EOCULUSXRANCHORRESULT(op) \

@@ -2096,22 +2096,43 @@ H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Deve
   C:/NVPACK/android-ndk-r25/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/istream \
   H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXRScene/Module.OculusXRScene.cpp \
   H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXRScene/Definitions.OculusXRScene.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Private/OculusXRScene.cpp \
-  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Public/OculusXRScene.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRScene/UHT/OculusXRScene.init.gen.cpp \
+  Runtime/CoreUObject/Public/UObject/GeneratedCppIncludes.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRScene/UHT/OculusXRSceneActor.gen.cpp \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Public/OculusXRSceneActor.h \
+  Runtime/Engine/Classes/GameFramework/Actor.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRAnchors/Public/OculusXRRoomLayoutManagerComponent.h \
+  Runtime/Core/Public/CoreMinimal.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRAnchors/Public/OculusXRSpatialAnchorComponent.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRAnchors/Public/OculusXRAnchorComponent.h \
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRAnchors/Public/OculusXRAnchorTypes.h \
   H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRAnchors/UHT/OculusXRAnchorTypes.generated.h \
   Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
   Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Public/OculusXRSceneTypes.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRScene/UHT/OculusXRSceneTypes.generated.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Private/OculusXRSceneModule.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Public/IOculusXRSceneModule.h \
-  Runtime/Core/Public/Modules/ModuleManager.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMDPrivate.h \
-  Runtime/Engine/Classes/GameFramework/WorldSettings.h \
+  Runtime/Engine/Classes/Components/ActorComponent.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRAnchors/UHT/OculusXRAnchorComponent.generated.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRAnchors/Public/OculusXRAnchors.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRAnchors/UHT/OculusXRSpatialAnchorComponent.generated.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRAnchors/Public/OculusXRAnchorBPFunctionLibrary.h \
+  Runtime/Engine/Classes/Kismet/BlueprintFunctionLibrary.h \
+  Runtime/Engine/Classes/Kismet/BlueprintAsyncActionBase.h \
+  Runtime/CoreUObject/Public/UObject/Object.h \
+  Runtime/CoreUObject/Public/UObject/WeakObjectPtr.h \
+  ../Intermediate/Build/Android/UnrealGame/Inc/Engine/UHT/BlueprintAsyncActionBase.generated.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRAnchors/Public/OculusXRAnchorComponents.h \
+  Runtime/CoreUObject/Public/UObject/Class.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRAnchors/UHT/OculusXRAnchorComponents.generated.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRAnchors/UHT/OculusXRAnchorBPFunctionLibrary.generated.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRAnchors/UHT/OculusXRRoomLayoutManagerComponent.generated.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Public/OculusXRFunctionLibrary.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Public/OculusXRHMDTypes.h \
+  Runtime/RHI/Public/RHI.h Runtime/RHI/Public/RHIResources.h \
+  Runtime/Engine/Classes/Engine/Texture2D.h \
+  Runtime/CoreUObject/Public/UObject/SoftObjectPath.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRHMD/UHT/OculusXRHMDTypes.generated.h \
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Public/IOculusXRHMDModule.h \
+  Runtime/Core/Public/Modules/ModuleManager.h \
   Runtime/HeadMountedDisplay/Public/IHeadMountedDisplayModule.h \
-  Runtime/Core/Public/CoreMinimal.h \
   Runtime/Core/Public/Modules/ModuleInterface.h \
   Runtime/Core/Public/Misc/ConfigCacheIni.h \
   Runtime/Core/Public/Features/IModularFeatures.h \
@@ -2125,24 +2146,48 @@ H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Deve
   Runtime/CoreUObject/Public/Templates/IsUEnumClass.h \
   Runtime/CoreUObject/Public/UObject/ReflectedTypeAccessors.h \
   Runtime/InputCore/Classes/InputCoreTypes.h \
-  Runtime/Engine/Classes/Kismet/BlueprintFunctionLibrary.h \
   Runtime/Core/Public/Logging/LogCategory.h \
   Runtime/Core/Public/Logging/LogMacros.h \
   Runtime/Core/Public/Math/IntRect.h Runtime/Core/Public/Math/Quat.h \
   Runtime/Core/Public/Math/UnrealMathSSE.h \
   Runtime/Core/Public/Math/Vector.h Runtime/Core/Public/Math/Vector2D.h \
-  Runtime/Core/Public/Misc/Guid.h Runtime/RHI/Public/RHI.h \
-  Runtime/RHI/Public/RHIResources.h \
+  Runtime/Core/Public/Misc/Guid.h \
   Runtime/TraceLog/Public/Trace/Detail/Channel.h \
   Runtime/Core/Public/UObject/NameTypes.h \
   Runtime/CoreUObject/Public/UObject/UObjectGlobals.h \
   ../Intermediate/Build/Android/UnrealGame/Inc/HeadMountedDisplay/UHT/HeadMountedDisplayTypes.generated.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Public/OculusXRFunctionLibrary.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Public/OculusXRHMDTypes.h \
-  Runtime/Engine/Classes/Engine/Texture2D.h \
-  Runtime/CoreUObject/Public/UObject/SoftObjectPath.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRHMD/UHT/OculusXRHMDTypes.generated.h \
   H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRHMD/UHT/OculusXRFunctionLibrary.generated.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Public/OculusXRSceneAnchorComponent.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRScene/UHT/OculusXRSceneAnchorComponent.generated.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Public/OculusXRSceneTypes.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRScene/UHT/OculusXRSceneTypes.generated.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRScene/UHT/OculusXRSceneActor.generated.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRScene/UHT/OculusXRSceneAnchorComponent.gen.cpp \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRScene/UHT/OculusXRSceneEventDelegates.gen.cpp \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Public/OculusXRSceneEventDelegates.h \
+  Runtime/Engine/Public/Subsystems/EngineSubsystem.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRScene/UHT/OculusXRSceneEventDelegates.generated.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRScene/UHT/OculusXRSceneFunctionLibrary.gen.cpp \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Public/OculusXRSceneFunctionLibrary.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRScene/UHT/OculusXRSceneFunctionLibrary.generated.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRScene/UHT/OculusXRSceneGlobalMeshComponent.gen.cpp \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Public/OculusXRSceneGlobalMeshComponent.h \
+  Runtime/Engine/Classes/Engine/CollisionProfile.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRScene/UHT/OculusXRSceneGlobalMeshComponent.generated.h \
+  ../Shaders/Shared/../../Source/Runtime/Engine/Classes/Engine/CollisionProfile.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRScene/UHT/OculusXRSceneSubsystem.gen.cpp \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Public/OculusXRSceneSubsystem.h \
+  Runtime/Engine/Public/Subsystems/GameInstanceSubsystem.h \
+  Runtime/Engine/Public/Tickable.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRScene/UHT/OculusXRSceneSubsystem.generated.h \
+  ../Shaders/Shared/../../Source/Runtime/Engine/Classes/Engine/GameInstance.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRScene/UHT/OculusXRSceneTypes.gen.cpp \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Private/OculusXRScene.cpp \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Public/OculusXRScene.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Private/OculusXRSceneModule.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Public/IOculusXRSceneModule.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMDPrivate.h \
+  Runtime/Engine/Classes/GameFramework/WorldSettings.h \
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Public/OculusXRPassthroughLayerShapes.h \
   Runtime/Engine/Public/StereoLayerShapes.h \
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Public/OculusXRPassthroughMesh.h \
@@ -2204,7 +2249,6 @@ H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Deve
   Runtime/Core/Public/Templates/TypeHash.h \
   ../Intermediate/Build/Android/UnrealGame/Inc/HeadMountedDisplay/UHT/IIdentifiableXRDevice.generated.h \
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRResourceHolder.h \
-  Runtime/CoreUObject/Public/UObject/Object.h \
   Runtime/Engine/Classes/Materials/MaterialInterface.h \
   H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRHMD/UHT/OculusXRResourceHolder.generated.h \
   Runtime/CoreUObject/Public/UObject/SoftObjectPtr.h \
@@ -2255,7 +2299,6 @@ H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Deve
   Runtime/RHI/Public/RHIShaderPlatform.h \
   Runtime/Engine/Public/SceneUtils.h \
   Runtime/Engine/Classes/Engine/StaticMeshActor.h \
-  Runtime/Engine/Classes/GameFramework/Actor.h \
   Runtime/Engine/Classes/AI/Navigation/NavigationTypes.h \
   ../Intermediate/Build/Android/UnrealGame/Inc/Engine/UHT/StaticMeshActor.generated.h \
   ../Plugins/Runtime/XRBase/Source/XRBase/Public/XRThreadUtils.h \
@@ -2264,26 +2307,6 @@ H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Deve
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMD_FoveatedRendering.h \
   Runtime/Renderer/Public/VariableRateShadingImageManager.h \
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Private/OculusXRSceneActor.cpp \
-  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Public/OculusXRSceneActor.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRAnchors/Public/OculusXRRoomLayoutManagerComponent.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRAnchors/Public/OculusXRSpatialAnchorComponent.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRAnchors/Public/OculusXRAnchorComponent.h \
-  Runtime/Engine/Classes/Components/ActorComponent.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRAnchors/UHT/OculusXRAnchorComponent.generated.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRAnchors/Public/OculusXRAnchors.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRAnchors/UHT/OculusXRSpatialAnchorComponent.generated.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRAnchors/Public/OculusXRAnchorBPFunctionLibrary.h \
-  Runtime/Engine/Classes/Kismet/BlueprintAsyncActionBase.h \
-  Runtime/CoreUObject/Public/UObject/WeakObjectPtr.h \
-  ../Intermediate/Build/Android/UnrealGame/Inc/Engine/UHT/BlueprintAsyncActionBase.generated.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRAnchors/Public/OculusXRAnchorComponents.h \
-  Runtime/CoreUObject/Public/UObject/Class.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRAnchors/UHT/OculusXRAnchorComponents.generated.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRAnchors/UHT/OculusXRAnchorBPFunctionLibrary.generated.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRAnchors/UHT/OculusXRRoomLayoutManagerComponent.generated.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Public/OculusXRSceneAnchorComponent.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRScene/UHT/OculusXRSceneAnchorComponent.generated.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRScene/UHT/OculusXRSceneActor.generated.h \
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRAnchors/Private/OculusXRAnchorManager.h \
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Public/OculusXRSceneDelegates.h \
   Runtime/Core/Public/CoreTypes.h \
@@ -2323,23 +2346,11 @@ H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Deve
   ../Intermediate/Build/Android/UnrealGame/Inc/Engine/UHT/AssetManager.generated.h \
   Runtime/Engine/Classes/Engine/StaticMesh.h \
   Runtime/Engine/Classes/Engine/World.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Public/OculusXRSceneGlobalMeshComponent.h \
-  Runtime/Engine/Classes/Engine/CollisionProfile.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRScene/UHT/OculusXRSceneGlobalMeshComponent.generated.h \
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Private/OculusXRSceneAnchorComponent.cpp \
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Private/OculusXRSceneDelegates.cpp \
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Private/OculusXRSceneEventHandling.cpp \
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Private/OculusXRSceneEventHandling.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Public/OculusXRSceneEventDelegates.h \
-  Runtime/Engine/Public/Subsystems/EngineSubsystem.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRScene/UHT/OculusXRSceneEventDelegates.generated.h \
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Private/OculusXRSceneFunctionLibrary.cpp \
-  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Public/OculusXRSceneFunctionLibrary.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRScene/UHT/OculusXRSceneFunctionLibrary.generated.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Public/OculusXRSceneSubsystem.h \
-  Runtime/Engine/Public/Subsystems/GameInstanceSubsystem.h \
-  Runtime/Engine/Public/Tickable.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRScene/UHT/OculusXRSceneSubsystem.generated.h \
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Private/OculusXRSceneGlobalMeshComponent.cpp \
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Private/OculusXRSceneModule.cpp \
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRScene/Private/OculusXRSceneSubsystem.cpp \

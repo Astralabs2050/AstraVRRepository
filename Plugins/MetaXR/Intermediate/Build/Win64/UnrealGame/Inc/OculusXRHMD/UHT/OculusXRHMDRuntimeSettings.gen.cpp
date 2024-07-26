@@ -316,29 +316,41 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n* Implements the settings for the OculusVR plugin.\n*/" },
+#endif
 		{ "IncludePath", "OculusXRHMDRuntimeSettings.h" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Implements the settings for the OculusVR plugin." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FInt8PropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SystemSplashBackground_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Int8, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SystemSplashBackground_MetaData[] = {
 		{ "Category", "System SplashScreen" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Configure System Splash Screen background type. To configure Splash Image go to Project Settings > Platforms > Android > Launch Image. */" },
+#endif
 		{ "DisplayName", "System Splash Screen Background" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Configure System Splash Screen background type. To configure Splash Image go to Project Settings > Platforms > Android > Launch Image." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SystemSplashBackground = { "SystemSplashBackground", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHMDRuntimeSettings, SystemSplashBackground), Z_Construct_UEnum_OculusXRHMD_ESystemSplashBackgroundType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SystemSplashBackground_MetaData), Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SystemSplashBackground_MetaData) }; // 4185478579
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bAutoEnabled_MetaData[] = {
 		{ "Category", "Engine SplashScreen" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether the Splash screen is enabled. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether the Splash screen is enabled." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bAutoEnabled_SetBit(void* Obj)
@@ -346,25 +358,33 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 		((UOculusXRHMDRuntimeSettings*)Obj)->bAutoEnabled = 1;
 	}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bAutoEnabled = { "bAutoEnabled", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UOculusXRHMDRuntimeSettings), &Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bAutoEnabled_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bAutoEnabled_MetaData), Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bAutoEnabled_MetaData) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SplashDescs_Inner = { "SplashDescs", nullptr, (EPropertyFlags)0x0000000000004000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOculusXRSplashDesc, METADATA_PARAMS(0, nullptr) }; // 1279870425
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SplashDescs_Inner = { "SplashDescs", nullptr, (EPropertyFlags)0x0000000000004000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOculusXRSplashDesc, METADATA_PARAMS(0, nullptr) }; // 304628265
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SplashDescs_MetaData[] = {
 		{ "Category", "Engine SplashScreen" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** An array of splash screen descriptors listing textures to show and their positions. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "An array of splash screen descriptors listing textures to show and their positions." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SplashDescs = { "SplashDescs", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHMDRuntimeSettings, SplashDescs), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SplashDescs_MetaData), Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SplashDescs_MetaData) }; // 1279870425
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SplashDescs = { "SplashDescs", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHMDRuntimeSettings, SplashDescs), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SplashDescs_MetaData), Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SplashDescs_MetaData) }; // 304628265
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_XrApi_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_XrApi_MetaData[] = {
 		{ "Category", "General" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09This selects the XR API that the engine will use. If unsure, OVRPlugin OpenXR is the recommended API.\n\x09The OpenXR plugin must also be enabled to use Native OpenXR.\n\x09*/" },
+#endif
 		{ "ConfigRestartRequired", "TRUE" },
 		{ "DisplayName", "XR API" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This selects the XR API that the engine will use. If unsure, OVRPlugin OpenXR is the recommended API.\nThe OpenXR plugin must also be enabled to use Native OpenXR." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_XrApi = { "XrApi", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHMDRuntimeSettings, XrApi), Z_Construct_UEnum_OculusXRHMD_EOculusXRXrApi, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_XrApi_MetaData), Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_XrApi_MetaData) }; // 639612870
@@ -372,9 +392,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_ColorSpace_MetaData[] = {
 		{ "Category", "General" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The target color space */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The target color space" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_ColorSpace = { "ColorSpace", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHMDRuntimeSettings, ColorSpace), Z_Construct_UEnum_OculusXRHMD_EOculusXRColorSpace, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_ColorSpace_MetaData), Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_ColorSpace_MetaData) }; // 3733253032
@@ -382,19 +406,27 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_ControllerPoseAlignment_MetaData[] = {
 		{ "Category", "General" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether the controller hand poses align to the Meta XR pose definitions or the OpenXR pose definitions */" },
+#endif
 		{ "EditCondition", "XrApi != EOculusXRXrApi::NativeOpenXR" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether the controller hand poses align to the Meta XR pose definitions or the OpenXR pose definitions" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_ControllerPoseAlignment = { "ControllerPoseAlignment", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHMDRuntimeSettings, ControllerPoseAlignment), Z_Construct_UEnum_OculusXRHMD_EOculusXRControllerPoseAlignment, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_ControllerPoseAlignment_MetaData), Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_ControllerPoseAlignment_MetaData) }; // 3515864375
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bSupportsDash_MetaData[] = {
 		{ "Category", "PC" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether Dash is supported by the app, which will keep the app in foreground when the User presses the oculus button (needs the app to handle input focus loss!) */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether Dash is supported by the app, which will keep the app in foreground when the User presses the oculus button (needs the app to handle input focus loss!)" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bSupportsDash_SetBit(void* Obj)
@@ -405,9 +437,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bCompositesDepth_MetaData[] = {
 		{ "Category", "PC" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether the app's depth buffer is shared with the Rift Compositor, for layer (including Dash) compositing, PTW, and potentially more. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether the app's depth buffer is shared with the Rift Compositor, for layer (including Dash) compositing, PTW, and potentially more." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bCompositesDepth_SetBit(void* Obj)
@@ -418,9 +454,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bHQDistortion_MetaData[] = {
 		{ "Category", "PC" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Computes mipmaps for the eye buffers every frame, for a higher quality distortion */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Computes mipmaps for the eye buffers every frame, for a higher quality distortion" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bHQDistortion_SetBit(void* Obj)
@@ -431,20 +471,28 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_MetaXRJsonPath_MetaData[] = {
 		{ "Category", "PC" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09Path to Meta XR Simulator JSON file (meta_openxr_simulator.json).\n\x09*/" },
+#endif
 		{ "DisplayName", "Meta XR Simulator JSON File." },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Path to Meta XR Simulator JSON file (meta_openxr_simulator.json)." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_MetaXRJsonPath = { "MetaXRJsonPath", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHMDRuntimeSettings, MetaXRJsonPath), Z_Construct_UScriptStruct_FFilePath, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_MetaXRJsonPath_MetaData), Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_MetaXRJsonPath_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bDynamicResolution_MetaData[] = {
 		{ "Category", "Mobile|Dynamic Resolution" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Maximum allowed pixel density. */" },
+#endif
 		{ "DisplayName", "Enable Dynamic Resolution" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Maximum allowed pixel density." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bDynamicResolution_SetBit(void* Obj)
@@ -455,38 +503,54 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_PixelDensityMin_MetaData[] = {
 		{ "Category", "Mobile|Dynamic Resolution" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Minimum allowed pixel density. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Minimum allowed pixel density." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_PixelDensityMin = { "PixelDensityMin", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHMDRuntimeSettings, PixelDensityMin), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_PixelDensityMin_MetaData), Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_PixelDensityMin_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_PixelDensityMax_MetaData[] = {
 		{ "Category", "Mobile|Dynamic Resolution" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Maximum allowed pixel density. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Maximum allowed pixel density." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_PixelDensityMax = { "PixelDensityMax", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHMDRuntimeSettings, PixelDensityMax), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_PixelDensityMax_MetaData), Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_PixelDensityMax_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_CPULevel_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Default CPU level controlling CPU frequency on the mobile device */" },
+#endif
 		{ "DeprecatedProperty", "" },
 		{ "DeprecationMessage", "Use Blueprint Function Get/SetSuggestedCpuAndGpuPerformanceLevels instead." },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Default CPU level controlling CPU frequency on the mobile device" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_CPULevel = { "CPULevel", nullptr, (EPropertyFlags)0x0010000020004000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHMDRuntimeSettings, CPULevel_DEPRECATED), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_CPULevel_MetaData), Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_CPULevel_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_GPULevel_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Default GPU level controlling GPU frequency on the mobile device */" },
+#endif
 		{ "DeprecatedProperty", "" },
 		{ "DeprecationMessage", "Use Blueprint Function Get/SetSuggestedCpuAndGpuPerformanceLevels instead." },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Default GPU level controlling GPU frequency on the mobile device" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_GPULevel = { "GPULevel", nullptr, (EPropertyFlags)0x0010000020004000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHMDRuntimeSettings, GPULevel_DEPRECATED), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_GPULevel_MetaData), Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_GPULevel_MetaData) };
@@ -495,10 +559,14 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SupportedDevices_MetaData[] = {
 		{ "Category", "Mobile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Select supported Meta Quest Devices */" },
+#endif
 		{ "DisplayName", "Supported Meta Quest devices" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Select supported Meta Quest Devices" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SupportedDevices = { "SupportedDevices", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHMDRuntimeSettings, SupportedDevices), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SupportedDevices_MetaData), Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SupportedDevices_MetaData) }; // 3111328996
@@ -506,9 +574,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SuggestedCpuPerfLevel_MetaData[] = {
 		{ "Category", "Mobile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Suggested CPU perf level when application starts on Oculus Quest */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Suggested CPU perf level when application starts on Oculus Quest" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SuggestedCpuPerfLevel = { "SuggestedCpuPerfLevel", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHMDRuntimeSettings, SuggestedCpuPerfLevel), Z_Construct_UEnum_OculusXRHMD_EOculusXRProcessorPerformanceLevel, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SuggestedCpuPerfLevel_MetaData), Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SuggestedCpuPerfLevel_MetaData) }; // 542758215
@@ -516,9 +588,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SuggestedGpuPerfLevel_MetaData[] = {
 		{ "Category", "Mobile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Suggested GPU perf level when application starts on Oculus Quest */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Suggested GPU perf level when application starts on Oculus Quest" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SuggestedGpuPerfLevel = { "SuggestedGpuPerfLevel", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHMDRuntimeSettings, SuggestedGpuPerfLevel), Z_Construct_UEnum_OculusXRHMD_EOculusXRProcessorPerformanceLevel, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SuggestedGpuPerfLevel_MetaData), Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_SuggestedGpuPerfLevel_MetaData) }; // 542758215
@@ -526,10 +602,14 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_FoveatedRenderingMethod_MetaData[] = {
 		{ "Category", "Mobile|Foveated Rendering" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Foveated rendering method */" },
+#endif
 		{ "EditCondition", "XrApi == EOculusXRXrApi::OVRPluginOpenXR" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Foveated rendering method" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_FoveatedRenderingMethod = { "FoveatedRenderingMethod", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHMDRuntimeSettings, FoveatedRenderingMethod), Z_Construct_UEnum_OculusXRHMD_EOculusXRFoveatedRenderingMethod, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_FoveatedRenderingMethod_MetaData), Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_FoveatedRenderingMethod_MetaData) }; // 3859704462
@@ -537,20 +617,28 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_FoveatedRenderingLevel_MetaData[] = {
 		{ "Category", "Mobile|Foveated Rendering" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Foveated rendering level */" },
+#endif
 		{ "EditCondition", "XrApi != EOculusXRXrApi::NativeOpenXR" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Foveated rendering level" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_FoveatedRenderingLevel = { "FoveatedRenderingLevel", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHMDRuntimeSettings, FoveatedRenderingLevel), Z_Construct_UEnum_OculusXRHMD_EOculusXRFoveatedRenderingLevel, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_FoveatedRenderingLevel_MetaData), Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_FoveatedRenderingLevel_MetaData) }; // 3472220838
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bDynamicFoveatedRendering_MetaData[] = {
 		{ "Category", "Mobile|Foveated Rendering" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether foveated rendering levels will change dynamically based on performance headroom or not (up to the set Foveation Level) */" },
+#endif
 		{ "EditCondition", "XrApi != EOculusXRXrApi::NativeOpenXR" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether foveated rendering levels will change dynamically based on performance headroom or not (up to the set Foveation Level)" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bDynamicFoveatedRendering_SetBit(void* Obj)
@@ -561,10 +649,14 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bSupportEyeTrackedFoveatedRendering_MetaData[] = {
 		{ "Category", "Mobile|Foveated Rendering" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether eye tracked foveated rendering can be used with the app. */" },
+#endif
 		{ "EditCondition", "XrApi == EOculusXRXrApi::OVRPluginOpenXR" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether eye tracked foveated rendering can be used with the app." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bSupportEyeTrackedFoveatedRendering_SetBit(void* Obj)
@@ -575,10 +667,14 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bCompositeDepthMobile_MetaData[] = {
 		{ "Category", "Mobile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether the app's depth buffer is shared with the compositor to enable depth testing against other layers.\n\x09Mobile depth composition has performance overhead both on the engine (for resolving depth) and on the compositor (for depth testing against other layers) */" },
+#endif
 		{ "DisplayName", "Composite Depth" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether the app's depth buffer is shared with the compositor to enable depth testing against other layers.\n      Mobile depth composition has performance overhead both on the engine (for resolving depth) and on the compositor (for depth testing against other layers)" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bCompositeDepthMobile_SetBit(void* Obj)
@@ -589,10 +685,14 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bFocusAware_MetaData[] = {
 		{ "Category", "Mobile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If enabled the app will be focus aware. This will keep the app in foreground when the User presses the oculus button (needs the app to handle input focus loss!) */" },
+#endif
 		{ "EditCondition", "false" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If enabled the app will be focus aware. This will keep the app in foreground when the User presses the oculus button (needs the app to handle input focus loss!)" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bFocusAware_SetBit(void* Obj)
@@ -603,9 +703,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bLateLatching_MetaData[] = {
 		{ "Category", "Mobile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** [Experimental]Enable Late latching for reducing HMD and controller latency, improve tracking prediction quality, multiview and vulkan must be enabled for this feature. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "[Experimental]Enable Late latching for reducing HMD and controller latency, improve tracking prediction quality, multiview and vulkan must be enabled for this feature." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bLateLatching_SetBit(void* Obj)
@@ -616,9 +720,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bRequiresSystemKeyboard_MetaData[] = {
 		{ "Category", "Mobile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If enabled the app will use the Oculus system keyboard for input fields. This requires that the app be focus aware. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If enabled the app will use the Oculus system keyboard for input fields. This requires that the app be focus aware." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bRequiresSystemKeyboard_SetBit(void* Obj)
@@ -630,19 +738,27 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_HandTrackingSupport_MetaData[] = {
 		{ "Category", "Mobile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether controllers and/or hands can be used with the app */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether controllers and/or hands can be used with the app" },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_HandTrackingSupport = { "HandTrackingSupport", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHMDRuntimeSettings, HandTrackingSupport), Z_Construct_UEnum_OculusXRHMD_EOculusXRHandTrackingSupport, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_HandTrackingSupport_MetaData), Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_HandTrackingSupport_MetaData) }; // 1961653055
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_HandTrackingSupport = { "HandTrackingSupport", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHMDRuntimeSettings, HandTrackingSupport), Z_Construct_UEnum_OculusXRHMD_EOculusXRHandTrackingSupport, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_HandTrackingSupport_MetaData), Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_HandTrackingSupport_MetaData) }; // 4116072007
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_HandTrackingFrequency_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_HandTrackingFrequency_MetaData[] = {
 		{ "Category", "Mobile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Note that a higher tracking frequency will reserve some performance headroom from the application's budget. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Note that a higher tracking frequency will reserve some performance headroom from the application's budget." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_HandTrackingFrequency = { "HandTrackingFrequency", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHMDRuntimeSettings, HandTrackingFrequency), Z_Construct_UEnum_OculusXRHMD_EOculusXRHandTrackingFrequency, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_HandTrackingFrequency_MetaData), Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_HandTrackingFrequency_MetaData) }; // 104216032
@@ -650,19 +766,27 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_HandTrackingVersion_MetaData[] = {
 		{ "Category", "Mobile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The version of hand tracking algorithm */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The version of hand tracking algorithm" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_HandTrackingVersion = { "HandTrackingVersion", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHMDRuntimeSettings, HandTrackingVersion), Z_Construct_UEnum_OculusXRHMD_EOculusXRHandTrackingVersion, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_HandTrackingVersion_MetaData), Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_HandTrackingVersion_MetaData) }; // 293394772
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bInsightPassthroughEnabled_MetaData[] = {
 		{ "Category", "Mobile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether passthrough functionality can be used with the app */" },
+#endif
 		{ "DisplayName", "Passthrough Enabled" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether passthrough functionality can be used with the app" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bInsightPassthroughEnabled_SetBit(void* Obj)
@@ -673,10 +797,14 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bAnchorSupportEnabled_MetaData[] = {
 		{ "Category", "Mobile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether Spatial Anchors can be used with the app */" },
+#endif
 		{ "DisplayName", "Anchor Support" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether Spatial Anchors can be used with the app" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bAnchorSupportEnabled_SetBit(void* Obj)
@@ -687,10 +815,14 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bAnchorSharingEnabled_MetaData[] = {
 		{ "Category", "Mobile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether Spatial Anchor Sharing can be used with the app */" },
+#endif
 		{ "DisplayName", "Anchor Sharing" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether Spatial Anchor Sharing can be used with the app" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bAnchorSharingEnabled_SetBit(void* Obj)
@@ -701,10 +833,14 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bSceneSupportEnabled_MetaData[] = {
 		{ "Category", "Mobile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether Scene can be used with the app */" },
+#endif
 		{ "DisplayName", "Scene Support" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether Scene can be used with the app" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bSceneSupportEnabled_SetBit(void* Obj)
@@ -715,11 +851,15 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bBodyTrackingEnabled_MetaData[] = {
 		{ "Category", "Mobile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether body tracking functionality can be used with the app */" },
+#endif
 		{ "DisplayName", "Body Tracking Enabled" },
 		{ "EditCondition", "XrApi == EOculusXRXrApi::OVRPluginOpenXR" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether body tracking functionality can be used with the app" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bBodyTrackingEnabled_SetBit(void* Obj)
@@ -730,11 +870,15 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bEyeTrackingEnabled_MetaData[] = {
 		{ "Category", "Mobile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether eye tracking functionality can be used with the app */" },
+#endif
 		{ "DisplayName", "Eye Tracking Enabled" },
 		{ "EditCondition", "XrApi == EOculusXRXrApi::OVRPluginOpenXR" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether eye tracking functionality can be used with the app" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bEyeTrackingEnabled_SetBit(void* Obj)
@@ -745,11 +889,15 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bFaceTrackingEnabled_MetaData[] = {
 		{ "Category", "Mobile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether face tracking functionality can be used with the app */" },
+#endif
 		{ "DisplayName", "Face Tracking Enabled" },
 		{ "EditCondition", "XrApi == EOculusXRXrApi::OVRPluginOpenXR" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether face tracking functionality can be used with the app" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bFaceTrackingEnabled_SetBit(void* Obj)
@@ -762,21 +910,29 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_FaceTrackingDataSource_MetaData[] = {
 		{ "Category", "Mobile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Select preffered Face Tracking data sources */" },
+#endif
 		{ "DisplayName", "Face Tracking Source" },
 		{ "EditCondition", "XrApi == EOculusXRXrApi::OVRPluginOpenXR" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Select preffered Face Tracking data sources" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FSetPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_FaceTrackingDataSource = { "FaceTrackingDataSource", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Set, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHMDRuntimeSettings, FaceTrackingDataSource), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_FaceTrackingDataSource_MetaData), Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_FaceTrackingDataSource_MetaData) }; // 1820251538
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bDeploySoToDevice_MetaData[] = {
 		{ "Category", "Mobile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** On supported Oculus mobile platforms, copy compiled .so directly to device. Allows updating compiled code without rebuilding and installing an APK. */" },
+#endif
 		{ "DisplayName", "Deploy compiled .so directly to device" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "On supported Oculus mobile platforms, copy compiled .so directly to device. Allows updating compiled code without rebuilding and installing an APK." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bDeploySoToDevice_SetBit(void* Obj)
@@ -787,9 +943,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bSupportExperimentalFeatures_MetaData[] = {
 		{ "Category", "Experimental" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether experimental features listed below can be used with the app. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether experimental features listed below can be used with the app." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bSupportExperimentalFeatures_SetBit(void* Obj)
@@ -801,21 +961,29 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_ProcessorFavor_MetaData[] = {
 		{ "Category", "Mobile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If selected, will increase the frequency of one processor at the expense of decreasing the frequency of the other on supported devices. */" },
+#endif
 		{ "DisplayName", "Processor Favor" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If selected, will increase the frequency of one processor at the expense of decreasing the frequency of the other on supported devices." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_ProcessorFavor = { "ProcessorFavor", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRHMDRuntimeSettings, ProcessorFavor), Z_Construct_UEnum_OculusXRHMD_EProcessorFavor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_ProcessorFavor_MetaData), Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_ProcessorFavor_MetaData) }; // 2300531910
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bTileTurnOffEnabled_MetaData[] = {
 		{ "Category", "Mobile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether Tile Turn Off is enabled in app */" },
+#endif
 		{ "DisplayName", "Tile Turn Off" },
 		{ "EditCondition", "false" },
 		{ "ModuleRelativePath", "Public/OculusXRHMDRuntimeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether Tile Turn Off is enabled in app" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRHMDRuntimeSettings_Statics::NewProp_bTileTurnOffEnabled_SetBit(void* Obj)
@@ -916,19 +1084,19 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRHMDRuntimeSettings() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOculusXRHMDRuntimeSettings);
 	UOculusXRHMDRuntimeSettings::~UOculusXRHMDRuntimeSettings() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXRHMDRuntimeSettings_h_Statics
+	struct Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDRuntimeSettings_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXRHMDRuntimeSettings_h_Statics::EnumInfo[] = {
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDRuntimeSettings_h_Statics::EnumInfo[] = {
 		{ EOculusXRSupportedDevices_StaticEnum, TEXT("EOculusXRSupportedDevices"), &Z_Registration_Info_UEnum_EOculusXRSupportedDevices, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3111328996U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXRHMDRuntimeSettings_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRHMDRuntimeSettings, UOculusXRHMDRuntimeSettings::StaticClass, TEXT("UOculusXRHMDRuntimeSettings"), &Z_Registration_Info_UClass_UOculusXRHMDRuntimeSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRHMDRuntimeSettings), 3534693257U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDRuntimeSettings_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UOculusXRHMDRuntimeSettings, UOculusXRHMDRuntimeSettings::StaticClass, TEXT("UOculusXRHMDRuntimeSettings"), &Z_Registration_Info_UClass_UOculusXRHMDRuntimeSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRHMDRuntimeSettings), 2493255208U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXRHMDRuntimeSettings_h_24027552(TEXT("/Script/OculusXRHMD"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXRHMDRuntimeSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXRHMDRuntimeSettings_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDRuntimeSettings_h_3895889339(TEXT("/Script/OculusXRHMD"),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDRuntimeSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDRuntimeSettings_h_Statics::ClassInfo),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXRHMDRuntimeSettings_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRHMD_Public_OculusXRHMDRuntimeSettings_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDRuntimeSettings_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRHMD_Public_OculusXRHMDRuntimeSettings_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

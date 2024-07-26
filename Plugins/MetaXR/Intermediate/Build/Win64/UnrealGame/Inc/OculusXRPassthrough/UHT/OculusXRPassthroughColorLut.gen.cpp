@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "D:/OculusXR-release/HostProject/Plugins/OculusXR/Source/OculusXRPassthrough/Public/OculusXRPassthroughColorLut.h"
+#include "H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRPassthrough/Public/OculusXRPassthroughColorLut.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughColorLut() {}
 // Cross Module References
@@ -213,9 +213,13 @@ template<> OCULUSXRPASSTHROUGH_API UScriptStruct* StaticStruct<FLutTextureData>(
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRPassthroughColorLut_SetLutFromArray_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Passthrough Color LUT" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Generate color LUT from array. Array should have format of exploded cube. Its size should be power of 2. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughColorLut.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Generate color LUT from array. Array should have format of exploded cube. Its size should be power of 2." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRPassthroughColorLut_SetLutFromArray_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRPassthroughColorLut, nullptr, "SetLutFromArray", nullptr, nullptr, Z_Construct_UFunction_UOculusXRPassthroughColorLut_SetLutFromArray_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRPassthroughColorLut_SetLutFromArray_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRPassthroughColorLut_SetLutFromArray_Statics::OculusXRPassthroughColorLut_eventSetLutFromArray_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRPassthroughColorLut_SetLutFromArray_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRPassthroughColorLut_SetLutFromArray_Statics::Function_MetaDataParams) };
@@ -274,7 +278,7 @@ template<> OCULUSXRPASSTHROUGH_API UScriptStruct* StaticStruct<FLutTextureData>(
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRPassthroughColorLut_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UOculusXRPassthroughColorLut_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UOculusXRPassthroughColorLut_SetLutFromArray, "SetLutFromArray" }, // 1761566466
+		{ &Z_Construct_UFunction_UOculusXRPassthroughColorLut_SetLutFromArray, "SetLutFromArray" }, // 3608591684
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRPassthroughColorLut_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -297,11 +301,15 @@ template<> OCULUSXRPASSTHROUGH_API UScriptStruct* StaticStruct<FLutTextureData>(
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRPassthroughColorLut_Statics::NewProp_LutTexture_MetaData[] = {
 		{ "Category", "Passthrough Color LUT" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Color LUT texture.*/" },
+#endif
 		{ "EditCondition", "ColorLutType == EColorLutType::TextureLUT" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughColorLut.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Color LUT texture." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UOculusXRPassthroughColorLut_Statics::NewProp_LutTexture = { "LutTexture", nullptr, (EPropertyFlags)0x0010000800000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPassthroughColorLut, LutTexture), Z_Construct_UClass_UTexture2D_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRPassthroughColorLut_Statics::NewProp_LutTexture_MetaData), Z_Construct_UClass_UOculusXRPassthroughColorLut_Statics::NewProp_LutTexture_MetaData) };
@@ -309,11 +317,15 @@ template<> OCULUSXRPASSTHROUGH_API UScriptStruct* StaticStruct<FLutTextureData>(
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRPassthroughColorLut_Statics::NewProp_IgnoreAlphaChannel_MetaData[] = {
 		{ "Category", "Passthrough Color LUT" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If alpha channel should be ignored.*/" },
+#endif
 		{ "EditCondition", "ColorLutType == EColorLutType::TextureLUT" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughColorLut.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If alpha channel should be ignored." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRPassthroughColorLut_Statics::NewProp_IgnoreAlphaChannel_SetBit(void* Obj)
@@ -370,23 +382,23 @@ template<> OCULUSXRPASSTHROUGH_API UScriptStruct* StaticStruct<FLutTextureData>(
 	UOculusXRPassthroughColorLut::UOculusXRPassthroughColorLut(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOculusXRPassthroughColorLut);
 	UOculusXRPassthroughColorLut::~UOculusXRPassthroughColorLut() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h_Statics
+	struct Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h_Statics::EnumInfo[] = {
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h_Statics::EnumInfo[] = {
 		{ EColorLutType_StaticEnum, TEXT("EColorLutType"), &Z_Registration_Info_UEnum_EColorLutType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2778596143U) },
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h_Statics::ScriptStructInfo[] = {
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h_Statics::ScriptStructInfo[] = {
 		{ FLutTextureData::StaticStruct, Z_Construct_UScriptStruct_FLutTextureData_Statics::NewStructOps, TEXT("LutTextureData"), &Z_Registration_Info_UScriptStruct_LutTextureData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FLutTextureData), 3622254250U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRPassthroughColorLut, UOculusXRPassthroughColorLut::StaticClass, TEXT("UOculusXRPassthroughColorLut"), &Z_Registration_Info_UClass_UOculusXRPassthroughColorLut, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRPassthroughColorLut), 961784241U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UOculusXRPassthroughColorLut, UOculusXRPassthroughColorLut::StaticClass, TEXT("UOculusXRPassthroughColorLut"), &Z_Registration_Info_UClass_UOculusXRPassthroughColorLut, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRPassthroughColorLut), 78839289U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h_1176920707(TEXT("/Script/OculusXRPassthrough"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h_Statics::ScriptStructInfo),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h_Statics::EnumInfo));
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h_2207923275(TEXT("/Script/OculusXRPassthrough"),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughColorLut_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

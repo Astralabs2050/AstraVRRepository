@@ -2096,13 +2096,16 @@ H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Deve
   C:/NVPACK/android-ndk-r25/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/istream \
   H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXRPassthrough/Module.OculusXRPassthrough.cpp \
   H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Development/OculusXRPassthrough/Definitions.OculusXRPassthrough.h \
-  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRPassthrough/Private/OculusXRPassthroughColorLut.cpp \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRPassthrough/UHT/OculusXRPassthrough.init.gen.cpp \
+  Runtime/CoreUObject/Public/UObject/GeneratedCppIncludes.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRPassthrough/UHT/OculusXRPassthroughColorLut.gen.cpp \
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRPassthrough/Public/OculusXRPassthroughColorLut.h \
   Runtime/Core/Public/CoreMinimal.h \
   Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
   Runtime/Engine/Classes/Engine/Texture2D.h \
   H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRPassthrough/UHT/OculusXRPassthroughColorLut.generated.h \
   Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRPassthrough/UHT/OculusXRPassthroughLayerComponent.gen.cpp \
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRPassthrough/Public/OculusXRPassthroughLayerComponent.h \
   Runtime/Engine/Classes/Engine/StaticMeshActor.h \
   Runtime/Engine/Classes/GameFramework/Actor.h \
@@ -2156,6 +2159,7 @@ H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/a/UnrealGame/Deve
   H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRHMD/UHT/OculusXRFunctionLibrary.generated.h \
   H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRHMD/UHT/OculusXRHMDRuntimeSettings.generated.h \
   H:/AstraVRRepository/Plugins/MetaXR/Intermediate/Build/Android/UnrealGame/Inc/OculusXRPassthrough/UHT/OculusXRPassthroughLayerComponent.generated.h \
+  H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRPassthrough/Private/OculusXRPassthroughColorLut.cpp \
   H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRHMD/Private/OculusXRHMDPrivate.h \
   Runtime/Engine/Classes/GameFramework/WorldSettings.h \
   Runtime/Engine/Public/StereoRendering.h \

@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "D:/OculusXR-release/HostProject/Plugins/OculusXR/Source/OculusXRPassthrough/Public/OculusXRPassthroughLayerComponent.h"
+#include "H:/AstraVRRepository/Plugins/MetaXR/Source/OculusXRPassthrough/Public/OculusXRPassthroughLayerComponent.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 // Cross Module References
@@ -346,9 +346,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRPassthroughLayerBase_RemoveColorLut_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Removes color grading if any is active. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Removes color grading if any is active." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRPassthroughLayerBase_RemoveColorLut_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRPassthroughLayerBase, nullptr, "RemoveColorLut", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRPassthroughLayerBase_RemoveColorLut_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRPassthroughLayerBase_RemoveColorLut_Statics::Function_MetaDataParams) };
@@ -389,12 +393,16 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetBrightnessContrastSaturation_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set color map controls for color adjustment color mapping */" },
+#endif
 		{ "CPP_Default_InBrightness", "0.000000" },
 		{ "CPP_Default_InContrast", "0.000000" },
 		{ "CPP_Default_InSaturation", "0.000000" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set color map controls for color adjustment color mapping" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetBrightnessContrastSaturation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRPassthroughLayerBase, nullptr, "SetBrightnessContrastSaturation", nullptr, nullptr, Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetBrightnessContrastSaturation_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetBrightnessContrastSaturation_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetBrightnessContrastSaturation_Statics::OculusXRPassthroughLayerBase_eventSetBrightnessContrastSaturation_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetBrightnessContrastSaturation_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetBrightnessContrastSaturation_Statics::Function_MetaDataParams) };
@@ -440,9 +448,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorArray_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set color map array directly instead through a color curve*/" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set color map array directly instead through a color curve" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorArray_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRPassthroughLayerBase, nullptr, "SetColorArray", nullptr, nullptr, Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorArray_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorArray_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorArray_Statics::OculusXRPassthroughLayerBase_eventSetColorArray_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorArray_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorArray_Statics::Function_MetaDataParams) };
@@ -477,9 +489,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTSource_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* Sets Color LUT source.\n\x09* If ColorMapType is \"Color LUT\", then source will be blended with passthrough\n\x09* using folowing formula:\n\x09* Result = ColorLUTSource * LutWeight + Passthrough * (1 - LutWeight )\n\x09* If ColorMapType is \"Interpolated Color LUT\", then source will be blended with color LUT target\n\x09* using folowing formula:\n\x09* Result = ColorLUTSource * (  1 - LutWeight ) + ColorLUTTarget * LutWeight\n\x09*/" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets Color LUT source.\nIf ColorMapType is \"Color LUT\", then source will be blended with passthrough\nusing folowing formula:\nResult = ColorLUTSource * LutWeight + Passthrough * (1 - LutWeight )\nIf ColorMapType is \"Interpolated Color LUT\", then source will be blended with color LUT target\nusing folowing formula:\nResult = ColorLUTSource * (  1 - LutWeight ) + ColorLUTTarget * LutWeight" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTSource_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRPassthroughLayerBase, nullptr, "SetColorLUTSource", nullptr, nullptr, Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTSource_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTSource_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTSource_Statics::OculusXRPassthroughLayerBase_eventSetColorLUTSource_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTSource_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTSource_Statics::Function_MetaDataParams) };
@@ -514,9 +530,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTTarget_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09* Sets Color LUT target.\n\x09* If ColorMapType is \"Interpolated Color LUT\", then target will be blended with passthrough\n\x09* using folowing formula:\n\x09* Result = ColorLUTSource * (  1 - LutWeight ) + ColorLUTTarget * LutWeight\n\x09* Note: If ColorLUTSource is not specified, Color LUT will be not be applied to the Passthrough layer.\n\x09*/" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets Color LUT target.\nIf ColorMapType is \"Interpolated Color LUT\", then target will be blended with passthrough\nusing folowing formula:\nResult = ColorLUTSource * (  1 - LutWeight ) + ColorLUTTarget * LutWeight\nNote: If ColorLUTSource is not specified, Color LUT will be not be applied to the Passthrough layer." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTTarget_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRPassthroughLayerBase, nullptr, "SetColorLUTTarget", nullptr, nullptr, Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTTarget_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTTarget_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTTarget_Statics::OculusXRPassthroughLayerBase_eventSetColorLUTTarget_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTTarget_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTTarget_Statics::Function_MetaDataParams) };
@@ -551,10 +571,14 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTWeight_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Sets LUT weight. */" },
+#endif
 		{ "CPP_Default_InWeight", "1.000000" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets LUT weight." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTWeight_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRPassthroughLayerBase, nullptr, "SetColorLUTWeight", nullptr, nullptr, Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTWeight_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTWeight_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTWeight_Statics::OculusXRPassthroughLayerBase_eventSetColorLUTWeight_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTWeight_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTWeight_Statics::Function_MetaDataParams) };
@@ -597,12 +621,16 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapControls_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set color map controls for grayscale and grayscale to rgb color mapping*/" },
+#endif
 		{ "CPP_Default_InBrightness", "0.000000" },
 		{ "CPP_Default_InContrast", "0.000000" },
 		{ "CPP_Default_InPosterize", "0.000000" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set color map controls for grayscale and grayscale to rgb color mapping" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapControls_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRPassthroughLayerBase, nullptr, "SetColorMapControls", nullptr, nullptr, Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapControls_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapControls_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapControls_Statics::OculusXRPassthroughLayerBase_eventSetColorMapControls_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapControls_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapControls_Statics::Function_MetaDataParams) };
@@ -637,9 +665,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapCurve_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set color curve that will be added to the color map in grayscale modes --> will be converted into a gradient*/" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set color curve that will be added to the color map in grayscale modes --> will be converted into a gradient" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapCurve_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRPassthroughLayerBase, nullptr, "SetColorMapCurve", nullptr, nullptr, Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapCurve_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapCurve_Statics::PropPointers), sizeof(Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapCurve_Statics::OculusXRPassthroughLayerBase_eventSetColorMapCurve_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapCurve_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapCurve_Statics::Function_MetaDataParams) };
@@ -932,14 +964,14 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_EnableColorMap, "EnableColorMap" }, // 1952802046
 		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_EnableColorMapCurve, "EnableColorMapCurve" }, // 163988779
 		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_EnableEdgeColor, "EnableEdgeColor" }, // 1787229334
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_RemoveColorLut, "RemoveColorLut" }, // 3385733954
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetBrightnessContrastSaturation, "SetBrightnessContrastSaturation" }, // 3224534384
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorArray, "SetColorArray" }, // 1191613678
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTSource, "SetColorLUTSource" }, // 192385131
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTTarget, "SetColorLUTTarget" }, // 2750779420
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTWeight, "SetColorLUTWeight" }, // 3306817714
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapControls, "SetColorMapControls" }, // 2130449696
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapCurve, "SetColorMapCurve" }, // 3571808075
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_RemoveColorLut, "RemoveColorLut" }, // 301684764
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetBrightnessContrastSaturation, "SetBrightnessContrastSaturation" }, // 795025663
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorArray, "SetColorArray" }, // 3087133848
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTSource, "SetColorLUTSource" }, // 82663910
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTTarget, "SetColorLUTTarget" }, // 1870825069
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorLUTWeight, "SetColorLUTWeight" }, // 4133496707
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapControls, "SetColorMapControls" }, // 4074339843
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapCurve, "SetColorMapCurve" }, // 1678713755
 		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorMapType, "SetColorMapType" }, // 2206614854
 		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetColorScaleAndOffset, "SetColorScaleAndOffset" }, // 2702547583
 		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerBase_SetEdgeRenderingColor, "SetEdgeRenderingColor" }, // 2561641205
@@ -957,10 +989,14 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_LayerOrder_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Ordering of passthrough layer in relation to scene rendering */" },
+#endif
 		{ "DisplayName", "Layer Placement" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Ordering of passthrough layer in relation to scene rendering" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_LayerOrder = { "LayerOrder", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPassthroughLayerBase, LayerOrder), Z_Construct_UEnum_OculusXRHMD_EOculusXRPassthroughLayerOrder, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_LayerOrder_MetaData), Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_LayerOrder_MetaData) }; // 2092346603
@@ -969,9 +1005,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 		{ "Category", "Passthrough Properties" },
 		{ "ClampMax", "1.000000" },
 		{ "ClampMin", "0.000000" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Opacity of the (main) passthrough texture.  */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Opacity of the (main) passthrough texture." },
+#endif
 		{ "UIMax", "1.000000" },
 		{ "UIMin", "0.000000" },
 	};
@@ -980,10 +1020,14 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_bEnableEdgeColor_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Enable edge color */" },
+#endif
 		{ "DisplayName", "Enable Edge Rendering" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Enable edge color" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_bEnableEdgeColor_SetBit(void* Obj)
@@ -994,18 +1038,26 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_EdgeColor_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Color of the passthrough edge rendering effect. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Color of the passthrough edge rendering effect." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_EdgeColor = { "EdgeColor", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPassthroughLayerBase, EdgeColor), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_EdgeColor_MetaData), Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_EdgeColor_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_bEnableColorMap_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Enable color mapping */" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Enable color mapping" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_bEnableColorMap_SetBit(void* Obj)
@@ -1016,22 +1068,30 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_ColorMapType_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Type of colormapping to perform */" },
+#endif
 		{ "EditCondition", "bEnableColorMap" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Type of colormapping to perform" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_ColorMapType = { "ColorMapType", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPassthroughLayerBase, ColorMapType), Z_Construct_UEnum_OculusXRHMD_EOculusXRColorMapType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_ColorMapType_MetaData), Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_ColorMapType_MetaData) }; // 3044762426
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_bUseColorMapCurve_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Whether to use color map curve or gradient*/" },
+#endif
 		{ "EditCondition", "bEnableColorMap && ColorMapType == 1" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to use color map curve or gradient" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_bUseColorMapCurve_SetBit(void* Obj)
@@ -1042,11 +1102,15 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_ColorMapCurve_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Passthrough color mapping gradient converts grayscale to color*/" },
+#endif
 		{ "EditCondition", "bEnableColorMap && bUseColorMapCurve && ColorMapType == 1" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Passthrough color mapping gradient converts grayscale to color" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_ColorMapCurve = { "ColorMapCurve", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPassthroughLayerBase, ColorMapCurve), Z_Construct_UClass_UCurveLinearColor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_ColorMapCurve_MetaData), Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_ColorMapCurve_MetaData) };
@@ -1055,11 +1119,15 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 		{ "Category", "Passthrough Properties" },
 		{ "ClampMax", "1" },
 		{ "ClampMin", "-1" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Contrast setting for color mapping*/" },
+#endif
 		{ "EditCondition", "bEnableColorMap && ColorMapType > 0 && ColorMapType < 4" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Contrast setting for color mapping" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_Contrast = { "Contrast", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPassthroughLayerBase, Contrast), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_Contrast_MetaData), Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_Contrast_MetaData) };
@@ -1068,11 +1136,15 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 		{ "Category", "Passthrough Properties" },
 		{ "ClampMax", "1" },
 		{ "ClampMin", "-1" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Brightness setting for color mapping*/" },
+#endif
 		{ "EditCondition", "bEnableColorMap && ColorMapType > 0 && ColorMapType < 4" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Brightness setting for color mapping" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_Brightness = { "Brightness", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPassthroughLayerBase, Brightness), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_Brightness_MetaData), Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_Brightness_MetaData) };
@@ -1081,11 +1153,15 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 		{ "Category", "Passthrough Properties" },
 		{ "ClampMax", "1" },
 		{ "ClampMin", "0" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Posterize setting for grayscale and grayscale to color mapping*/" },
+#endif
 		{ "EditCondition", "bEnableColorMap && ColorMapType > 0 && ColorMapType < 3" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Posterize setting for grayscale and grayscale to color mapping" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_Posterize = { "Posterize", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPassthroughLayerBase, Posterize), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_Posterize_MetaData), Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_Posterize_MetaData) };
@@ -1094,11 +1170,15 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 		{ "Category", "Passthrough Properties" },
 		{ "ClampMax", "1" },
 		{ "ClampMin", "-1" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Saturation setting for color adjustment mapping*/" },
+#endif
 		{ "EditCondition", "bEnableColorMap && ColorMapType == 3" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Saturation setting for color adjustment mapping" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_Saturation = { "Saturation", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPassthroughLayerBase, Saturation), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_Saturation_MetaData), Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_Saturation_MetaData) };
@@ -1107,55 +1187,75 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 		{ "Category", "Passthrough Properties" },
 		{ "ClampMax", "1" },
 		{ "ClampMin", "0" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Color LUT Weight. It is used to combine LUT with Passthrough if one LUT is provided. If two LUTs are provided LutWeight will be used to blend them. */" },
+#endif
 		{ "EditCondition", "bEnableColorMap && ColorMapType > 3" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Color LUT Weight. It is used to combine LUT with Passthrough if one LUT is provided. If two LUTs are provided LutWeight will be used to blend them." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_LutWeight = { "LutWeight", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPassthroughLayerBase, LutWeight), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_LutWeight_MetaData), Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_LutWeight_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_ColorLUTSource_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 *  Color LUT properties. If only ColorLUTSource is provided it will be blended with passthrough layer using following formula:\n\x09 *  Result = ColorLUTSource * LutWeight + Passthrough * (1 - LutWeight )\n\x09 */" },
+#endif
 		{ "EditCondition", "bEnableColorMap && ColorMapType > 3" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Color LUT properties. If only ColorLUTSource is provided it will be blended with passthrough layer using following formula:\nResult = ColorLUTSource * LutWeight + Passthrough * (1 - LutWeight )" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_ColorLUTSource = { "ColorLUTSource", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPassthroughLayerBase, ColorLUTSource), Z_Construct_UClass_UOculusXRPassthroughColorLut_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_ColorLUTSource_MetaData), Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_ColorLUTSource_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_ColorLUTTarget_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 *  Color LUT properties. If two LUTs are provided they will be blended using following formula:\n\x09 *  Result = ColorLUTsSource * (  1 - LutWeight ) + ColorLUTsTarget * LutWeight\n\x09 */" },
+#endif
 		{ "EditCondition", "bEnableColorMap && ColorMapType > 4" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Color LUT properties. If two LUTs are provided they will be blended using following formula:\nResult = ColorLUTsSource * (  1 - LutWeight ) + ColorLUTsTarget * LutWeight" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_ColorLUTTarget = { "ColorLUTTarget", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPassthroughLayerBase, ColorLUTTarget), Z_Construct_UClass_UOculusXRPassthroughColorLut_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_ColorLUTTarget_MetaData), Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_ColorLUTTarget_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_ColorScale_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Color value that will be multiplied to the current color map*/" },
+#endif
 		{ "EditCondition", "bEnableColorMap" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Color value that will be multiplied to the current color map" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_ColorScale = { "ColorScale", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPassthroughLayerBase, ColorScale), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_ColorScale_MetaData), Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_ColorScale_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_ColorOffset_MetaData[] = {
 		{ "Category", "Passthrough Properties" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Color value that will be added to the current color map*/" },
+#endif
 		{ "EditCondition", "bEnableColorMap" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Color value that will be added to the current color map" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_ColorOffset = { "ColorOffset", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UOculusXRPassthroughLayerBase, ColorOffset), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_ColorOffset_MetaData), Z_Construct_UClass_UOculusXRPassthroughLayerBase_Statics::NewProp_ColorOffset_MetaData) };
@@ -1236,11 +1336,15 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRStereoLayerShapeReconstructed_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRStereoLayerShapeReconstructed_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Reconstructed Passthrough Layer*/" },
+#endif
 		{ "DisplayName", "Reconstructed Passthrough Layer" },
 		{ "IncludePath", "OculusXRPassthroughLayerComponent.h" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Reconstructed Passthrough Layer" },
+#endif
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UOculusXRStereoLayerShapeReconstructed_Statics::StaticCppClassTypeInfo = {
@@ -1300,11 +1404,15 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOculusXRStereoLayerShapeUserDefined_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOculusXRStereoLayerShapeUserDefined_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* User Defined Passthrough Layer*/" },
+#endif
 		{ "DisplayName", "User Defined Passthrough Layer" },
 		{ "IncludePath", "OculusXRPassthroughLayerComponent.h" },
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "User Defined Passthrough Layer" },
+#endif
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UOculusXRStereoLayerShapeUserDefined_Statics::StaticCppClassTypeInfo = {
@@ -1689,9 +1797,13 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_MarkPassthroughStyleForUpdate_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Components|Stereo Layer" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Manually mark the stereo layer passthrough effect for updating\n" },
+#endif
 		{ "ModuleRelativePath", "Public/OculusXRPassthroughLayerComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Manually mark the stereo layer passthrough effect for updating" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_MarkPassthroughStyleForUpdate_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UOculusXRPassthroughLayerComponent, nullptr, "MarkPassthroughStyleForUpdate", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_MarkPassthroughStyleForUpdate_Statics::Function_MetaDataParams), Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_MarkPassthroughStyleForUpdate_Statics::Function_MetaDataParams) };
@@ -1860,7 +1972,7 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_AddSurfaceGeometry, "AddSurfaceGeometry" }, // 1808361670
 		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_IsSurfaceGeometry, "IsSurfaceGeometry" }, // 317429637
 		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_IsSurfaceGeometryComponent, "IsSurfaceGeometryComponent" }, // 1873751109
-		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_MarkPassthroughStyleForUpdate, "MarkPassthroughStyleForUpdate" }, // 137247593
+		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_MarkPassthroughStyleForUpdate, "MarkPassthroughStyleForUpdate" }, // 1889468345
 		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_RemoveProceduralSurfaceGeometry, "RemoveProceduralSurfaceGeometry" }, // 4054143620
 		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_RemoveStaticSurfaceGeometry, "RemoveStaticSurfaceGeometry" }, // 2949359963
 		{ &Z_Construct_UFunction_UOculusXRPassthroughLayerComponent_RemoveSurfaceGeometry, "RemoveSurfaceGeometry" }, // 4073838251
@@ -1924,18 +2036,18 @@ void EmptyLinkFunctionForGeneratedCodeOculusXRPassthroughLayerComponent() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOculusXRPassthroughLayerComponent);
 	UOculusXRPassthroughLayerComponent::~UOculusXRPassthroughLayerComponent() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_Statics
+	struct Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UOculusXRPassthroughLayerBase, UOculusXRPassthroughLayerBase::StaticClass, TEXT("UOculusXRPassthroughLayerBase"), &Z_Registration_Info_UClass_UOculusXRPassthroughLayerBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRPassthroughLayerBase), 2495897238U) },
-		{ Z_Construct_UClass_UOculusXRStereoLayerShapeReconstructed, UOculusXRStereoLayerShapeReconstructed::StaticClass, TEXT("UOculusXRStereoLayerShapeReconstructed"), &Z_Registration_Info_UClass_UOculusXRStereoLayerShapeReconstructed, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRStereoLayerShapeReconstructed), 1524967194U) },
-		{ Z_Construct_UClass_UOculusXRStereoLayerShapeUserDefined, UOculusXRStereoLayerShapeUserDefined::StaticClass, TEXT("UOculusXRStereoLayerShapeUserDefined"), &Z_Registration_Info_UClass_UOculusXRStereoLayerShapeUserDefined, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRStereoLayerShapeUserDefined), 1586189255U) },
-		{ Z_Construct_UClass_UOculusXRPassthroughLayerComponent, UOculusXRPassthroughLayerComponent::StaticClass, TEXT("UOculusXRPassthroughLayerComponent"), &Z_Registration_Info_UClass_UOculusXRPassthroughLayerComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRPassthroughLayerComponent), 2421676621U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UOculusXRPassthroughLayerBase, UOculusXRPassthroughLayerBase::StaticClass, TEXT("UOculusXRPassthroughLayerBase"), &Z_Registration_Info_UClass_UOculusXRPassthroughLayerBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRPassthroughLayerBase), 3774926603U) },
+		{ Z_Construct_UClass_UOculusXRStereoLayerShapeReconstructed, UOculusXRStereoLayerShapeReconstructed::StaticClass, TEXT("UOculusXRStereoLayerShapeReconstructed"), &Z_Registration_Info_UClass_UOculusXRStereoLayerShapeReconstructed, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRStereoLayerShapeReconstructed), 798906047U) },
+		{ Z_Construct_UClass_UOculusXRStereoLayerShapeUserDefined, UOculusXRStereoLayerShapeUserDefined::StaticClass, TEXT("UOculusXRStereoLayerShapeUserDefined"), &Z_Registration_Info_UClass_UOculusXRStereoLayerShapeUserDefined, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRStereoLayerShapeUserDefined), 2113197840U) },
+		{ Z_Construct_UClass_UOculusXRPassthroughLayerComponent, UOculusXRPassthroughLayerComponent::StaticClass, TEXT("UOculusXRPassthroughLayerComponent"), &Z_Registration_Info_UClass_UOculusXRPassthroughLayerComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOculusXRPassthroughLayerComponent), 2519142779U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_1858655890(TEXT("/Script/OculusXRPassthrough"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_848460000(TEXT("/Script/OculusXRPassthrough"),
+		Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AstraVRRepository_Plugins_MetaXR_Source_OculusXRPassthrough_Public_OculusXRPassthroughLayerComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
