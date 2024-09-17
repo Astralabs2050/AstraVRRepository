@@ -76,6 +76,14 @@ public:
 	UPROPERTY(BlueprintReadOnly, Category = "HandProperties")
 	bool bSkeletalMeshInitialized = false;
 
+	/** Custom variable for reading bone locations */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CustomSkeletalMesh")
+	FVector BoneLocation;
+
+	/** Index of the bone we want to read */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CustomSkeletalMesh")
+	int32 BoneIdx;
+
 protected:
 	virtual void SystemGesturePressed();
 	virtual void SystemGestureReleased();

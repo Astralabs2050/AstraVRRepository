@@ -150,6 +150,8 @@ void UOculusXRHandComponent::UpdateBonePose()
 {
 	if (bCustomHandMesh)
 	{
+		BoneLocation = BoneSpaceTransforms[BoneIdx].GetLocation();		
+		
 		for (auto& BoneElem : BoneNameMappings)
 		{
 			// Set Root Bone Rotaiton
