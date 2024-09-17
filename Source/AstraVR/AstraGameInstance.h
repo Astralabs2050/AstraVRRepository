@@ -129,6 +129,26 @@ public:
 
 
 
+	//Logging in
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item Configuration")
+	FString Code;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item Configuration")
+	bool UserLoggedIn;
+
+
+	// outfit data 
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item Configuration")
+	FString ItemName;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item Configuration")
+	FString ItemID;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item Configuration")
+	FString ItemPrice;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item Configuration")
+	FString NumTry;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item Configuration")
+	FString NumBuy;
+
+	
 
 
 
