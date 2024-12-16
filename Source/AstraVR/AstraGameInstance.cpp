@@ -6,8 +6,6 @@
 
 
 
-
-
 void UAstraGameInstance::NextHair()
 {
 	// Male

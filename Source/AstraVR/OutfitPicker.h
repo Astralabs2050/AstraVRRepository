@@ -23,15 +23,41 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	// values for female avatar
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item Configuration")
+	TArray<FString> ItemName_F;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item Configuration")
+	TArray<FString> ItemID_F;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item Configuration")
+	TArray<FString> ItemPrice_F;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item Configuration")
+	TArray<FString> NumTry_F;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item Configuration")
+	TArray<FString> NumBuy_F;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item Configuration")
+	TArray<USkeletalMesh*>  OutfitList_F;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item Configuration")
+	int CurrentIndex_F;
 
+
+	// values for male avatar
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item Configuration")
-	TArray<FString> ItemName;
+	TArray<FString> ItemName_M;
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item Configuration")
-	TArray<FString> ItemID;
+	TArray<FString> ItemID_M;
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item Configuration")
-	TArray<FString> ItemPrice;
+	TArray<FString> ItemPrice_M;
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item Configuration")
-	TArray<FString> NumTry;
+	TArray<FString> NumTry_M;
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item Configuration")
-	TArray<FString> NumBuy;
+	TArray<FString> NumBuy_M;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item Configuration")
+	TArray<USkeletalMesh*> OutfitList_M;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item Configuration")
+	int CurrentIndex_M;
+
+
+
+
+
 };

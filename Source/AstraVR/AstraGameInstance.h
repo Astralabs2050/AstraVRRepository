@@ -16,6 +16,11 @@ class ASTRAVR_API UAstraGameInstance : public UGameInstance
 	
 	
 public:
+
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "API Configuration")
+	FString IPAddress;
+
 	
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Avatar Configuration")
 	TArray<TSubclassOf<UObject>> AnimBPList;
@@ -132,6 +137,8 @@ public:
 	//Logging in
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item Configuration")
 	FString Code;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item Configuration")
+	bool UserLoggingIn;
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Item Configuration")
 	bool UserLoggedIn;
 
